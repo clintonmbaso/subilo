@@ -432,7 +432,7 @@ body
    background-image: url('images/IMG_5535.png');
    background-repeat: no-repeat;
    background-position: center top;
-   background-attachment: scroll;
+   background-attachment: fixed;
    background-size: cover;
    border-radius: 0px;
    display: none;
