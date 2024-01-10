@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flying Wings Academy | Student Portal</title>
+<meta name="description" content="NBA website">
+<meta name="keywords" content="best school in Zambia, Flying Wings Academy, Kindergarten School, Primary School">
+<meta name="author" content="Mbaso Clinton">
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="FWA.ico" rel="shortcut icon" type="image/x-icon">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Subilo.css" rel="stylesheet">
+<link href="SI21AP0000AP-00.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wb.overlay.min.js"></script>
+<script src="wb.drilldownmenu.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      function skrollrInit()
+      {
+         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+      }
+      skrollrInit();
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+      $('#OverlayMenu1-overlay').overlay({hideTransition:true});
+      $('.OverlayMenu1').drilldownmenu({backText: 'Back'});
+      $('#OverlayMenu1').on('click', function(e)
+      {
+         $.overlay.show($('#OverlayMenu1-overlay'));
+         return false;
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="container">
+      <div id="wb_Text23" data-top="opacity:1.0;opacity:1.0;">
+         <span style="color:#B8860B;font-family:Abbey-Medium;font-size:27px;">Our Student Portal</span>
+      </div>
+      <div id="wb_Text24">
+         <span style="color:#000000;font-family:'MS Serif';font-size:53px;"><strong>F</strong></span><span style="color:#000000;font-family:'MS Serif';font-size:32px;"><strong>lying Wings </strong></span><span style="color:#000000;font-family:'MS Serif';font-size:53px;"><strong>A</strong></span><span style="color:#000000;font-family:'MS Serif';font-size:32px;"><strong>cademy</strong></span>
+      </div>
+      <input type="text" id="classdescription" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Phone Number">
+      <div id="wb_Form1">
+         <form name="Form1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" id="Form1">
+            <div id="wb_Text26">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Pending</span></div>
+            <div id="wb_Text25">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Returns</span></div>
+            <div id="wb_Text10">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Loans</span></div>
+            <a href="#" onclick="showPopup('Subilo Investment', 'Welcome to our Village Banking Circle! Here, we embark on a financial journey, pooling our resources by investing in shares ranging from 1 to 50 at K1000 per share. Watch your money grow through strategic borrowing at 20%! Our circle operates for 6 months, fostering a community committed to mutual prosperity. Let us cultivate wealth together!', 'images/SI Logoghr.png');return false;">
+               <picture id="wb_classpic">
+                  <source media="(max-width:1008px)" srcset="images/SI%20Logoghr.png">
+                  <img src="images/SI%20Logoghr.png" loading="lazy" id="classpic" alt="" width="155" height="113">
+               </picture>
+            </a>
+            <input type="text" id="parentname" name="Full Names" value="" readonly autocomplete="off" spellcheck="false" placeholder="Full Names">
+            <div id="wb_Text31">
+               <span style="color:#A0522D;font-family:'MS Sans Serif';font-size:19px;"><strong>Circle 5</strong></span></div>
+            <input type="text" id="phone" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Phone Number">
+            <input type="datetime" id="doe" name="Student_DoE" value="July 5, 2024" readonly autocomplete="off" spellcheck="false" placeholder="Circle Ends On">
+            <input type="text" id="parenttitle" name="Relation" value="" readonly autocomplete="off" spellcheck="false" placeholder="Relation">
+            <input type="email" id="email" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="email address">
+            <div id="wb_Text6">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Shares</span></div>
+            <input type="number" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="69600" readonly autocomplete="off" spellcheck="false" placeholder="1st">
+            <input type="number" id="term2" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="2nd">
+            <input type="number" id="term3" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="3rd">
+            <input type="number" id="total" name="Editbox2" value="69600" readonly autocomplete="off" spellcheck="false" placeholder="Savings">
+            <div id="wb_Text15">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Savings</span></div>
+            <div id="wb_Text28">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text29">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text30">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text9">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">3</span></div>
+            <div id="wb_marb">
+               <input type="checkbox" id="marb" name="Checkbox9" value="on" disabled><label for="marb"></label></div>
+            <div id="wb_Text34">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">6</span></div>
+            <div id="wb_julb">
+               <input type="checkbox" id="julb" name="Checkbox9" value="on" disabled><label for="julb"></label></div>
+            <div id="wb_Text33">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">5</span></div>
+            <div id="wb_Text8">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">2</span></div>
+            <div id="wb_febb">
+               <input type="checkbox" id="febb" name="Checkbox10" value="on" disabled><label for="febb"></label></div>
+            <div id="wb_junb">
+               <input type="checkbox" id="junb" name="Checkbox10" value="on" disabled><label for="junb"></label></div>
+            <a href="#" onclick="showPopup('SHAELYN MBASO', 'The baby class focuses on sensory exploration, motor skill development, and early social interactions. Infants learn through age-appropriate activities such as tummy time, grasping objects, and listening to simple sounds. The curriculum emphasizes fostering a secure attachment with caregivers. Parents can prepare by creating a safe environment, engaging in interactive play, and maintaining consistent routines to support their babys overall development.', 'images/Baby - Shaelyn Mbaso.jpg');return false;">
+               <picture id="wb_learnerpic">
+                  <source media="(max-width:1008px)" srcset="images/avatar_bw.jpg">
+                  <img src="images/avatar_bw.jpg" id="learnerpic" alt="" width="155" height="155">
+               </picture>
+            </a>
+            <div id="wb_Text22" data-top="opacity:1.0;opacity:1.0;">
+               <span style="color:#B8860B;font-family:'Times New Roman';font-size:27px;">Members Portal</span></div>
+            <input type="datetime" id="dob" name="Student_DoB" value="January 5, 2024" readonly autocomplete="off" spellcheck="false" placeholder="Circle Begun On">
+            <div id="wb_Text1">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Next of Kin Information</span></div>
+            <hr id="Line1">
+            <div id="wb_Text11">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Payment Record</span></div>
+            <picture id="wb_parentpic">
+               <source media="(max-width:1008px)" srcset="images/avatar_bw.jpg">
+               <img src="images/avatar_bw.jpg" id="parentpic" alt="" width="119" height="119">
+            </picture>
+            <div id="wb_Text5">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Subilo Contacts</span></div>
+            <div id="wb_Text7">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">1</span></div>
+            <div id="wb_janb">
+               <input type="checkbox" id="janb" name="Checkbox11" value="on" disabled><label for="janb"></label></div>
+            <div id="wb_Text32">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">4</span></div>
+            <div id="wb_mayb">
+               <input type="checkbox" id="mayb" name="Checkbox11" value="on" disabled><label for="mayb"></label></div>
+            <div id="wb_Text35">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Paidout:</span></div>
+            <input type="text" id="status" name="learners_id" value="Active" readonly autocomplete="off" spellcheck="false" placeholder="Status">
+            <input type="text" id="studentid" name="learners_id" value="SI21AP0000AP-00" readonly autocomplete="off" spellcheck="false" placeholder="ID Number">
+            <input type="text" id="firstname" name="learners_first_name" value="Subilo" readonly autocomplete="off" spellcheck="false" placeholder="First Name">
+            <input type="text" id="lastname" name="learners_last_name" value="Investment" readonly autocomplete="off" spellcheck="false" placeholder="Last Name">
+            <input type="text" id="Editbox1" name="learners_first_name" value="V.B" readonly autocomplete="off" spellcheck="false" placeholder="Middle Name">
+            <input type="number" id="Editbox3" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Pending">
+            <div id="wb_Text13">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Pending</span></div>
+            <div id="wb_Text14">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Payout</span></div>
+            <input type="number" id="Editbox2" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Payout">
+            <input type="number" id="Editbox4" name="Editbox2" value="700" readonly autocomplete="off" spellcheck="false" placeholder="Loan">
+            <div id="wb_Text4">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Loan</span></div>
+            <div id="wb_Checkbox1">
+               <input type="checkbox" id="Checkbox1" name="Checkbox16" value="on" disabled><label for="Checkbox1"></label></div>
+            <input type="number" id="Editbox5" name="Paidout" value="" readonly autocomplete="off" spellcheck="false" placeholder="Paidout Amount">
+            <hr id="Line2">
+            <div id="wb_Text17">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text18">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text19">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox6" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="4th">
+            <input type="number" id="Editbox7" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="5th">
+            <input type="number" id="Editbox8" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="6th">
+            <div id="wb_Text20">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox9" oninput="calculateTotal();return false;" name="Editbox2" value="700" readonly autocomplete="off" spellcheck="false" placeholder="1st">
+            <div id="wb_Text21">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox10" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="2nd">
+            <div id="wb_Text36">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox11" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="3rd">
+            <div id="wb_Text37">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox12" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="4th">
+            <div id="wb_Text38">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox13" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="5th">
+            <div id="wb_Text39">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox14" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="6th">
+            <div id="wb_Text41">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox15" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="1st">
+            <div id="wb_Text42">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text43">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox17" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="2nd">
+            <div id="wb_Text44">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text45">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox19" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="3rd">
+            <div id="wb_Text46">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text47">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox21" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="4th">
+            <div id="wb_Text48">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text49">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox23" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="5th">
+            <div id="wb_Text50">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <div id="wb_Text51">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox25" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="6th">
+            <div id="wb_Text52">
+               <span style="color:#008000;font-family:'Times New Roman';font-size:13px;">K</span></div>
+            <input type="number" id="Editbox16" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="1st">
+            <input type="number" id="Editbox18" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="2nd">
+            <input type="number" id="Editbox20" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="3rd">
+            <input type="number" id="Editbox22" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="4th">
+            <input type="number" id="Editbox24" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="5th">
+            <input type="number" id="Editbox26" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="6th">
+            <div id="wb_Text27">
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Reg:</span></div>
+            <input type="number" id="Editbox27" name="Editbox2" value="1850" readonly autocomplete="off" spellcheck="false" placeholder="Reg">
+            <div id="wb_EmbeddedPage2">
+               <div id="wb_Icon2">
+                  <a href="sms:+260977326129"><div id="Icon2"><i class="fa fa-commenting-o"></i></div></a></div>
+               <div id="wb_Icon4">
+                  <a href="https://api.whatsapp.com/send?phone=260977326129&text=Hi, I need more information about Subilo Investment. Please contact me."><div id="Icon4"><i class="fa fa-whatsapp"></i></div></a></div>
+               <div id="wb_Icon3">
+                  <a href="tel:+260977326129"><div id="Icon3"><i class="fa fa-volume-control-phone"></i></div></a></div>
+               <div id="wb_Icon1">
+                  <a href="https://www.facebook.com/bridgetmuuka"><div id="Icon1"><i class="fa fa-facebook"></i></div></a></div>
+               <div id="wb_Icon5">
+                  <a href="mailto:bettybetharm@gmail.com"><div id="Icon5"><i class="fa fa-envelope-o"></i></div></a></div>
+            </div>
+            <div id="wb_shaelynMbaso1" dir="rtl">
+               <div id="shaelynMbaso1">
+                  <span style="color:#000000;">This circle will come to an end on July 5, 2024</span></div></div>
+            <div id="wb_Icon6">
+               <a href="tel:+260977326129"><div id="Icon6"><i class="fa fa-volume-control-phone"></i></div></a></div>
+            <div id="wb_Icon7">
+               <a href="https://api.whatsapp.com/send?phone=260977326129&text=Hi, I need more information about Subilo Investment. Please contact me."><div id="Icon7"><i class="fa fa-at"></i></div></a></div>
+            <div id="wb_Icon8">
+               <a href="sms:+260977326129"><div id="Icon8"><i class="fa fa-commenting-o"></i></div></a></div>
+            <div id="wb_Icon9">
+               <a href="tel:+260977326129"><div id="Icon9"><i class="fa fa-volume-control-phone"></i></div></a></div>
+            <div id="wb_Icon10">
+               <a href="https://api.whatsapp.com/send?phone=260977326129&text=Hi, I need more information about Subilo Investment. Please contact me."><div id="Icon10"><i class="fa fa-at"></i></div></a></div>
+            <div id="wb_OverlayMenu1">
+               <a href="#" id="OverlayMenu1">
+                  <span class="line"></span>
+                  <span class="line">
+                  </span><span class="line"></span>
+               </a>
+            </div>
+         </form>
+      </div>
+      <div id="wb_EmbeddedPage4">
+         <div id="Html1">
+  
+            <div id="countdown" onclick="showPopup('<b>Closing January - Feb 5, 2024</b>', '<p>Please let us make sure that we have the savings and returns ready as we are closing this month. And if you desire to borrow some money, make it known to the treasurers before this month is closed.</p> <p>Thank You All.</p>', 'images/SI Logoghr.png')"></div>
+    <!-- Popups container and blurred background -->
+            <div class="popups-container" id="popupsContainer">
+               <div id="popups" class="popups">
+                  <img id="popupsImage" src="" alt="Current Event">
+                  <p id="popupsCaption">
+                  <p id="popupsDetails">
+                  <button onclick="closePopup()">Close</button>
+               </div>
+            </div>
+            <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
+            <script>            
+              // Array of events with their respective dates and reminder thresholds
+              const events = [
+                { name: "Opening Meeting", date: new Date("Jan 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+                { name: "Closing January", date: new Date("Feb 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+                { name: "Closing February", date: new Date("Mar 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+                { name: "Closing March", date: new Date("Apr 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+            	{ name: "Closing April", date: new Date("May 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+                { name: "Closing May", date: new Date("Jun 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+                { name: "Closing Meeting", date: new Date("Jul 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 }
+              ];
+            
+              let currentEventIndex = 0;
+            
+              function updateCountdown() {
+                // Get the current date and time
+                const now = new Date().getTime();
+            
+                // Get the details of the current event
+                const currentEvent = events[currentEventIndex];
+            
+                // Calculate the time remaining for the current event
+                const distance = currentEvent.date - now;
+            
+                // Calculate days, hours, minutes, and seconds
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+                // Display the countdown for the current event with the event name as a link
+                document.getElementById("countdown").innerHTML =
+                  "<a href='#' onclick='openPopup()' style='text-decoration: none;'><strong>" + currentEvent.name + "</strong></a><br>" +
+                  days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+            
+                // Check if it's time to show a reminder
+                if (distance > 0) {
+                  if (days === currentEvent.reminderDays && hours === currentEvent.reminderHours) {
+                    showReminder(currentEvent.name);
+                  }
+                }
+            
+                // If the countdown for the current event is over, move to the next event
+                if (distance < 0) {
+                  currentEventIndex++;
+                  // If all events are completed, display a message
+                  if (currentEventIndex >= events.length) {
+                    document.getElementById("countdown").innerHTML = "All events completed!";
+                  } else {
+                    // Update the countdown for the next event
+                    updateCountdown();
+                  }
+                }
+              }
+            
+              // Function to show a reminder
+              function showReminder(eventName) {
+                const notificationOptions = {
+                  body: "Your event '" + eventName + "' is approaching!",
+                  icon: "icons/fwa.png" // Provide the path to an icon image
+                };
+            
+                // Check if the browser supports notifications
+                if ("Notification" in window) {
+                  // Request permission to show notifications
+                  Notification.requestPermission().then(function (permission) {
+                    if (permission === "granted") {
+                      // Show the notification
+                      const notification = new Notification("Event Reminder", notificationOptions);
+            
+                      // Vibrate for 1 second
+                      if ("vibrate" in navigator) {
+                        navigator.vibrate(1000);
+                      }
+            
+                      // Play a sound (may not work in all browsers)
+                      const audio = new Audio("path/to/sound.mp3"); // Provide the path to a sound file
+                      audio.play();
+                    }
+                  });
+                }
+              }
+            
+              // Update the countdown every 1 second
+              setInterval(updateCountdown, 1000);
+            
+                    // Function to show the popup with image, caption, and details
+                    function showPopup(caption, details, imageUrl) {
+                        document.getElementById('popupsImage').src = imageUrl;
+                        document.getElementById('popupsCaption').innerHTML = caption;
+                        document.getElementById('popupsDetails').innerHTML = details;
+                        document.getElementById('popupsContainer').style.display = 'block';
+                        document.getElementById('blurredBackground').style.display = 'block'; // Show blurred background
+                    }
+            
+                    // Function to close the popups
+                    function closePopup() {
+                        document.getElementById('popupsContainer').style.display = 'none';
+                        document.getElementById('blurredBackground').style.display = 'none'; // Hide blurred background
+                    }
+            
+              let lastScrollPosition = 0;
+              const countdown = document.getElementById('countdown');
+            
+              window.addEventListener('scroll', () => {
+                const currentScrollPosition = window.scrollY;
+            
+                if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
+                  countdown.classList.add('hide');
+                } else {
+                  countdown.classList.remove('hide');
+                }
+            
+                lastScrollPosition = currentScrollPosition;
+              });
+                    
+                    // Close the popup and blurred background on page load
+                    window.onload = function() {
+                        closePopup();
+                    };
+            </script></div>
+      </div>
+   </div>
+   <div id="wb_HeaderLayoutGrid">
+      <div id="HeaderLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_home_logo">
+                  <a href="./index.html"><img src="images/SI%20Logoghr.png" id="home_logo" alt="home_logo" title="Subilo_Home" width="252" height="183"></a>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_Text3">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:17px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:17px;"><strong>ACADEMY</strong></span><span style="background-color:#FFFFFF;color:#FFFFFF;font-family:'Alan Den';font-size:13px;"><strong><br></strong></span><span style="color:#6A5ACD;font-family:'Comic Sans MS';font-size:13px;"><strong><em>The way to Success</em></strong></span>
+                  </div>
+                  <div id="wb_Header">
+                     <span style="color:#000000;font-family:'Bookman Old Style';font-size:15px;"><strong>SUBILO </strong></span><span style="color:#FF0000;font-family:'Bookman Old Style';font-size:15px;"><strong>INVESTMENT</strong></span>
+                  </div>
+                  <div id="wb_Text12">
+                     <span style="color:#006400;font-family:Arial;font-size:9.3px;">Grow Wealth, Share Prosperity</span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_EmbeddedPage1">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+                  <div id="PanelLayer">
+                     <div id="wb_IconFont2">
+                        <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+                     </div>
+                     <div id="wb_Image1">
+                        <img src="images/SI%20Logoghr.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="222">
+                     </div>
+                     <div id="wb_Heading20">
+                        <h2 id="Heading20">Subilo Investment</h2>
+                     </div>
+                     <div id="wb_OverlayMenu2">
+                        <div class="OverlayMenu2">
+                           <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                              <li><a role="menuitem" href="./Member_Search.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Check&nbsp;Your&nbsp;Record</a></li>
+                              <li><a role="menuitem" href="./Constitution.html" class="OverlayMenu2-effect"><i class="fa fa-archive overlay-icon"></i>Constitution</a></li>
+                              <li><a role="menuitem" href="./By_Laws.html" class="OverlayMenu2-effect"><i class="fa fa-clone overlay-icon"></i>By&nbsp;Laws</a></li>
+                              <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-database overlay-icon"></i>Executive&nbsp;Board</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="wb_Text40">
+                        <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Subilo Investment.&nbsp; All Rights Reserved</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="OverlayMenu1-overlay">
+      <div class="OverlayMenu1">
+         <ul class="drilldown-menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+            <li>
+               <a role="menuitem" href="#" class="OverlayMenu1-effect">Admin</a>
+               <ul class="drilldown-submenu" role="menu">
+                  <li><a role="menuitem" href="./SI21AP0101AP-64.html" class="OverlayMenu1-effect">1.&nbsp;Bridget&nbsp;Muuka</a></li>
+                  <li><a role="menuitem" href="./SI21AP0202AP-50.html" class="OverlayMenu1-effect">2.&nbsp;Bethar&nbsp;Betty&nbsp;Mambwe</a></li>
+                  <li><a role="menuitem" href="./SI21AP0203AP-09.html" class="OverlayMenu1-effect">3.&nbsp;Barbra&nbsp;Mwape</a></li>
+                  <li><a role="menuitem" href="./SI21AP0304AP-25.html" class="OverlayMenu1-effect">4.&nbsp;Clinton&nbsp;Mbaso</a></li>
+               </ul>
+            </li>
+            <li>
+               <a role="menuitem" href="#" class="OverlayMenu1-effect">Members</a>
+               <ul class="drilldown-submenu" role="menu">
+                  <li><a role="menuitem" href="./SI21MP0005MP-29.html" class="OverlayMenu1-effect">5.&nbsp;Memory&nbsp;Nkosi</a></li>
+                  <li><a role="menuitem" href="./SI21MP0006MP-36.html" class="OverlayMenu1-effect">6.&nbsp;Exeter&nbsp;Zulu</a></li>
+                  <li><a role="menuitem" href="./SI21MP0007MP-07.html" class="OverlayMenu1-effect">7.&nbsp;Yvonne&nbsp;Funsani</a></li>
+                  <li><a role="menuitem" href="./SI21MP0008MP-25.html" class="OverlayMenu1-effect">8.&nbsp;Angela&nbsp;Imakando</a></li>
+                  <li><a role="menuitem" href="./SI21MP0009MP-72.html" class="OverlayMenu1-effect">9.&nbsp;Kennedy&nbsp;Munalula</a></li>
+                  <li><a role="menuitem" href="./SI21MP0010MP-89.html" class="OverlayMenu1-effect">10.&nbsp;Likando&nbsp;Katukula</a></li>
+                  <li><a role="menuitem" href="./SI21MP0011MP-82.html" class="OverlayMenu1-effect">11.&nbsp;Virginia&nbsp;Salujinga</a></li>
+                  <li><a role="menuitem" href="./SI21MP0012MP-01.html" class="OverlayMenu1-effect">12.&nbsp;Benson&nbsp;Mambwe</a></li>
+                  <li><a role="menuitem" href="./SI21MP0013MP-33.html" class="OverlayMenu1-effect">13.&nbsp;Sambulo&nbsp;Eneya&nbsp;Mbewe</a></li>
+                  <li><a role="menuitem" href="./SI21MP0014MP-87.html" class="OverlayMenu1-effect">14.&nbsp;Christabel&nbsp;Chinene</a></li>
+                  <li><a role="menuitem" href="./SI21MP0015MP-04.html" class="OverlayMenu1-effect">15.&nbsp;Suhaila&nbsp;Chuma</a></li>
+                  <li><a role="menuitem" href="./SI21MP0016MP-74.html" class="OverlayMenu1-effect">16.&nbsp;Tembo&nbsp;John</a></li>
+                  <li><a role="menuitem" href="./SI21MP0017MP-77.html" class="OverlayMenu1-effect">17.&nbsp;Hamaumbwe&nbsp;Mukamwaze</a></li>
+                  <li><a role="menuitem" href="./SI21MP0018MP-08.html" class="OverlayMenu1-effect">18.&nbsp;Agness&nbsp;Mweshi</a></li>
+                  <li><a role="menuitem" href="./SI21MP0019MP-01.html" class="OverlayMenu1-effect">19.&nbsp;Indra&nbsp;Nyemba</a></li>
+                  <li><a role="menuitem" href="./SI21MP0020MP-33.html" class="OverlayMenu1-effect">20.&nbsp;Bornface&nbsp;Mukwita</a></li>
+                  <li><a role="menuitem" href="./SI21MP0021MP-34.html" class="OverlayMenu1-effect">21.&nbsp;Mercy&nbsp;Mwila</a></li>
+                  <li><a role="menuitem" href="./SI21MP0022MP-14.html" class="OverlayMenu1-effect">22.&nbsp;Mashid&nbsp;Mwila</a></li>
+                  <li><a role="menuitem" href="./SI21MP0023MP-77.html" class="OverlayMenu1-effect">23.&nbsp;Henry&nbsp;Mwape</a></li>
+                  <li><a role="menuitem" href="./SI21MP0024MP-32.html" class="OverlayMenu1-effect">24.&nbsp;Getrude&nbsp;Mwape</a></li>
+                  <li><a role="menuitem" href="./SI21MP0025MP-82.html" class="OverlayMenu1-effect">25.&nbsp;Jessy&nbsp;Chinyama</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
+   </div>
+</body>
+</html>

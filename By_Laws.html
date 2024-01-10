@@ -1,0 +1,676 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Subilo.css" rel="stylesheet">
+<link href="By_Laws.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+      $("a[href*='#aboutusLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_aboutusLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("#Tabs4").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("a[href*='#LayoutGrid18']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid18').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog17').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid19']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid19').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog18').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid20']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid20').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog19').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid21']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid21').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog20').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid22']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid22').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog21').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="wb_HeaderLayoutGrid">
+      <div id="HeaderLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_home_logo">
+                  <a href="./index.html"><img src="images/SI%20Logoghr.png" id="home_logo" alt="home_logo" title="Subilo_Home" width="242" height="176"></a>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_Text2">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:24px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:24px;"><strong>ACADEMY</strong></span><span style="background-color:#FFFFFF;color:#FFFFFF;font-family:'Alan Den';font-size:35px;"><strong><br></strong></span><span style="color:#6A5ACD;font-family:'Comic Sans MS';font-size:13px;"><strong><em>The way to Success</em></strong></span>
+                  </div>
+                  <div id="wb_Text3">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:17px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:17px;"><strong>ACADEMY</strong></span><span style="background-color:#FFFFFF;color:#FFFFFF;font-family:'Alan Den';font-size:13px;"><strong><br></strong></span><span style="color:#6A5ACD;font-family:'Comic Sans MS';font-size:13px;"><strong><em>The way to Success</em></strong></span>
+                  </div>
+                  <div id="wb_Header">
+                     <span style="color:#000000;font-family:'Bookman Old Style';font-size:15px;"><strong>SUBILO </strong></span><span style="color:#FF0000;font-family:'Bookman Old Style';font-size:15px;"><strong>INVESTMENT</strong></span>
+                  </div>
+                  <div id="wb_Text12">
+                     <span style="color:#006400;font-family:Arial;font-size:9.3px;">Grow Wealth, Share Prosperity</span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_EmbeddedPage1">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+                  <div id="PanelLayer">
+                     <div id="wb_IconFont2">
+                        <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+                     </div>
+                     <div id="wb_Image1">
+                        <img src="images/SI%20Logoghr.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="222">
+                     </div>
+                     <div id="wb_Heading20">
+                        <h2 id="Heading20">Subilo Investment</h2>
+                     </div>
+                     <div id="wb_OverlayMenu2">
+                        <div class="OverlayMenu2">
+                           <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                              <li><a role="menuitem" href="./Member_Search.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Check&nbsp;Your&nbsp;Record</a></li>
+                              <li><a role="menuitem" href="./Constitution.html" class="OverlayMenu2-effect"><i class="fa fa-archive overlay-icon"></i>Constitution</a></li>
+                              <li><a role="menuitem" href="./By_Laws.html" class="OverlayMenu2-effect"><i class="fa fa-clone overlay-icon"></i>By&nbsp;Laws</a></li>
+                              <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-database overlay-icon"></i>Executive&nbsp;Board</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="wb_Text40">
+                        <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Subilo Investment.&nbsp; All Rights Reserved</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid5">
+      <div id="LayoutGrid5">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text17">
+                  <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;"><br><br><br><br></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_aboutusLayoutGrid">
+      <div id="aboutusLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_shaelynMbaso1">
+                     <div id="shaelynMbaso1">
+                        <span style="color:#000000;">This circle will come to an end on July 5, 2024</span>
+                     </div></div>
+                  <div id="wb_LayoutGrid2">
+                     <div id="LayoutGrid2">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text4">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>OUR BY-LAWS<br></strong></span><span style="color:#FFFF00;font-family:'Trebuchet MS';font-size:15px;">Go through our by-laws to understand our code.</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="Tabs4">
+                     <ul>
+                        <li role="presentation"><a href="#tabs4-page-1"><span>A1</span></a></li>
+                        <li role="presentation"><a href="#tabs4-page-2"><span>A2</span></a></li>
+                        <li role="presentation"><a href="#tabs4-page-3"><span>A3</span></a></li>
+                        <li role="presentation"><a href="#tabs4-page-4"><span>A4</span></a></li>
+                        <li role="presentation"><a href="#tabs4-page-5"><span>A5</span></a></li>
+                     </ul>
+                     <div id="tabs4-page-1">
+                        <div id="wb_LayoutGrid18">
+                           <div id="LayoutGrid18">
+                              <div class="row">
+                                 <div class="col-1">
+                                    <div class="col-1-padding">
+                                       <div id="Blog17">
+                                          <div class="blogitem">
+                                             <span class="blogsubject">EXECUTIVE BOARD </span>
+                                             <div class="no-thumb"></div>
+                                             <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                             <span style="color:#000000;"><br>
+1. <strong>Chairperson</strong>: Bridget Muuka (<a href="tel:+260971636850">+260971636850</a>)<br>
+                                                <br>
+2. <strong>Vice Chairperson</strong>: Nachilima Beauty (<a href="tel:+260971983849">+260971983849</a>)<br>
+                                                <br>
+3. <strong>Treasurer</strong>: Mambwe Bertha (<a href="tel:+260977326129">+260977326129</a>)<br>
+                                                <br>
+4. <strong>Vice Treasurer</strong>: Mwape Barbra (<a href="tel:+260979360800">+260979360800</a>)<br>
+                                                <br>
+5. <strong>Secretary</strong>: Mbaso Clint (<a href="tel:+260968084570">+260968084570</a>)<br>
+                                             </span><br>
+                                             <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=EXECUTIVE%20BOARD%20">Lesson Evaluation</a></div>
+                                          </div>
+                                          <div class="clearfix visible-col1"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tabs4-page-2">
+                        <div id="wb_LayoutGrid19">
+                           <div id="LayoutGrid19">
+                              <div class="row">
+                                 <div class="col-1">
+                                    <div class="col-1-padding">
+                                       <div id="Blog18">
+                                          <div class="blogitem">
+                                             <span class="blogsubject">MEMBERSHIP SCHEME</span>
+                                             <div class="no-thumb"></div>
+                                             <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                             <span style="color:#000000;"><br>
+1. Membership Fee: ZMW 100.00 Every Circle<br>
+2. Minimum Investment: ZMW 1000.00 Every Month<br>
+3. Maximum Investment: ZMW 50 000.00 Every Month<br>
+4. Cumulative Rate: 20% Every Month<br>
+                                             </span><br>
+                                             <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=MEMBERSHIP%20SCHEME">Lesson Evaluation</a></div>
+                                          </div>
+                                          <div class="clearfix visible-col1"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tabs4-page-3">
+                        <div id="wb_LayoutGrid20">
+                           <div id="LayoutGrid20">
+                              <div class="row">
+                                 <div class="col-1">
+                                    <div class="col-1-padding">
+                                       <div id="Blog19">
+                                          <div class="blogitem">
+                                             <span class="blogsubject">DUES/ PENALTIES RELATED TO SAVINGS/LENDING/BORROWING/CONDUCT</span>
+                                             <div class="no-thumb"></div>
+                                             <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                             <span style="color:#000000;"><br>
+1. Failure to deposit savings:<br>
+Charge ZMW 1000.00<br>
+                                                <br>
+2. Surety requirement:<br>
+If a member seeks to borrow an amount that is more that his or her shareout value, the guarantors account should stand in as surety if his or her shareout value equates the deficit as regards the required money to be borrowed.<br>
+                                                <br>
+3. Minimum loan amount per member per meeting:<br>
+ZMW 2,000.00<br>
+                                                <br>
+4. Interest percentage on Loan / Saving:<br>
+20% <br>
+                                                <br>
+5. Loan repayment instalment distribution:<br>
+Should be repaid by the second last meeting of the cycle. <br>
+                                                <br>
+6. Failure to meet monthly Loan repayment instalment in full (part payment):<br>
+ZMW 500.00 charged and added to the amount to be repaid.<br>
+                                                <br>
+7. Outstanding recoveries at end of cycle:<br>
+Deducted from savings at share out. If the pending exceeds the take home, the guarantor's account will have to compensate.<br>
+                                                <br>
+8. Failure to make a saving for three (3) consecutive months:<br>
+Expulsion from the group. <br>
+                                                <br>
+9. Failure to return the loan&#8217; minimum for three (3) consecutive months: <br>
+Expulsion from the group. <br>
+                                                <br>
+10. Unethical conduct: <br>
+Expulsion from the group. <br>
+                                                <br>
+11. Refusal to pay back loan (Total Default): <br>
+Case forwarded to relevant authorities for restitution.<br>
+                                             </span><br>
+                                             <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=DUES/%20PENALTIES%20RELATED%20TO%20SAVINGS/LENDING/BORROWING/CONDUCT">Lesson Evaluation</a></div>
+                                          </div>
+                                          <div class="clearfix visible-col1"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tabs4-page-4">
+                        <div id="wb_LayoutGrid21">
+                           <div id="LayoutGrid21">
+                              <div class="row">
+                                 <div class="col-1">
+                                    <div class="col-1-padding">
+                                       <div id="Blog20">
+                                          <div class="blogitem">
+                                             <span class="blogsubject">FINES RELATED TO MEETINGS</span>
+                                             <div class="no-thumb"></div>
+                                             <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                             <span style="color:#000000;"><br>
+All fines shall be paid at the end of a meeting or deferred to the beginning of the following meeting, failure to which they shall be deemed defaulters. <br>
+                                                <br>
+1. Failure to participate in virtue meetings without notice / representation:<br>
+ZMW 30.00 <br>
+                                                <br>
+2. Late logging in to meetings &#8211; after the agreed upon time:<br>
+ZMW 20.00 <br>
+                                                <br>
+3. Disturbing the meeting (Noise Making):<br>
+ZMW 10.00 <br>
+                                                <br>
+5. Showing disrespect to group officials and/or other group members:<br>
+ZMW 20.00 <br>
+                                                <br>
+6. Failure to execute given role:<br>
+ZMW 20.00 <br>
+                                                <br>
+7. Phone not on silent and taking in calls in the room (physical meetings):<br>
+ZMW 20.00 <br>
+                                                <br>
+8. Absenteeism for three (3) consecutive meetings without acceptable apology:<br>
+Expulsion<br>
+                                             </span><br>
+                                             <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=FINES%20RELATED%20TO%20MEETINGS">Lesson Evaluation</a></div>
+                                          </div>
+                                          <div class="clearfix visible-col1"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tabs4-page-5">
+                        <div id="wb_LayoutGrid22">
+                           <div id="LayoutGrid22">
+                              <div class="row">
+                                 <div class="col-1">
+                                    <div class="col-1-padding">
+                                       <div id="Blog21">
+                                          <div class="blogitem">
+                                             <span class="blogsubject">OTHER ISSUES</span>
+                                             <div class="no-thumb"></div>
+                                             <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                             <span style="color:#000000;"><br>
+1. Executive reserve the right to guide on other incidentals that arise.<br>
+2. Expulsion means that the affected member will be removed from the group but will receive the payout by the end of the cycle. However, the payout shall be calculated only from the beginning of the cycle to the month of his or her expulsion. From the date of expulsion to the end of the circle, the interest generated from the account in question will have to be directed to S.I accounts.<br>
+                                             </span><br>
+                                             <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=OTHER%20ISSUES">Lesson Evaluation</a></div>
+                                          </div>
+                                          <div class="clearfix visible-col1"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_EmbeddedPage4">
+      <div id="Html1">
+  
+         <div id="countdown" onclick="showPopup('<b>Closing January - Feb 5, 2024</b>', '<p>Please let us make sure that we have the savings and returns ready as we are closing this month. And if you desire to borrow some money, make it known to the treasurers before this month is closed.</p> <p>Thank You All.</p>', 'images/SI Logoghr.png')"></div>
+    <!-- Popups container and blurred background -->
+         <div class="popups-container" id="popupsContainer">
+            <div id="popups" class="popups">
+               <img id="popupsImage" src="" alt="Current Event">
+               <p id="popupsCaption">
+               <p id="popupsDetails">
+               <button onclick="closePopup()">Close</button>
+            </div>
+         </div>
+         <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
+         <script>         
+           // Array of events with their respective dates and reminder thresholds
+           const events = [
+             { name: "Opening Meeting", date: new Date("Jan 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+             { name: "Closing January", date: new Date("Feb 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+             { name: "Closing February", date: new Date("Mar 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+             { name: "Closing March", date: new Date("Apr 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+         	{ name: "Closing April", date: new Date("May 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+             { name: "Closing May", date: new Date("Jun 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
+             { name: "Closing Meeting", date: new Date("Jul 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 }
+           ];
+         
+           let currentEventIndex = 0;
+         
+           function updateCountdown() {
+             // Get the current date and time
+             const now = new Date().getTime();
+         
+             // Get the details of the current event
+             const currentEvent = events[currentEventIndex];
+         
+             // Calculate the time remaining for the current event
+             const distance = currentEvent.date - now;
+         
+             // Calculate days, hours, minutes, and seconds
+             const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+             const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+         
+             // Display the countdown for the current event with the event name as a link
+             document.getElementById("countdown").innerHTML =
+               "<a href='#' onclick='openPopup()' style='text-decoration: none;'><strong>" + currentEvent.name + "</strong></a><br>" +
+               days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+         
+             // Check if it's time to show a reminder
+             if (distance > 0) {
+               if (days === currentEvent.reminderDays && hours === currentEvent.reminderHours) {
+                 showReminder(currentEvent.name);
+               }
+             }
+         
+             // If the countdown for the current event is over, move to the next event
+             if (distance < 0) {
+               currentEventIndex++;
+               // If all events are completed, display a message
+               if (currentEventIndex >= events.length) {
+                 document.getElementById("countdown").innerHTML = "All events completed!";
+               } else {
+                 // Update the countdown for the next event
+                 updateCountdown();
+               }
+             }
+           }
+         
+           // Function to show a reminder
+           function showReminder(eventName) {
+             const notificationOptions = {
+               body: "Your event '" + eventName + "' is approaching!",
+               icon: "icons/fwa.png" // Provide the path to an icon image
+             };
+         
+             // Check if the browser supports notifications
+             if ("Notification" in window) {
+               // Request permission to show notifications
+               Notification.requestPermission().then(function (permission) {
+                 if (permission === "granted") {
+                   // Show the notification
+                   const notification = new Notification("Event Reminder", notificationOptions);
+         
+                   // Vibrate for 1 second
+                   if ("vibrate" in navigator) {
+                     navigator.vibrate(1000);
+                   }
+         
+                   // Play a sound (may not work in all browsers)
+                   const audio = new Audio("path/to/sound.mp3"); // Provide the path to a sound file
+                   audio.play();
+                 }
+               });
+             }
+           }
+         
+           // Update the countdown every 1 second
+           setInterval(updateCountdown, 1000);
+         
+                 // Function to show the popup with image, caption, and details
+                 function showPopup(caption, details, imageUrl) {
+                     document.getElementById('popupsImage').src = imageUrl;
+                     document.getElementById('popupsCaption').innerHTML = caption;
+                     document.getElementById('popupsDetails').innerHTML = details;
+                     document.getElementById('popupsContainer').style.display = 'block';
+                     document.getElementById('blurredBackground').style.display = 'block'; // Show blurred background
+                 }
+         
+                 // Function to close the popups
+                 function closePopup() {
+                     document.getElementById('popupsContainer').style.display = 'none';
+                     document.getElementById('blurredBackground').style.display = 'none'; // Hide blurred background
+                 }
+         
+           let lastScrollPosition = 0;
+           const countdown = document.getElementById('countdown');
+         
+           window.addEventListener('scroll', () => {
+             const currentScrollPosition = window.scrollY;
+         
+             if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
+               countdown.classList.add('hide');
+             } else {
+               countdown.classList.remove('hide');
+             }
+         
+             lastScrollPosition = currentScrollPosition;
+           });
+                 
+                 // Close the popup and blurred background on page load
+                 window.onload = function() {
+                     closePopup();
+                 };
+         </script></div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text1">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
+               </div>
+               <div id="wb_Icon5">
+                  <a href="mailto:clintonmbaso@gmail.com"><div id="Icon5"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_Icon1">
+                  <a href="https://www.facebook.com/bridgetmuuka"><div id="Icon1"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_Icon3">
+                  <a href="tel:+260977326129"><div id="Icon3"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_Icon4">
+                  <a href="https://api.whatsapp.com/send?phone=260977326129&text=Hi, I need more information about Subilo Investment. Please contact me."><div id="Icon4"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_Icon2">
+                  <a href="sms:+260977326129"><div id="Icon2"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-3">
+               <div id="wb_informationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
+               </div>
+               <div id="wb_inforText">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text16">
+                  <span style="color:#FFFFFF;">Copyright © 2024 Subilo Investment.&nbsp; All Rights Reserved</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
