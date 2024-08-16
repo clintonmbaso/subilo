@@ -159,7 +159,7 @@ const formData = [
         Shares: 0,
         
         learnerImageUrl: 'images/circle6/SI21AP0602.jpg',
-        parentImageUrl: 'images/circle6/SI21AP0602n.jpg',
+        parentImageUrl: 'images/circle6/SI21MP0610.jpg',
         
         emailInput: 'bettybetharm@gmail.com',
         callInput: '+260977326129',
@@ -417,9 +417,9 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
+        relation: 'Brother',
+        kinPhone: '+260979272071',
+        kinName: 'Joe Luwaile',
         kinEmail: 'Enter Record',
         
         reg: 100,
@@ -600,9 +600,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0608.jpg',
         parentImageUrl: 'images/circle6/SI21MP0608n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'katukulalikando@gmail.com',
+        callInput: '260977779771',
+        smsInput: '260977779771',
         
         janShares: 1200,
         janLoans: 0,
@@ -636,10 +636,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Sister',
+        kinPhone: '+260772502364',
+        kinName: 'Muyunda Katukula',
+        kinEmail: 'muyundakatukula5@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -671,7 +671,7 @@ const formData = [
         Shares: 4,
         
         learnerImageUrl: 'images/circle6/SI21MP0609.jpg',
-        parentImageUrl: 'images/circle6/SI21MP0609n.jpg',
+        parentImageUrl: 'images/circle6/SI21MP0610.jpg',
         
         emailInput: 'briclintons@gmail.com',
         callInput: '0967703883',
@@ -709,10 +709,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Husband',
+        kinPhone: '+260977352215',
+        kinName: 'Benson Mambwe',
+        kinEmail: 'bensonmambwe@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -744,11 +744,11 @@ const formData = [
         Shares: 3,
         
         learnerImageUrl: 'images/circle6/SI21MP0610.jpg',
-        parentImageUrl: 'images/circle6/SI21MP0610n.jpg',
+        parentImageUrl: 'images/circle6/SI21MP0609.jpg',
         
         emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        callInput: '+260977352215',
+        smsInput: '+260977352215',
         
         janShares: 3600,
         janLoans: 4000,
@@ -782,10 +782,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Wife',
+        kinPhone: '+260973638436',
+        kinName: 'Virginia Salujinga',
+        kinEmail: 'virginiasalujinga@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -1099,7 +1099,7 @@ const formData = [
 
 // Jessy Chinyama - Member
     {
-        idInput: 'SI21MP0617',
+        idInput: 'SI21MP0615',
         First_Name: 'Jessy',
         Middle_Name: '-',
         Last_Name: 'Chinyama',
@@ -1172,7 +1172,7 @@ const formData = [
 
 // Miranda Kundola - Member
     {
-        idInput: 'SI21MP0618',
+        idInput: 'SI21MP0616',
         First_Name: 'Miranda',
         Middle_Name: '-',
         Last_Name: 'Kundola',
@@ -1245,7 +1245,7 @@ const formData = [
 
 // Omega Kamando - Member
     {
-        idInput: 'SI21MP0619',
+        idInput: 'SI21MP0617',
         First_Name: 'Omega',
         Middle_Name: '-',
         Last_Name: 'Kamando',
@@ -1318,7 +1318,7 @@ const formData = [
 
 // Rachel Nkoma - Member
     {
-        idInput: 'SI21MP0620',
+        idInput: 'SI21MP0618',
         First_Name: 'Rachel',
         Middle_Name: '-',
         Last_Name: 'Nkoma',
@@ -1391,7 +1391,7 @@ const formData = [
 
 // Hazel Mwiinde - Member
     {
-        idInput: 'SI21MP0621',
+        idInput: 'SI21MP0619',
         First_Name: 'Hazel',
         Middle_Name: '-',
         Last_Name: 'Mwiinde',
@@ -1464,7 +1464,7 @@ const formData = [
 
 // Kabukabu Katukula - Member
     {
-        idInput: 'SI21MP0622',
+        idInput: 'SI21MP0620',
         First_Name: 'Kabukabu',
         Middle_Name: '-',
         Last_Name: 'Katukula',
@@ -1548,3 +1548,18 @@ formData[0].janLoans = totalJanLoans;
 formData[0].reg = totalreg;
 
 console.log(formData);
+
+
+// Function to update hrefs based on the current record
+function updateIcons(recordIndex) {
+    // Get the current record
+    const record = formData[recordIndex];
+
+    // Update the href attributes of the icons
+    document.querySelector('#wb_emailInput a').href = `mailto:${record.emailInput}`;
+    document.querySelector('#wb_callInput a').href = `tel:${record.callInput}`;
+    document.querySelector('#wb_smsInput a').href = `sms:${record.smsInput}`;
+}
+
+// Example: Update icons based on the first record
+updateIcons(0);

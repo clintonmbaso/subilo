@@ -15,6 +15,7 @@ function calculateSimpleInterest(principal, rate, time) {
     return principal * rate * time + principal;
 }
 
+
 // Function to populate the form fields with a given data record
 function populateForm(data) {
     document.getElementById('idInput').value = data.idInput;
