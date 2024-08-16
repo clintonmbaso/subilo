@@ -144,7 +144,7 @@ a:hover
    width: 100%;
    height: 100%;
 }
-#parentname
+#kinName
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -160,13 +160,13 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#parentname:focus
+#kinName:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#wb_Text31 
+#wb_circle 
 {
    background-color: rgba(128,128,128,0.35);
    background-image: none;
@@ -176,11 +176,11 @@ a:hover
    margin: 0;
    text-align: center;
 }
-#wb_Text31 div
+#wb_circle div
 {
    text-align: center;
 }
-#phone
+#kinPhone
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -196,13 +196,13 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#phone:focus
+#kinPhone:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#lastname
+#lastnameInput
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -218,7 +218,7 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#lastname:focus
+#lastnameInput:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -246,7 +246,7 @@ a:hover
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#parenttitle
+#relationship
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -262,13 +262,13 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#parenttitle:focus
+#relationship:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#email
+#kinEmail
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -284,7 +284,7 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#email:focus
+#kinEmail:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -304,7 +304,7 @@ a:hover
 {
    text-align: center;
 }
-#term1
+#janShares
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -320,13 +320,13 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#term1:focus
+#janShares:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#term2
+#febShares
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -342,13 +342,13 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#term2:focus
+#febShares:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#term3
+#marShares
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -364,13 +364,13 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#term3:focus
+#marShares:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#total
+#savings
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -386,7 +386,7 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#total:focus
+#savings:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -821,7 +821,7 @@ a:hover
 {
    text-align: center;
 }
-#firstname
+#firstnameInput
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -837,7 +837,7 @@ a:hover
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#firstname:focus
+#firstnameInput:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -1141,7 +1141,7 @@ a:hover
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#studentid
+#
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1157,7 +1157,7 @@ a:hover
    text-align: center;
    padding: 4px 4px 4px 4px;
 }
-#studentid:focus
+#:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -1653,7 +1653,7 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#Editbox1
+#middlenameInput
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1669,13 +1669,13 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox1:focus
+#middlenameInput:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#Editbox3
+#pending
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1691,7 +1691,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox3:focus
+#pending:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -1711,7 +1711,7 @@ body
 {
    text-align: center;
 }
-#Editbox2
+#payOut
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1727,7 +1727,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox2:focus
+#payOut:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -1747,7 +1747,7 @@ body
 {
    text-align: center;
 }
-#Editbox4
+#loan
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1763,7 +1763,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox4:focus
+#loan:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -1783,15 +1783,15 @@ body
 {
    text-align: center;
 }
-#wb_Checkbox1
+#wb_paycheck
 {
    margin: 0;
 }
-#wb_Checkbox1, #wb_Checkbox1 *, #wb_Checkbox1 *::before, #wb_Checkbox1 *::after
+#wb_paycheck, #wb_paycheck *, #wb_paycheck *::before, #wb_paycheck *::after
 {
    box-sizing: border-box;
 }
-#wb_Checkbox1 input[type='checkbox']
+#wb_paycheck input[type='checkbox']
 {
    position: absolute;
    padding: 0;
@@ -1803,7 +1803,7 @@ body
    left: 0;
    top: 0;
 }
-#wb_Checkbox1 label
+#wb_paycheck label
 {
    display: inline-block;
    vertical-align: middle;
@@ -1814,7 +1814,7 @@ body
    height: 0;
    padding: 0;
 }
-#wb_Checkbox1 label::before
+#wb_paycheck label::before
 {
    content: "";
    display: inline-block;
@@ -1827,7 +1827,7 @@ body
    border: 1px solid #CCCCCC;
    border-radius: 4px;
 }
-#wb_Checkbox1 label::after
+#wb_paycheck label::after
 {
    display: inline-block;
    position: absolute;
@@ -1840,23 +1840,23 @@ body
    text-align: center;
    line-height: 16px;
 }
-#wb_Checkbox1 input[type='checkbox']:checked + label::after
+#wb_paycheck input[type='checkbox']:checked + label::after
 {
    content: " ";
    background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2064%2064%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M59%2017%20C60%2017%2c%2060%2018%2c%2060%2019%20C60%2020%2c%2060%2021%2c%2059%2022%20L33%2047%20L29%2052%20C28%2053%2c%2027%2053%2c%2026%2053%20C25%2053%2c%2024%2053%2c%2024%2052%20L19%2047%20L6%2035%20C5%2034%2c%205%2033%2c%205%2032%20C5%2031%2c%205%2030%2c%206%2030%20L11%2025%20C12%2024%2c%2012%2024%2c%2013%2024%20C14%2024%2c%2015%2024%2c%2016%2025%20L26%2035%20L50%2012%20C50%2011%2c%2051%2011%2c%2052%2011%20C53%2011%2c%2054%2011%2c%2054%2012%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
    background-size: 80% 80%;
 }
-#wb_Checkbox1 input[type='checkbox']:checked + label::before
+#wb_paycheck input[type='checkbox']:checked + label::before
 {
    background-color: #3370B7;
    background-image: none;
    border-color: #3370B7;
 }
-#wb_Checkbox1 input[type='checkbox']:focus + label::before
+#wb_paycheck input[type='checkbox']:focus + label::before
 {
    outline: thin dotted;
 }
-#Editbox5
+#paidOut
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1872,7 +1872,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox5:focus
+#paidOut:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -1933,7 +1933,7 @@ body
 {
    text-align: center;
 }
-#Editbox6
+#aprShares
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1949,13 +1949,13 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox6:focus
+#aprShares:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#Editbox7
+#mayShares
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1971,13 +1971,13 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox7:focus
+#mayShares:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#Editbox8
+#junShares
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -1993,7 +1993,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox8:focus
+#junShares:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2013,7 +2013,7 @@ body
 {
    text-align: center;
 }
-#Editbox9
+#janLoans
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2029,7 +2029,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox9:focus
+#janLoans:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2049,7 +2049,7 @@ body
 {
    text-align: center;
 }
-#Editbox10
+#febLoans
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2065,7 +2065,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox10:focus
+#febLoans:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2085,7 +2085,7 @@ body
 {
    text-align: center;
 }
-#Editbox11
+#marLoans
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2101,7 +2101,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox11:focus
+#marLoans:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2121,7 +2121,7 @@ body
 {
    text-align: center;
 }
-#Editbox12
+#aprLoans
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2137,7 +2137,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox12:focus
+#aprLoans:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2157,7 +2157,7 @@ body
 {
    text-align: center;
 }
-#Editbox13
+#mayLoans
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2173,7 +2173,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox13:focus
+#mayLoans:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2193,7 +2193,7 @@ body
 {
    text-align: center;
 }
-#Editbox14
+#junLoans
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2209,7 +2209,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox14:focus
+#junLoans:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2229,7 +2229,7 @@ body
 {
    text-align: center;
 }
-#Editbox15
+#janReturns
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2245,7 +2245,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox15:focus
+#janReturns:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2265,7 +2265,7 @@ body
 {
    text-align: center;
 }
-#Editbox16
+#janPending
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2281,7 +2281,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox16:focus
+#janPending:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2301,7 +2301,7 @@ body
 {
    text-align: center;
 }
-#Editbox17
+#febReturms
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2317,7 +2317,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox17:focus
+#febReturms:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2337,7 +2337,7 @@ body
 {
    text-align: center;
 }
-#Editbox18
+#febPending
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2353,7 +2353,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox18:focus
+#febPending:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2373,7 +2373,7 @@ body
 {
    text-align: center;
 }
-#Editbox19
+#marReturns
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2389,7 +2389,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox19:focus
+#marReturns:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2409,7 +2409,7 @@ body
 {
    text-align: center;
 }
-#Editbox20
+#marPending
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2425,7 +2425,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox20:focus
+#marPending:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2445,7 +2445,7 @@ body
 {
    text-align: center;
 }
-#Editbox21
+#aprReturns
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2461,7 +2461,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox21:focus
+#aprReturns:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2481,7 +2481,7 @@ body
 {
    text-align: center;
 }
-#Editbox22
+#aprPending
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2497,7 +2497,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox22:focus
+#aprPending:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2517,7 +2517,7 @@ body
 {
    text-align: center;
 }
-#Editbox23
+#mayReturns
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2533,7 +2533,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox23:focus
+#mayReturns:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2553,7 +2553,7 @@ body
 {
    text-align: center;
 }
-#Editbox24
+#mayPending
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2569,7 +2569,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox24:focus
+#mayPending:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2589,7 +2589,7 @@ body
 {
    text-align: center;
 }
-#Editbox25
+#junReturns
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2605,7 +2605,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox25:focus
+#junReturns:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -2625,7 +2625,7 @@ body
 {
    text-align: center;
 }
-#Editbox26
+#junPending
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2641,13 +2641,13 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox26:focus
+#junPending:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-#Editbox27
+#reg
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
@@ -2663,7 +2663,7 @@ body
    text-align: left;
    padding: 4px 4px 4px 4px;
 }
-#Editbox27:focus
+#reg:focus
 {
    border-color: #66AFE9;
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
@@ -3015,7 +3015,7 @@ body
 {
    animation-play-state: paused;
 }
-#wb_Icon6
+#wb_callInput
 {
    background-color: #2C3E50;
    background-image: none;
@@ -3026,7 +3026,7 @@ body
    padding: 5px 5px 5px 5px;
    vertical-align: top;
 }
-#wb_Icon6 a::after
+#wb_callInput a::after
 {
    position: absolute;
    top: 0;
@@ -3037,18 +3037,18 @@ body
    pointer-events: auto;
    content: "";
 }
-#wb_Icon6:hover
+#wb_callInput:hover
 {
    background-color: #FFFFFF;
    background-image: none;
    border: 2px solid #FFFFFF;
 }
-#Icon6
+#callInput
 {
    height: 26px;
    width: 26px;
 }
-#Icon6 i
+#callInput i
 {
    color: #FFFFFF;
    display: inline-block;
@@ -3057,21 +3057,21 @@ body
    vertical-align: middle;
    width: 25px;
 }
-#wb_Icon6:hover #Icon6 i
+#wb_callInput:hover #callInput i
 {
    color: #F0E68C;
 }
-#wb_Icon6
+#wb_callInput
 {
    transform: rotate(0deg) ;
    transition: transform 500ms linear 0ms;
 }
-#wb_Icon6:hover
+#wb_callInput:hover
 {
    transform: rotate(360deg) ;
    transition: transform 500ms linear 0ms;
 }
-#wb_Icon7
+#wb_emailInput
 {
    background-color: #2C3E50;
    background-image: none;
@@ -3082,7 +3082,7 @@ body
    padding: 5px 5px 5px 5px;
    vertical-align: top;
 }
-#wb_Icon7 a::after
+#wb_emailInput a::after
 {
    position: absolute;
    top: 0;
@@ -3093,18 +3093,18 @@ body
    pointer-events: auto;
    content: "";
 }
-#wb_Icon7:hover
+#wb_emailInput:hover
 {
    background-color: #FFFFFF;
    background-image: none;
    border: 2px solid #FFFFFF;
 }
-#Icon7
+#emailInput
 {
    height: 26px;
    width: 26px;
 }
-#Icon7 i
+#emailInput i
 {
    color: #FFFFFF;
    display: inline-block;
@@ -3113,21 +3113,21 @@ body
    vertical-align: middle;
    width: 25px;
 }
-#wb_Icon7:hover #Icon7 i
+#wb_emailInput:hover #emailInput i
 {
    color: #3CB371;
 }
-#wb_Icon7
+#wb_emailInput
 {
    transform: rotate(0deg) ;
    transition: transform 500ms linear 0ms;
 }
-#wb_Icon7:hover
+#wb_emailInput:hover
 {
    transform: rotate(360deg) ;
    transition: transform 500ms linear 0ms;
 }
-#wb_Icon8
+#wb_smsInput
 {
    background-color: #2C3E50;
    background-image: none;
@@ -3138,7 +3138,7 @@ body
    padding: 5px 5px 5px 5px;
    vertical-align: top;
 }
-#wb_Icon8 a::after
+#wb_smsInput a::after
 {
    position: absolute;
    top: 0;
@@ -3149,18 +3149,18 @@ body
    pointer-events: auto;
    content: "";
 }
-#wb_Icon8:hover
+#wb_smsInput:hover
 {
    background-color: #FFFFFF;
    background-image: none;
    border: 2px solid #FFFFFF;
 }
-#Icon8
+#smsInput
 {
    height: 26px;
    width: 26px;
 }
-#Icon8 i
+#smsInput i
 {
    color: #FFFFFF;
    display: inline-block;
@@ -3169,128 +3169,16 @@ body
    vertical-align: middle;
    width: 25px;
 }
-#wb_Icon8:hover #Icon8 i
+#wb_smsInput:hover #smsInput i
 {
    color: #00CED1;
 }
-#wb_Icon8
+#wb_smsInput
 {
    transform: rotate(0deg) ;
    transition: transform 500ms linear 0ms;
 }
-#wb_Icon8:hover
-{
-   transform: rotate(360deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_Icon9
-{
-   background-color: #2C3E50;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-}
-#wb_Icon9 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_Icon9:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#Icon9
-{
-   height: 26px;
-   width: 26px;
-}
-#Icon9 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 26px;
-   line-height: 26px;
-   vertical-align: middle;
-   width: 25px;
-}
-#wb_Icon9:hover #Icon9 i
-{
-   color: #F0E68C;
-}
-#wb_Icon9
-{
-   transform: rotate(0deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_Icon9:hover
-{
-   transform: rotate(360deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_Icon10
-{
-   background-color: #2C3E50;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-}
-#wb_Icon10 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_Icon10:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#Icon10
-{
-   height: 26px;
-   width: 26px;
-}
-#Icon10 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 26px;
-   line-height: 26px;
-   vertical-align: middle;
-   width: 25px;
-}
-#wb_Icon10:hover #Icon10 i
-{
-   color: #3CB371;
-}
-#wb_Icon10
-{
-   transform: rotate(0deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_Icon10:hover
+#wb_smsInput:hover
 {
    transform: rotate(360deg) ;
    transition: transform 500ms linear 0ms;
@@ -3595,65 +3483,7 @@ body
    text-align: center;
    z-index: 3;
 }
-#Editbox26
-{
-   position: absolute;
-   left: 398px;
-   top: 424px;
-   width: 77px;
-   height: 16px;
-   z-index: 100;
-}
-#Editbox16
-{
-   position: absolute;
-   left: 398px;
-   top: 356px;
-   width: 77px;
-   height: 16px;
-   z-index: 95;
-}
-#Editbox5
-{
-   position: absolute;
-   left: 657px;
-   top: 424px;
-   width: 100px;
-   height: 16px;
-   z-index: 57;
-}
-#febb
-{
-   position: absolute;
-   left: 0;
-   top: 0;
-}
-#total
-{
-   position: absolute;
-   left: 657px;
-   top: 424px;
-   width: 100px;
-   height: 16px;
-   z-index: 19;
-}
-#wb_OverlayMenu2
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 119;
-}
-#wb_Icon6
-{
-   position: absolute;
-   left: 98px;
-   top: -50px;
-   width: 26px;
-   height: 26px;
-   text-align: center;
-   z-index: 105;
-}
-#Editbox27
+#reg
 {
    position: absolute;
    left: 657px;
@@ -3662,23 +3492,44 @@ body
    height: 16px;
    z-index: 102;
 }
-#Editbox15
+#mayShares
 {
    position: absolute;
    left: 398px;
-   top: 356px;
+   top: 391px;
    width: 77px;
    height: 16px;
-   z-index: 78;
+   z-index: 63;
 }
-#Editbox6
+#loan
 {
    position: absolute;
-   left: 398px;
-   top: 356px;
-   width: 77px;
+   left: 657px;
+   top: 424px;
+   width: 100px;
    height: 16px;
-   z-index: 62;
+   z-index: 54;
+}
+#febb
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+#relationship
+{
+   position: absolute;
+   left: 134px;
+   top: 340px;
+   width: 29px;
+   height: 16px;
+   z-index: 13;
+}
+#wb_OverlayMenu2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 118;
 }
 #wb_Text19
 {
@@ -3689,6 +3540,15 @@ body
    height: 15px;
    text-align: center;
    z-index: 61;
+}
+#
+{
+   position: absolute;
+   left: 671px;
+   top: 250px;
+   width: 312px;
+   height: 16px;
+   z-index: 46;
 }
 #status
 {
@@ -3721,14 +3581,14 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 117;
+   z-index: 116;
 }
 #wb_home_logo
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 112;
+   z-index: 111;
 }
 #Html1
 {
@@ -3737,7 +3597,7 @@ body
    top: 0px;
    width: 21px;
    height: 28px;
-   z-index: 111;
+   z-index: 110;
 }
 #wb_OverlayMenu1
 {
@@ -3746,44 +3606,43 @@ body
    top: 13px;
    width: 138px;
    height: 32px;
-   z-index: 110;
+   z-index: 108;
 }
-#wb_Icon7
-{
-   position: absolute;
-   left: 148px;
-   top: -50px;
-   width: 26px;
-   height: 26px;
-   text-align: center;
-   z-index: 106;
-}
-#Editbox24
-{
-   position: absolute;
-   left: 398px;
-   top: 391px;
-   width: 77px;
-   height: 16px;
-   z-index: 99;
-}
-#Editbox14
+#junReturns
 {
    position: absolute;
    left: 398px;
    top: 424px;
    width: 77px;
    height: 16px;
-   z-index: 76;
+   z-index: 93;
 }
-#Editbox7
+#mayReturns
 {
    position: absolute;
    left: 398px;
    top: 391px;
    width: 77px;
    height: 16px;
-   z-index: 63;
+   z-index: 90;
+}
+#marReturns
+{
+   position: absolute;
+   left: 398px;
+   top: 424px;
+   width: 77px;
+   height: 16px;
+   z-index: 84;
+}
+#janReturns
+{
+   position: absolute;
+   left: 398px;
+   top: 356px;
+   width: 77px;
+   height: 16px;
+   z-index: 78;
 }
 #wb_Text18
 {
@@ -3805,19 +3664,18 @@ body
    text-align: center;
    z-index: 22;
 }
+#kinPhone
+{
+   position: absolute;
+   left: 135px;
+   top: 371px;
+   width: 152px;
+   height: 16px;
+   z-index: 11;
+}
 #PanelLayer
 {
    text-align: right;
-}
-#wb_Icon10
-{
-   position: absolute;
-   left: 148px;
-   top: -50px;
-   width: 26px;
-   height: 26px;
-   text-align: center;
-   z-index: 109;
 }
 #wb_Icon4
 {
@@ -3829,14 +3687,14 @@ body
    text-align: center;
    z-index: 1;
 }
-#Editbox25
+#marPending
 {
    position: absolute;
    left: 398px;
    top: 424px;
    width: 77px;
    height: 16px;
-   z-index: 93;
+   z-index: 97;
 }
 #wb_Text41
 {
@@ -3848,15 +3706,6 @@ body
    text-align: center;
    z-index: 77;
 }
-#Editbox13
-{
-   position: absolute;
-   left: 398px;
-   top: 391px;
-   width: 77px;
-   height: 16px;
-   z-index: 74;
-}
 #wb_Text17
 {
    position: absolute;
@@ -3867,6 +3716,15 @@ body
    text-align: center;
    z-index: 59;
 }
+#paidOut
+{
+   position: absolute;
+   left: 657px;
+   top: 424px;
+   width: 100px;
+   height: 16px;
+   z-index: 57;
+}
 #wb_Text4
 {
    position: absolute;
@@ -3876,6 +3734,15 @@ body
    height: 15px;
    text-align: center;
    z-index: 55;
+}
+#pending
+{
+   position: absolute;
+   left: 657px;
+   top: 424px;
+   width: 100px;
+   height: 16px;
+   z-index: 50;
 }
 #wb_Text35
 {
@@ -3893,14 +3760,14 @@ body
    left: 0;
    top: 0;
 }
-#email
+#marShares
 {
    position: absolute;
-   left: 135px;
-   top: 400px;
-   width: 152px;
+   left: 398px;
+   top: 424px;
+   width: 77px;
    height: 16px;
-   z-index: 14;
+   z-index: 18;
 }
 #wb_Icon5
 {
@@ -3912,6 +3779,15 @@ body
    text-align: center;
    z-index: 4;
 }
+#febReturms
+{
+   position: absolute;
+   left: 398px;
+   top: 391px;
+   width: 77px;
+   height: 16px;
+   z-index: 81;
+}
 #wb_Text42
 {
    position: absolute;
@@ -3922,7 +3798,7 @@ body
    text-align: center;
    z-index: 79;
 }
-#Editbox12
+#aprLoans
 {
    position: absolute;
    left: 398px;
@@ -3931,14 +3807,14 @@ body
    height: 16px;
    z-index: 72;
 }
-#Editbox1
+#febLoans
 {
    position: absolute;
-   left: 9px;
-   top: 219px;
-   width: 99px;
+   left: 398px;
+   top: 391px;
+   width: 77px;
    height: 16px;
-   z-index: 49;
+   z-index: 68;
 }
 #wb_Text5
 {
@@ -3966,6 +3842,15 @@ body
    text-align: center;
    z-index: 26;
 }
+#febShares
+{
+   position: absolute;
+   left: 398px;
+   top: 391px;
+   width: 77px;
+   height: 16px;
+   z-index: 17;
+}
 #wb_classpic
 {
    position: absolute;
@@ -3983,7 +3868,7 @@ body
    width: 480px;
    visibility: hidden;
    height: 48px;
-   z-index: 138;
+   z-index: 137;
 }
 #wb_Text43
 {
@@ -4004,24 +3889,6 @@ body
    height: 15px;
    text-align: center;
    z-index: 71;
-}
-#Editbox11
-{
-   position: absolute;
-   left: 398px;
-   top: 424px;
-   width: 77px;
-   height: 16px;
-   z-index: 70;
-}
-#Editbox2
-{
-   position: absolute;
-   left: 657px;
-   top: 424px;
-   width: 100px;
-   height: 16px;
-   z-index: 53;
 }
 #janb
 {
@@ -4048,6 +3915,15 @@ body
    text-align: center;
    z-index: 20;
 }
+#savings
+{
+   position: absolute;
+   left: 657px;
+   top: 424px;
+   width: 100px;
+   height: 16px;
+   z-index: 19;
+}
 #wb_Text6
 {
    position: absolute;
@@ -4067,6 +3943,15 @@ body
    height: 17px;
    text-align: center;
    z-index: 104;
+}
+#febPending
+{
+   position: absolute;
+   left: 398px;
+   top: 391px;
+   width: 77px;
+   height: 16px;
+   z-index: 96;
 }
 #wb_Text44
 {
@@ -4088,14 +3973,11 @@ body
    text-align: center;
    z-index: 69;
 }
-#Editbox10
+#paycheck
 {
    position: absolute;
-   left: 398px;
-   top: 391px;
-   width: 77px;
-   height: 16px;
-   z-index: 68;
+   left: 0;
+   top: 0;
 }
 #wb_Text14
 {
@@ -4107,14 +3989,14 @@ body
    text-align: center;
    z-index: 52;
 }
-#Editbox3
+#lastnameInput
 {
    position: absolute;
-   left: 657px;
-   top: 424px;
-   width: 100px;
+   left: 128px;
+   top: 219px;
+   width: 99px;
    height: 16px;
-   z-index: 50;
+   z-index: 48;
 }
 #wb_Text7
 {
@@ -4134,15 +4016,14 @@ body
    width: 1000px;
    z-index: 36;
 }
-#wb_Icon8
+#aprPending
 {
    position: absolute;
-   left: 198px;
-   top: -50px;
-   width: 26px;
-   height: 26px;
-   text-align: center;
-   z-index: 107;
+   left: 398px;
+   top: 356px;
+   width: 77px;
+   height: 16px;
+   z-index: 98;
 }
 #wb_Text52
 {
@@ -4154,6 +4035,15 @@ body
    text-align: center;
    z-index: 94;
 }
+#aprReturns
+{
+   position: absolute;
+   left: 398px;
+   top: 356px;
+   width: 77px;
+   height: 16px;
+   z-index: 87;
+}
 #wb_Text45
 {
    position: absolute;
@@ -4164,11 +4054,14 @@ body
    text-align: center;
    z-index: 83;
 }
-#Checkbox1
+#junShares
 {
    position: absolute;
-   left: 0;
-   top: 0;
+   left: 398px;
+   top: 424px;
+   width: 77px;
+   height: 16px;
+   z-index: 64;
 }
 #wb_Text13
 {
@@ -4180,15 +4073,6 @@ body
    text-align: center;
    z-index: 51;
 }
-#studentid
-{
-   position: absolute;
-   left: 671px;
-   top: 250px;
-   width: 312px;
-   height: 16px;
-   z-index: 46;
-}
 #wb_janb
 {
    position: absolute;
@@ -4198,15 +4082,14 @@ body
    height: 16px;
    z-index: 41;
 }
-#wb_Text31
+#kinEmail
 {
    position: absolute;
-   left: 173px;
-   top: 41px;
-   width: 155px;
-   height: 21px;
-   text-align: center;
-   z-index: 10;
+   left: 135px;
+   top: 400px;
+   width: 152px;
+   height: 16px;
+   z-index: 14;
 }
 #wb_menuPanel
 {
@@ -4216,17 +4099,7 @@ body
    width: 53px;
    height: 48px;
    text-align: center;
-   z-index: 121;
-}
-#wb_Icon9
-{
-   position: absolute;
-   left: 98px;
-   top: -50px;
-   width: 26px;
-   height: 26px;
-   text-align: center;
-   z-index: 108;
+   z-index: 120;
 }
 #wb_Text51
 {
@@ -4279,6 +4152,16 @@ body
    text-align: center;
    z-index: 23;
 }
+#wb_emailInput
+{
+   position: absolute;
+   left: 148px;
+   top: -50px;
+   width: 26px;
+   height: 26px;
+   text-align: center;
+   z-index: 106;
+}
 #wb_Text50
 {
    position: absolute;
@@ -4299,6 +4182,15 @@ body
    text-align: center;
    z-index: 86;
 }
+#mayLoans
+{
+   position: absolute;
+   left: 398px;
+   top: 391px;
+   width: 77px;
+   height: 16px;
+   z-index: 74;
+}
 #Line2
 {
    position: absolute;
@@ -4306,6 +4198,15 @@ body
    top: 308px;
    width: 1000px;
    z-index: 58;
+}
+#firstnameInput
+{
+   position: absolute;
+   left: 9px;
+   top: 219px;
+   width: 99px;
+   height: 16px;
+   z-index: 47;
 }
 #wb_mayb
 {
@@ -4345,15 +4246,6 @@ body
    text-align: center;
    z-index: 28;
 }
-#term1
-{
-   position: absolute;
-   left: 398px;
-   top: 356px;
-   width: 77px;
-   height: 16px;
-   z-index: 16;
-}
 #wb_Text23
 {
    position: absolute;
@@ -4363,19 +4255,19 @@ body
    height: 41px;
    visibility: hidden;
    text-align: center;
-   z-index: 136;
+   z-index: 135;
 }
 #wb_Heading20
 {
    display: inline-block;
    width: 100%;
-   z-index: 118;
+   z-index: 117;
 }
 #wb_EmbeddedPage1
 {
    display: inline-block;
    width: 100%;
-   z-index: 123;
+   z-index: 122;
 }
 #wb_EmbeddedPage4
 {
@@ -4384,7 +4276,7 @@ body
    top: 358px;
    width: 21px;
    height: 28px;
-   z-index: 140;
+   z-index: 139;
 }
 #wb_EmbeddedPage2
 {
@@ -4425,6 +4317,15 @@ body
    text-align: center;
    z-index: 42;
 }
+#janShares
+{
+   position: absolute;
+   left: 398px;
+   top: 356px;
+   width: 77px;
+   height: 16px;
+   z-index: 16;
+}
 #wb_Text10
 {
    position: absolute;
@@ -4441,7 +4342,7 @@ body
    width: 30px;
    height: 30px;
    text-align: center;
-   z-index: 116;
+   z-index: 115;
 }
 #wb_Text49
 {
@@ -4463,56 +4364,39 @@ body
    text-align: center;
    z-index: 67;
 }
-#Editbox8
+#kinName
+{
+   position: absolute;
+   left: 179px;
+   top: 340px;
+   width: 108px;
+   height: 16px;
+   z-index: 9;
+}
+#wb_smsInput
+{
+   position: absolute;
+   left: 198px;
+   top: -50px;
+   width: 26px;
+   height: 26px;
+   text-align: center;
+   z-index: 107;
+}
+#marLoans
 {
    position: absolute;
    left: 398px;
    top: 424px;
    width: 77px;
    height: 16px;
-   z-index: 64;
-}
-#term3
-{
-   position: absolute;
-   left: 398px;
-   top: 424px;
-   width: 77px;
-   height: 16px;
-   z-index: 18;
-}
-#phone
-{
-   position: absolute;
-   left: 135px;
-   top: 371px;
-   width: 152px;
-   height: 16px;
-   z-index: 11;
-}
-#Editbox9
-{
-   position: absolute;
-   left: 398px;
-   top: 356px;
-   width: 77px;
-   height: 16px;
-   z-index: 66;
+   z-index: 70;
 }
 #junb
 {
    position: absolute;
    left: 0;
    top: 0;
-}
-#term2
-{
-   position: absolute;
-   left: 398px;
-   top: 391px;
-   width: 77px;
-   height: 16px;
-   z-index: 17;
 }
 #wb_Text26
 {
@@ -4534,23 +4418,23 @@ body
    text-align: center;
    z-index: 101;
 }
-#Editbox22
+#aprShares
 {
    position: absolute;
    left: 398px;
    top: 356px;
    width: 77px;
    height: 16px;
-   z-index: 98;
+   z-index: 62;
 }
-#firstname
+#wb_paycheck
 {
    position: absolute;
-   left: 9px;
-   top: 219px;
-   width: 99px;
+   left: 570px;
+   top: 429px;
+   width: 22px;
    height: 16px;
-   z-index: 47;
+   z-index: 56;
 }
 #mayb
 {
@@ -4576,23 +4460,25 @@ body
    height: 16px;
    z-index: 27;
 }
-#parenttitle
+#wb_circle
 {
    position: absolute;
-   left: 134px;
-   top: 340px;
-   width: 29px;
-   height: 16px;
-   z-index: 13;
+   left: 173px;
+   top: 41px;
+   width: 155px;
+   height: 21px;
+   text-align: center;
+   z-index: 10;
 }
-#parentname
+#wb_callInput
 {
    position: absolute;
-   left: 179px;
-   top: 340px;
-   width: 108px;
-   height: 16px;
-   z-index: 9;
+   left: 98px;
+   top: -50px;
+   width: 26px;
+   height: 26px;
+   text-align: center;
+   z-index: 105;
 }
 #wb_Icon2
 {
@@ -4604,32 +4490,23 @@ body
    text-align: center;
    z-index: 0;
 }
-#Editbox23
+#mayPending
 {
    position: absolute;
    left: 398px;
    top: 391px;
    width: 77px;
    height: 16px;
-   z-index: 90;
+   z-index: 99;
 }
-#Editbox19
+#payOut
 {
    position: absolute;
-   left: 398px;
+   left: 657px;
    top: 424px;
-   width: 77px;
+   width: 100px;
    height: 16px;
-   z-index: 84;
-}
-#wb_Checkbox1
-{
-   position: absolute;
-   left: 570px;
-   top: 429px;
-   width: 22px;
-   height: 16px;
-   z-index: 56;
+   z-index: 53;
 }
 #wb_Text24
 {
@@ -4640,7 +4517,7 @@ body
    height: 73px;
    visibility: hidden;
    text-align: center;
-   z-index: 137;
+   z-index: 136;
 }
 #wb_Icon3
 {
@@ -4652,23 +4529,23 @@ body
    text-align: center;
    z-index: 2;
 }
-#Editbox20
+#junPending
 {
    position: absolute;
    left: 398px;
    top: 424px;
    width: 77px;
    height: 16px;
-   z-index: 97;
+   z-index: 100;
 }
-#Editbox18
+#janPending
 {
    position: absolute;
    left: 398px;
-   top: 391px;
+   top: 356px;
    width: 77px;
    height: 16px;
-   z-index: 96;
+   z-index: 95;
 }
 #wb_Text39
 {
@@ -4680,14 +4557,14 @@ body
    text-align: center;
    z-index: 75;
 }
-#lastname
+#middlenameInput
 {
    position: absolute;
-   left: 128px;
+   left: 9px;
    top: 219px;
    width: 99px;
    height: 16px;
-   z-index: 48;
+   z-index: 49;
 }
 #wb_Text8
 {
@@ -4709,23 +4586,23 @@ body
    text-align: center;
    z-index: 6;
 }
-#Editbox21
+#Html2
 {
    position: absolute;
-   left: 398px;
-   top: 356px;
-   width: 77px;
-   height: 16px;
-   z-index: 87;
+   left: 9px;
+   top: 85px;
+   width: 294px;
+   height: 21px;
+   z-index: 109;
 }
-#Editbox17
+#junLoans
 {
    position: absolute;
    left: 398px;
-   top: 391px;
+   top: 424px;
    width: 77px;
    height: 16px;
-   z-index: 81;
+   z-index: 76;
 }
 #wb_Text38
 {
@@ -4737,14 +4614,14 @@ body
    text-align: center;
    z-index: 73;
 }
-#Editbox4
+#janLoans
 {
    position: absolute;
-   left: 657px;
-   top: 424px;
-   width: 100px;
+   left: 398px;
+   top: 356px;
+   width: 77px;
    height: 16px;
-   z-index: 54;
+   z-index: 66;
 }
 #wb_junb
 {
@@ -4799,7 +4676,7 @@ body
    top: 50px;
    width: 1007px;
    height: 462px;
-   z-index: 139;
+   z-index: 138;
 }
 @media only screen and (max-width: 1008px)
 {
@@ -4923,7 +4800,7 @@ body
    margin: 0;
    padding: 0;
 }
-#parentname
+#kinName
 {
    left: 186px;
    top: 756px;
@@ -4935,11 +4812,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#parentname
+#kinName
 {
    line-height: 16px;
 }
-#wb_Text31
+#wb_circle
 {
    left: 181px;
    top: 194px;
@@ -4950,12 +4827,12 @@ body
    background-color: rgba(0,0,0,0.12);
    background-image: none;
 }
-#wb_Text31
+#wb_circle
 {
    margin: 0;
    padding: 0;
 }
-#phone
+#kinPhone
 {
    left: 186px;
    top: 786px;
@@ -4967,11 +4844,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#phone
+#kinPhone
 {
    line-height: 16px;
 }
-#lastname
+#lastnameInput
 {
    left: 204px;
    top: 368px;
@@ -4983,7 +4860,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#lastname
+#lastnameInput
 {
    line-height: 16px;
 }
@@ -5003,7 +4880,7 @@ body
 {
    line-height: 16px;
 }
-#parenttitle
+#relationship
 {
    left: 117px;
    top: 756px;
@@ -5015,11 +4892,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#parenttitle
+#relationship
 {
    line-height: 16px;
 }
-#email
+#kinEmail
 {
    left: 117px;
    top: 816px;
@@ -5031,7 +4908,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#email
+#kinEmail
 {
    line-height: 16px;
 }
@@ -5049,7 +4926,7 @@ body
    margin: 0;
    padding: 0;
 }
-#term1
+#janShares
 {
    left: 67px;
    top: 477px;
@@ -5061,11 +4938,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#term1
+#janShares
 {
    line-height: 16px;
 }
-#term2
+#febShares
 {
    left: 67px;
    top: 504px;
@@ -5077,11 +4954,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#term2
+#febShares
 {
    line-height: 16px;
 }
-#term3
+#marShares
 {
    left: 67px;
    top: 531px;
@@ -5093,11 +4970,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#term3
+#marShares
 {
    line-height: 16px;
 }
-#total
+#savings
 {
    left: 5px;
    top: 691px;
@@ -5110,7 +4987,7 @@ body
    text-align: left;
    border: 1px solid #7B68EE;
 }
-#total
+#savings
 {
    line-height: 16px;
 }
@@ -5399,7 +5276,7 @@ body
    margin: 0;
    padding: 0;
 }
-#firstname
+#firstnameInput
 {
    left: 5px;
    top: 368px;
@@ -5411,7 +5288,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#firstname
+#firstnameInput
 {
    line-height: 16px;
 }
@@ -5633,7 +5510,7 @@ body
 {
    line-height: 16px;
 }
-#studentid
+#
 {
    left: 134px;
    top: 338px;
@@ -5647,7 +5524,7 @@ body
    background-color: rgba(255,255,255,0.59);
    background-image: none;
 }
-#studentid
+#
 {
    line-height: 16px;
 }
@@ -5895,7 +5772,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox1
+#middlenameInput
 {
    left: 108px;
    top: 368px;
@@ -5907,11 +5784,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox1
+#middlenameInput
 {
    line-height: 16px;
 }
-#Editbox3
+#pending
 {
    left: 151px;
    top: 691px;
@@ -5924,7 +5801,7 @@ body
    text-align: left;
    border: 1px solid #A0522D;
 }
-#Editbox3
+#pending
 {
    line-height: 16px;
 }
@@ -5942,7 +5819,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox2
+#payOut
 {
    left: 222px;
    top: 691px;
@@ -5955,7 +5832,7 @@ body
    text-align: left;
    border: 1px solid #DEB887;
 }
-#Editbox2
+#payOut
 {
    line-height: 16px;
 }
@@ -5973,7 +5850,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox4
+#loan
 {
    left: 78px;
    top: 691px;
@@ -5986,7 +5863,7 @@ body
    text-align: left;
    border: 1px solid #00FFFF;
 }
-#Editbox4
+#loan
 {
    line-height: 16px;
 }
@@ -6004,7 +5881,7 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Checkbox1
+#wb_paycheck
 {
    left: 294px;
    top: 695px;
@@ -6014,34 +5891,34 @@ body
    display: inline;
    margin: 0;
 }
-#wb_Checkbox1 input[type='checkbox']
+#wb_paycheck input[type='checkbox']
 {
    width: 16px;
    height: 16px;
 }
-#wb_Checkbox1 label::before
+#wb_paycheck label::before
 {
    width: 16px;
    height: 16px;
    border-color: #CCCCCC;
 }
-#wb_Checkbox1 label::after
+#wb_paycheck label::after
 {
    width: 16px;
    height: 16px;
    line-height: 16px;
 }
-#wb_Checkbox1 input[type='checkbox']:checked + label::after
+#wb_paycheck input[type='checkbox']:checked + label::after
 {
    color: #FFFFFF;
 }
-#wb_Checkbox1 input[type='checkbox']:checked + label::before
+#wb_paycheck input[type='checkbox']:checked + label::before
 {
    background-color: #3370B7;
    background-image: none;
    border-color: #3370B7;
 }
-#Editbox5
+#paidOut
 {
    left: 204px;
    top: 647px;
@@ -6055,7 +5932,7 @@ body
    background-color: rgba(255,255,255,0.39);
    background-image: none;
 }
-#Editbox5
+#paidOut
 {
    line-height: 16px;
 }
@@ -6116,7 +5993,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox6
+#aprShares
 {
    left: 67px;
    top: 558px;
@@ -6128,11 +6005,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox6
+#aprShares
 {
    line-height: 16px;
 }
-#Editbox7
+#mayShares
 {
    left: 67px;
    top: 585px;
@@ -6144,11 +6021,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox7
+#mayShares
 {
    line-height: 16px;
 }
-#Editbox8
+#junShares
 {
    left: 67px;
    top: 612px;
@@ -6160,7 +6037,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox8
+#junShares
 {
    line-height: 16px;
 }
@@ -6178,7 +6055,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox9
+#janLoans
 {
    left: 131px;
    top: 477px;
@@ -6190,7 +6067,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox9
+#janLoans
 {
    line-height: 16px;
 }
@@ -6208,7 +6085,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox10
+#febLoans
 {
    left: 131px;
    top: 504px;
@@ -6220,7 +6097,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox10
+#febLoans
 {
    line-height: 16px;
 }
@@ -6238,7 +6115,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox11
+#marLoans
 {
    left: 131px;
    top: 531px;
@@ -6250,7 +6127,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox11
+#marLoans
 {
    line-height: 16px;
 }
@@ -6268,7 +6145,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox12
+#aprLoans
 {
    left: 131px;
    top: 558px;
@@ -6280,7 +6157,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox12
+#aprLoans
 {
    line-height: 16px;
 }
@@ -6298,7 +6175,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox13
+#mayLoans
 {
    left: 131px;
    top: 585px;
@@ -6310,7 +6187,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox13
+#mayLoans
 {
    line-height: 16px;
 }
@@ -6328,7 +6205,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox14
+#junLoans
 {
    left: 131px;
    top: 612px;
@@ -6340,7 +6217,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox14
+#junLoans
 {
    line-height: 16px;
 }
@@ -6358,7 +6235,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox15
+#janReturns
 {
    left: 194px;
    top: 477px;
@@ -6370,7 +6247,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox15
+#janReturns
 {
    line-height: 16px;
 }
@@ -6388,7 +6265,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox16
+#janPending
 {
    left: 258px;
    top: 477px;
@@ -6400,7 +6277,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox16
+#janPending
 {
    line-height: 16px;
 }
@@ -6418,7 +6295,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox17
+#febReturms
 {
    left: 194px;
    top: 504px;
@@ -6430,7 +6307,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox17
+#febReturms
 {
    line-height: 16px;
 }
@@ -6448,7 +6325,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox18
+#febPending
 {
    left: 258px;
    top: 504px;
@@ -6460,7 +6337,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox18
+#febPending
 {
    line-height: 16px;
 }
@@ -6478,7 +6355,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox19
+#marReturns
 {
    left: 194px;
    top: 531px;
@@ -6490,7 +6367,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox19
+#marReturns
 {
    line-height: 16px;
 }
@@ -6508,7 +6385,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox20
+#marPending
 {
    left: 258px;
    top: 531px;
@@ -6520,7 +6397,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox20
+#marPending
 {
    line-height: 16px;
 }
@@ -6538,7 +6415,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox21
+#aprReturns
 {
    left: 194px;
    top: 558px;
@@ -6550,7 +6427,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox21
+#aprReturns
 {
    line-height: 16px;
 }
@@ -6568,7 +6445,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox22
+#aprPending
 {
    left: 258px;
    top: 558px;
@@ -6580,7 +6457,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox22
+#aprPending
 {
    line-height: 16px;
 }
@@ -6598,7 +6475,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox23
+#mayReturns
 {
    left: 194px;
    top: 585px;
@@ -6610,7 +6487,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox23
+#mayReturns
 {
    line-height: 16px;
 }
@@ -6628,7 +6505,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox24
+#mayPending
 {
    left: 258px;
    top: 585px;
@@ -6640,7 +6517,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox24
+#mayPending
 {
    line-height: 16px;
 }
@@ -6658,7 +6535,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox25
+#junReturns
 {
    left: 194px;
    top: 612px;
@@ -6670,7 +6547,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox25
+#junReturns
 {
    line-height: 16px;
 }
@@ -6688,7 +6565,7 @@ body
    margin: 0;
    padding: 0;
 }
-#Editbox26
+#junPending
 {
    left: 258px;
    top: 612px;
@@ -6700,11 +6577,11 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox26
+#junPending
 {
    line-height: 16px;
 }
-#Editbox27
+#reg
 {
    left: 67px;
    top: 647px;
@@ -6716,7 +6593,7 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#Editbox27
+#reg
 {
    line-height: 16px;
 }
@@ -6871,7 +6748,7 @@ body
    padding: 0;
    text-align: center;
 }
-#wb_Icon6
+#wb_callInput
 {
    left: 177px;
    top: 288px;
@@ -6882,18 +6759,18 @@ body
    margin: 10px 5px 10px 5px;
    padding: 5px 5px 5px 5px;
 }
-#Icon6
+#callInput
 {
    width: 16px;
    height: 16px;
 }
-#Icon6 i
+#callInput i
 {
    line-height: 16px;
    font-size: 16px;
    width: 15px;
 }
-#wb_Icon7
+#wb_emailInput
 {
    left: 222px;
    top: 288px;
@@ -6904,18 +6781,18 @@ body
    margin: 10px 5px 10px 5px;
    padding: 5px 5px 5px 5px;
 }
-#Icon7
+#emailInput
 {
    width: 16px;
    height: 16px;
 }
-#Icon7 i
+#emailInput i
 {
    line-height: 16px;
    font-size: 16px;
    width: 15px;
 }
-#wb_Icon8
+#wb_smsInput
 {
    left: 267px;
    top: 288px;
@@ -6926,56 +6803,12 @@ body
    margin: 10px 5px 10px 5px;
    padding: 5px 5px 5px 5px;
 }
-#Icon8
+#smsInput
 {
    width: 16px;
    height: 16px;
 }
-#Icon8 i
-{
-   line-height: 16px;
-   font-size: 16px;
-   width: 15px;
-}
-#wb_Icon9
-{
-   left: 110px;
-   top: 773px;
-   width: 16px;
-   height: 16px;
-   visibility: visible;
-   display: inline;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#Icon9
-{
-   width: 16px;
-   height: 16px;
-}
-#Icon9 i
-{
-   line-height: 16px;
-   font-size: 16px;
-   width: 15px;
-}
-#wb_Icon10
-{
-   left: 147px;
-   top: 773px;
-   width: 16px;
-   height: 16px;
-   visibility: visible;
-   display: inline;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#Icon10
-{
-   width: 16px;
-   height: 16px;
-}
-#Icon10 i
+#smsInput i
 {
    line-height: 16px;
    font-size: 16px;
@@ -6983,9 +6816,9 @@ body
 }
 #wb_OverlayMenu1
 {
-   left: 177px;
-   top: 63px;
-   width: 138px;
+   left: 204px;
+   top: 61px;
+   width: 84px;
    height: 32px;
    visibility: visible;
    display: inline;
@@ -6997,7 +6830,7 @@ body
    background-image: none;
    border: 0px solid #424242;
    border-radius: 0px;
-   width: 138px;
+   width: 84px;
    height: 32px;
 }
 #OverlayMenu1:hover
@@ -7023,8 +6856,63 @@ body
    font-size: 19px;
    text-align: left;
 }
+#Html2
+{
+   left: 9px;
+   top: 135px;
+   width: 294px;
+   height: 21px;
+   visibility: visible;
+   display: inline;
 }
-    #countdown {
+}
+    /* Customize the appearance of the sliders */
+    input[type="range"] {
+      //-webkit-appearance: none;
+      background: #A29595;
+      border-radius: 2px;
+      outline: none;
+      opacity: 1;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+  
+    input[type="range"]::-webkit-slider-thumb {
+      //-webkit-appearance: none;
+      //appearance: none;
+      width: 0px;
+      height: 0px;
+      background-color: #932424;
+      border-radius: 20%;
+      cursor: pointer;
+    }
+    input[type="range"]:hover {
+      opacity: 1;
+    }
+    /* Remove the default tooltip for the sliders*/
+    input[type="range"]::-moz-range-tooltip,
+    input[type="range"]::-ms-tooltip {
+      display: none;
+    }
+    /* Style for tel and email icons */
+    .contact-icon {
+      font-size: 20px;
+      margin-right: 5px;
+      text-decoration: none;
+      color: #333;
+      position:absolute;
+      top: 700px;
+    }
+    #emailIcon {
+      left: 159px;
+      top: 790px;
+    }
+    
+    #telIcon {
+      left: 124px;
+      top: 790px;
+    }
+      #countdown {
       position: fixed;
       top: 50px;
       left: 5px;
