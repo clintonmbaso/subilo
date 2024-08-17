@@ -1321,7 +1321,7 @@ const formData = [
         idInput: 'SI21MP0618',
         First_Name: 'Rachel',
         Middle_Name: '-',
-        Last_Name: 'Nkoma',
+        Last_Name: 'Nkhoma',
         circleBegunOn: '2024-07-05',
         circleEndsOn: '2025-01-05',
         Status: 'Active',
@@ -1330,9 +1330,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0620.jpg',
         parentImageUrl: 'images/circle6/SI21MP0620n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'abc@gmail.com',
+        callInput: '+260977282477',
+        smsInput: '+260977282477',
         
         janShares: 1200,
         janLoans: 0,
