@@ -381,9 +381,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0605.jpg',
         parentImageUrl: 'images/circle6/SI21MP0605n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'memorynkosi@gmail.com',
+        callInput: '+260978818499',
+        smsInput: '+260978818499',
         
         janShares: 2400,
         janLoans: 0,
@@ -454,9 +454,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0606.jpg',
         parentImageUrl: 'images/circle6/SI21MP0606n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'imakandoangela123@gmail.com',
+        callInput: '+260977574035',
+        smsInput: '+260977574035',
         
         janShares: 2400,
         janLoans: 5000,
@@ -490,10 +490,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Niece',
+        kinPhone: '+260977779771',
+        kinName: 'Likando Katukula',
+        kinEmail: 'katukulalikando@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -527,9 +527,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0607.jpg',
         parentImageUrl: 'images/circle6/SI21MP0607n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'munalulakennedy5@gmail.com',
+        callInput: '+260963683232',
+        smsInput: '+260963683232',
         
         janShares: 3600,
         janLoans: 0,
@@ -563,9 +563,9 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
+        relation: 'Wife',
+        kinPhone: '260969636573',
+        kinName: 'Maria Monde',
         kinEmail: 'Enter Record',
         
         reg: 100,
@@ -712,7 +712,7 @@ const formData = [
         relation: 'Husband',
         kinPhone: '+260977352215',
         kinName: 'Benson Mambwe',
-        kinEmail: 'bensonmambwe@gmail.com',
+        kinEmail: 'mambweben2@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -746,7 +746,7 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0610.jpg',
         parentImageUrl: 'images/circle6/SI21MP0609.jpg',
         
-        emailInput: 'briclintons@gmail.com',
+        emailInput: 'mambweben2@gmail.com',
         callInput: '+260977352215',
         smsInput: '+260977352215',
         
@@ -819,9 +819,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0611.jpg',
         parentImageUrl: 'images/circle6/SI21MP0611n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'mhamaumbwe@gmail.com',
+        callInput: '+260977122760',
+        smsInput: '+260977122760',
         
         janShares: 7200,
         janLoans: 0,
@@ -855,10 +855,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Brother',
+        kinPhone: '+260977393633',
+        kinName: 'Alexander Zaza',
+        kinEmail: 'alexanderzdevine@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -892,9 +892,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0612.jpg',
         parentImageUrl: 'images/circle6/SI21MP0613.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'indranyemba@gmail.com',
+        callInput: '+260979928614',
+        smsInput: '+260979928614',
         
         janShares: 2400,
         janLoans: 5000,
@@ -928,10 +928,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Husband',
+        kinPhone: '+260978291199',
+        kinName: 'Bornface Mukwita',
+        kinEmail: 'bornfacemukwita1@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -965,9 +965,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0613.jpg',
         parentImageUrl: 'images/circle6/SI21MP0612.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'bornfacemukwita1@gmail.com',
+        callInput: '+260978291199',
+        smsInput: '+260978291199',
         
         janShares: 3600,
         janLoans: 10000,
@@ -1001,10 +1001,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Wife',
+        kinPhone: '+260979928614',
+        kinName: 'Indra Nyemba',
+        kinEmail: 'indranyemba@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -1038,9 +1038,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0614.jpg',
         parentImageUrl: 'images/circle6/SI21MP0614n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'mercymwila13@gmail.com',
+        callInput: '+260977452258',
+        smsInput: '+260977452258',
         
         janShares: 2400,
         janLoans: 5000,
@@ -1074,10 +1074,10 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
-        kinEmail: 'Enter Record',
+        relation: 'Husband',
+        kinPhone: '+260977705003',
+        kinName: 'Martin Siwakwi',
+        kinEmail: 'kamandowiza5@gmail.com',
         
         reg: 100,
         paidOut: 0,
@@ -1111,9 +1111,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0617.jpg',
         parentImageUrl: 'images/circle6/SI21MP0617n.jpg',
         
-        emailInput: 'briclintons@gmail.com',
-        callInput: '0967703883',
-        smsInput: '0967703883',
+        emailInput: 'abc@gmail.com',
+        callInput: '+260978855674',
+        smsInput: '+260978855674',
         
         janShares: 3600,
         janLoans: 0,
@@ -1147,9 +1147,9 @@ const formData = [
         
         circle: 'Circle 6',
         
-        relation: 'Enter Record',
-        kinPhone: 'Enter Record',
-        kinName: 'Enter Record',
+        relation: 'Mother',
+        kinPhone: '+260978300644',
+        kinName: 'Fanny Nkhoma',
         kinEmail: 'Enter Record',
         
         reg: 100,
@@ -1184,9 +1184,9 @@ const formData = [
         learnerImageUrl: 'images/circle6/SI21MP0618.jpg',
         parentImageUrl: 'images/circle6/SI21MP0618n.jpg',
         
-        emailInput: 'Mirandakundolah@gmail.com',
-        callInput: '0978705799',
-        smsInput: '0964316865',
+        emailInput: 'mirandakundolah@gmail.com',
+        callInput: '+260978705799',
+        smsInput: '+260964316865',
         
         janShares: 1200,
         janLoans: 5000,
