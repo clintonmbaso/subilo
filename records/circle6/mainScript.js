@@ -94,14 +94,14 @@ function populateForm(data) {
     document.getElementById('savings').value = totalSavings;
     
     // Calculate and set pending
-    const totalPending = junPending;
+    const totalPending = janPending;
     document.getElementById('pending').value = totalPending;
     
-    // Calculate and set pending
+    // Calculate and set loan
     const totalLoan = calculateLoan(data);
     document.getElementById('loan').value = totalLoan;
     
-    const payOut = (data.Shares * 10428) - totalPending;
+    const payOut = (data.Shares * /*10428*/0) /*- totalPending*/;
     document.getElementById('payOut').value = payOut;
     
     document.getElementById('paidOut').value = data.paidOut;
