@@ -981,9 +981,10 @@ body
    border-radius: 5px;
    height: 19px;
    overflow-y: hidden;
+   white-space: nowrap;
    padding: 0;
    margin: 0;
-   text-align: center;
+   text-align: left;
    box-shadow: 0px 0px 10px #000000;
 }
 #wb_shaelynMbaso1
@@ -991,11 +992,11 @@ body
    color: #000000;
    font-family: Arial;
    font-weight: normal;
-   font-size: 13px;
+   font-size: 12px;
 }
 #wb_shaelynMbaso1 div
 {
-   text-align: center;
+   text-align: left;
 }
 #wb_shaelynMbaso1
 {
@@ -1016,7 +1017,7 @@ body
    height: 100%;
    margin: 0;
    padding: 0;
-   animation: shaelynMbaso1-marquee 10000ms linear infinite;
+   animation: shaelynMbaso1-marquee 20000ms linear infinite;
 }
 @keyframes shaelynMbaso1-marquee
 {
