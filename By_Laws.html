@@ -13,6 +13,7 @@
 <script src="wb.panel.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="wwb18.min.js"></script>
+<script src="js/events.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -111,7 +112,7 @@
                <div class="col-1-padding">
                   <div id="wb_shaelynMbaso1">
                      <div id="shaelynMbaso1">
-                        <span style="color:#000000;">This circle will come to an end on July 5, 2024</span>
+                        <span style="color:#000000;">This circle will come to an end on February 5, 2025</span>
                      </div></div>
                   <div id="wb_LayoutGrid3">
                      <div id="LayoutGrid3">
@@ -135,7 +136,7 @@ class="navigation-buttons"<input type="submit" id="Button6" onclick="navigateToP
                   <input type="submit" id="Button9" onclick="navigateToPage('page4');ShowObjectWithEffect('Button9', 0, 'fade', 1);ShowObjectWithEffect('Button20', 0, 'fade', 1);ShowObjectWithEffect('Button7', 1, 'fade', 1);ShowObjectWithEffect('Button8', 1, 'fade', 1);ShowObjectWithEffect('wb_page4', 1, 'fade', 1);ShowObjectWithEffect('wb_page5', 0, 'fade', 1);return false;" name="" value="Previous" class="navigation-buttons">
 class="navigation-buttons"<input type="submit" id="Button20" name="" value="Next">
                   <div id="wb_page1">
-                     <h6 id="page1" class="page">EXECUTIVE BOARD <br><br>1. Chairperson: Bridget Muuka (+260971636850)<br><br>2. Vice Chairperson: Nachilima Beauty (+260971983849)<br><br>3. Treasurer: Mambwe Bertha (+260977326129)<br><br>4. Vice Treasurer: Mwape Barbra (+260979360800)<br><br>5. Secretary: Mbaso Clint (+260968084570)</h6>
+                     <h6 id="page1" class="page">EXECUTIVE BOARD <br><br>1. Chairperson: Bridget Muuka (+260971636850)<br><br>2. Treasurer: Mambwe Bertha (+260977326129)<br><br>3. Vice Treasurer: Mwape Barbra (+260979360800)<br><br>4. Secretary: Mbaso Clint (+260968084570)</h6>
                   </div>
                   <div id="wb_page2">
                      <h6 id="page2" class="page">MEMBERSHIP SCHEME<br><br>1. Membership Fee: ZMW 100.00 Every Circle<br>2. Minimum Investment: ZMW 1000.00 Every Month<br>3. Maximum Investment: ZMW 50 000.00 Every Month<br>4. Cumulative Rate: 20% Every Month</h6>
@@ -168,127 +169,7 @@ class="navigation-buttons"<input type="submit" id="Button20" name="" value="Next
             </div>
          </div>
          <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
-         <script>         
-           // Array of events with their respective dates and reminder thresholds
-           const events = [
-             { name: "Opening Meeting", date: new Date("Jan 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing January", date: new Date("Feb 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing February", date: new Date("Mar 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing March", date: new Date("Apr 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-         	{ name: "Closing April", date: new Date("May 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing May", date: new Date("Jun 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing Meeting", date: new Date("Jul 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 }
-           ];
-         
-           let currentEventIndex = 0;
-         
-           function updateCountdown() {
-             // Get the current date and time
-             const now = new Date().getTime();
-         
-             // Get the details of the current event
-             const currentEvent = events[currentEventIndex];
-         
-             // Calculate the time remaining for the current event
-             const distance = currentEvent.date - now;
-         
-             // Calculate days, hours, minutes, and seconds
-             const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-             const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-         
-             // Display the countdown for the current event with the event name as a link
-             document.getElementById("countdown").innerHTML =
-               "<a href='#' onclick='openPopup()' style='text-decoration: none;'><strong>" + currentEvent.name + "</strong></a><br>" +
-               days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-         
-             // Check if it's time to show a reminder
-             if (distance > 0) {
-               if (days === currentEvent.reminderDays && hours === currentEvent.reminderHours) {
-                 showReminder(currentEvent.name);
-               }
-             }
-         
-             // If the countdown for the current event is over, move to the next event
-             if (distance < 0) {
-               currentEventIndex++;
-               // If all events are completed, display a message
-               if (currentEventIndex >= events.length) {
-                 document.getElementById("countdown").innerHTML = "All events completed!";
-               } else {
-                 // Update the countdown for the next event
-                 updateCountdown();
-               }
-             }
-           }
-         
-           // Function to show a reminder
-           function showReminder(eventName) {
-             const notificationOptions = {
-               body: "Your event '" + eventName + "' is approaching!",
-               icon: "icons/fwa.png" // Provide the path to an icon image
-             };
-         
-             // Check if the browser supports notifications
-             if ("Notification" in window) {
-               // Request permission to show notifications
-               Notification.requestPermission().then(function (permission) {
-                 if (permission === "granted") {
-                   // Show the notification
-                   const notification = new Notification("Event Reminder", notificationOptions);
-         
-                   // Vibrate for 1 second
-                   if ("vibrate" in navigator) {
-                     navigator.vibrate(1000);
-                   }
-         
-                   // Play a sound (may not work in all browsers)
-                   const audio = new Audio("path/to/sound.mp3"); // Provide the path to a sound file
-                   audio.play();
-                 }
-               });
-             }
-           }
-         
-           // Update the countdown every 1 second
-           setInterval(updateCountdown, 1000);
-         
-                 // Function to show the popup with image, caption, and details
-                 function showPopup(caption, details, imageUrl) {
-                     document.getElementById('popupsImage').src = imageUrl;
-                     document.getElementById('popupsCaption').innerHTML = caption;
-                     document.getElementById('popupsDetails').innerHTML = details;
-                     document.getElementById('popupsContainer').style.display = 'block';
-                     document.getElementById('blurredBackground').style.display = 'block'; // Show blurred background
-                 }
-         
-                 // Function to close the popups
-                 function closePopup() {
-                     document.getElementById('popupsContainer').style.display = 'none';
-                     document.getElementById('blurredBackground').style.display = 'none'; // Hide blurred background
-                 }
-         
-           let lastScrollPosition = 0;
-           const countdown = document.getElementById('countdown');
-         
-           window.addEventListener('scroll', () => {
-             const currentScrollPosition = window.scrollY;
-         
-             if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
-               countdown.classList.add('hide');
-             } else {
-               countdown.classList.remove('hide');
-             }
-         
-             lastScrollPosition = currentScrollPosition;
-           });
-                 
-                 // Close the popup and blurred background on page load
-                 window.onload = function() {
-                     closePopup();
-                 };
-         </script></div>
+</div>
    </div>
    <div id="wb_lowerfooterLayoutGrid">
       <div id="lowerfooterLayoutGrid">
