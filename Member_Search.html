@@ -7,11 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="Subilo.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
 <link href="Member_Search.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="wb.panel.min.js"></script>
 <script src="jquery.ui.effect.min.js"></script>
 <script src="wwb18.min.js"></script>
+<script src="js/devotional.js"></script>
+<script src="js/events.js"></script>
 <script>   
    $(document).ready(function()
    {
@@ -80,7 +83,8 @@
                               <li><a role="menuitem" href="./Constitution.html" class="OverlayMenu2-effect"><i class="fa fa-archive overlay-icon"></i>Constitution</a></li>
                               <li><a role="menuitem" href="./By_Laws.html" class="OverlayMenu2-effect"><i class="fa fa-clone overlay-icon"></i>By&nbsp;Laws</a></li>
                               <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-database overlay-icon"></i>Executive&nbsp;Board</a></li>
-                           </ul>
+                              <li><a role="menuitem" href="./calendar.html" class="OverlayMenu2-effect"><i class="fa fa-calendar overlay-icon"></i>Calendar</a></li>
+</ul>
                         </div>
                      </div>
                      <div id="wb_Text40">
@@ -97,7 +101,7 @@
          <div class="row">
             <div class="col-1">
                <div id="wb_Text17">
-                  <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;"><br><br><br><br></span>
+                  <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;"></span>
                </div>
             </div>
          </div>
@@ -105,19 +109,19 @@
    </div>
    <div id="wb_aboutusLayoutGrid">
       <div id="aboutusLayoutGrid">
-         <div class="row">
+         <div class="row" style="padding: 0 0 0 0;">
             <div class="col-1">
                <div class="col-1-padding">
                   <div id="wb_shaelynMbaso1">
                      <div id="shaelynMbaso1">
-                        <span style="color:#000000;">This circle will come to an end on July 5, 2024</span>
+                        <span style="color:#000000;">This circle will come to an end on Jan 5, 2025</span>
                      </div></div>
                   <div id="wb_LayoutGrid2">
                      <div id="LayoutGrid2">
                         <div class="row">
                            <div class="col-1">
                               <div id="wb_Text4">
-                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>Search For Your Form<br></strong></span><span style="color:#FFFF00;font-family:'Trebuchet MS';font-size:15px;">Enter the login details you have been provided with, for you to access your details.</span>
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:20px;"><strong>Search For Your Form<br></strong></span><span style="color:#FFFF00;font-family:'Trebuchet MS';font-size:13px;">Enter the login details you have been provided with, for you to access your details.</span>
                               </div>
                            </div>
                         </div>
@@ -142,139 +146,20 @@
             </div>
          </div>
          <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
-         <script>         
-           // Array of events with their respective dates and reminder thresholds
-           const events = [
-             { name: "Opening Meeting", date: new Date("Jan 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing January", date: new Date("Feb 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing February", date: new Date("Mar 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing March", date: new Date("Apr 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-         	{ name: "Closing April", date: new Date("May 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing May", date: new Date("Jun 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 },
-             { name: "Closing Meeting", date: new Date("Jul 5, 2024 20:00:00").getTime(), reminderDays: 5, reminderHours: 0 }
-           ];
-         
-           let currentEventIndex = 0;
-         
-           function updateCountdown() {
-             // Get the current date and time
-             const now = new Date().getTime();
-         
-             // Get the details of the current event
-             const currentEvent = events[currentEventIndex];
-         
-             // Calculate the time remaining for the current event
-             const distance = currentEvent.date - now;
-         
-             // Calculate days, hours, minutes, and seconds
-             const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-             const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-         
-             // Display the countdown for the current event with the event name as a link
-             document.getElementById("countdown").innerHTML =
-               "<a href='#' onclick='openPopup()' style='text-decoration: none;'><strong>" + currentEvent.name + "</strong></a><br>" +
-               days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-         
-             // Check if it's time to show a reminder
-             if (distance > 0) {
-               if (days === currentEvent.reminderDays && hours === currentEvent.reminderHours) {
-                 showReminder(currentEvent.name);
-               }
-             }
-         
-             // If the countdown for the current event is over, move to the next event
-             if (distance < 0) {
-               currentEventIndex++;
-               // If all events are completed, display a message
-               if (currentEventIndex >= events.length) {
-                 document.getElementById("countdown").innerHTML = "All events completed!";
-               } else {
-                 // Update the countdown for the next event
-                 updateCountdown();
-               }
-             }
-           }
-         
-           // Function to show a reminder
-           function showReminder(eventName) {
-             const notificationOptions = {
-               body: "Your event '" + eventName + "' is approaching!",
-               icon: "icons/fwa.png" // Provide the path to an icon image
-             };
-         
-             // Check if the browser supports notifications
-             if ("Notification" in window) {
-               // Request permission to show notifications
-               Notification.requestPermission().then(function (permission) {
-                 if (permission === "granted") {
-                   // Show the notification
-                   const notification = new Notification("Event Reminder", notificationOptions);
-         
-                   // Vibrate for 1 second
-                   if ("vibrate" in navigator) {
-                     navigator.vibrate(1000);
-                   }
-         
-                   // Play a sound (may not work in all browsers)
-                   const audio = new Audio("path/to/sound.mp3"); // Provide the path to a sound file
-                   audio.play();
-                 }
-               });
-             }
-           }
-         
-           // Update the countdown every 1 second
-           setInterval(updateCountdown, 1000);
-         
-                 // Function to show the popup with image, caption, and details
-                 function showPopup(caption, details, imageUrl) {
-                     document.getElementById('popupsImage').src = imageUrl;
-                     document.getElementById('popupsCaption').innerHTML = caption;
-                     document.getElementById('popupsDetails').innerHTML = details;
-                     document.getElementById('popupsContainer').style.display = 'block';
-                     document.getElementById('blurredBackground').style.display = 'block'; // Show blurred background
-                 }
-         
-                 // Function to close the popups
-                 function closePopup() {
-                     document.getElementById('popupsContainer').style.display = 'none';
-                     document.getElementById('blurredBackground').style.display = 'none'; // Hide blurred background
-                 }
-         
-           let lastScrollPosition = 0;
-           const countdown = document.getElementById('countdown');
-         
-           window.addEventListener('scroll', () => {
-             const currentScrollPosition = window.scrollY;
-         
-             if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
-               countdown.classList.add('hide');
-             } else {
-               countdown.classList.remove('hide');
-             }
-         
-             lastScrollPosition = currentScrollPosition;
-           });
-                 
-                 // Close the popup and blurred background on page load
-                 window.onload = function() {
-                     closePopup();
-                 };
-         </script></div>
+</div>
    </div>
 </body>
-</html>   <form action="#" method="post" onsubmit="return openHTMLFile()">
-      <br>
-      <label id="">First Name:</label>
-      <input name="firstName" required>
-      <label id="">Last Name:</label>
-      <input type="text" id="lastName" name="lastName" required><br>
-      <label id="">Member ID:</label>
-      <input type="text" id="studentId" name="studentId" required><br>
-      <label id="">Login Code:</label>
-      <input type="text" id="phoneNumber" name="phoneNumber" required><br>
+</html>   
+  <form action="#" method="post" onsubmit="return openHTMLFile()" style="padding:3px 20px;">
+      
+      <label id="" style="margin:1px;">First Name:</label>
+      <input name="firstName" required style="margin-bottom:1px;padding:3px;">
+      <label id="" style="margin:1px;">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required style="margin-bottom:1px;padding:3px;"><br>
+      <label id="" style="margin:1px;">Member ID:</label>
+      <input type="text" id="studentId" name="studentId" required style="margin-bottom:1px;padding:3px;"><br>
+      <label id="" style="margin:1px;">Login Code:</label>
+      <input type="text" id="phoneNumber" name="phoneNumber" required style="margin-bottom:1px;padding:3px;"><br>
         
       <button type="submit" value="Search">Submit</button>
         
