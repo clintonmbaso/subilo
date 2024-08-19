@@ -420,7 +420,7 @@ const formData = [
         relation: 'Brother',
         kinPhone: '+260979272071',
         kinName: 'Joe Luwaile',
-        kinEmail: 'Enter Record',
+        kinEmail: 'luwailej@gmail.com',
         
         reg: 100,
         paidOut: 0,
