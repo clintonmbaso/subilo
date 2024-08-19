@@ -311,7 +311,7 @@ const formData = [
         callInput: '0968084570',
         smsInput: '0975273790',
         
-        janShares: 6200,
+        janShares: 7200,
         janLoans: 7500,
         janReturns: 0,
         janPending: 0,
