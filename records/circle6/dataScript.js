@@ -1473,8 +1473,8 @@ const formData = [
         Status: 'Active',
         Shares: 1,
         
-        learnerImageUrl: 'images/circle6/SI21MP0622.jpg',
-        parentImageUrl: 'images/circle6/SI21MP0622n.jpg',
+        learnerImageUrl: 'images/circle6/SI21MP0620.jpg',
+        parentImageUrl: 'images/circle6/SI21MP0620n.jpg',
         
         emailInput: 'kabukabukatukula95@gmail.com',
         callInput: '+260973113588',
