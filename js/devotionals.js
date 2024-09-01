@@ -1920,7 +1920,7 @@ document.addEventListener("DOMContentLoaded", function () {
 "<p>Christ, our Redeemer, comprehended all the necessities of humanity. He formulated the mighty plans by which the fallen race is to be uplifted from the degradation of sin. In every circumstance, however trivial, He represented the Father. Though upholding the world by the word of His power, yet He would stoop to relieve a wounded bird.— CTr 249.1 - CTr 249.6</p>",
     
     // 31
-"<p><b>Jesus Will Give Us Life Eternal, August 31</b></p>" +
+"<p><b>Jesus Will Give Us Life Eternal</b></p>" +
 "<p>And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent. John 17:3.</p>" +
 "<p>The Lord Jesus said to His disciples when He was with them, 'I have yet many things to say unto you, but ye cannot bear them now.' He could have made disclosures which would have absorbed the attention of the disciples and caused them to lose sight of His former instruction that He wished to be the subject of their most earnest thought. But He withheld those things that they would have been amazed to hear, and that would have afforded them opportunity to cavil, to create misunderstanding and disaffection. He would give no occasion for persons of little faith and piety to mystify and misrepresent the truth, and thus create factions.</p>" +
 "<p>Jesus could have presented mysteries that would have given subject for thought and investigation for generations, even to the close of time. Himself the source of all true science, He could have led people to the investigation of mysteries, and age after age their minds would have been so thoroughly absorbed that they would have felt no desire to eat the flesh and drink the blood of the Son of God.</p>" +
@@ -1932,7 +1932,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // September
     // 1
-"<p><b>Christ Identifies With Our Sorrows</b>, September 1</p>" +
+"<p><b>Christ Identifies With Our Sorrows</b></p>" +
 "<p>Jesus said, Take ye away the stone. Martha, the sister of him that was dead, saith unto him, Lord ... he hath been dead four days. John 11:39.</p>" +
 "<p>Christ alone was able to bear the afflictions of the many. 'In all their affliction he was afflicted.' He never bore disease in His own flesh, but He carried the sickness of others. With tenderest sympathy He looked upon the suffering ones who pressed about Him. He groaned in spirit as He saw the work of Satan revealed in all their woe, and He made every case of need and of sorrow His own.... The power of love was in all His healing. He identified His interests with suffering humanity.</p>" +
 "<p>Christ was health and strength in Himself, and when sufferers were in His immediate presence, disease was always rebuked. It was for this that He did not go at once to Lazarus. He could not witness his suffering and not bring him relief. He could not witness disease or death without combating the power of Satan. The death of Lazarus was permitted that through his resurrection the last and crowning evidence might be given to the Jews that Jesus was the Son of God.</p>" +
@@ -1942,7 +1942,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //2
-"<p><b>Jesus Values Our Gifts of Loving Service</b>, September 2</p>" +
+"<p><b>Jesus Values Our Gifts of Loving Service</b></p>" +
 "<p>Now when Jesus was in Bethany, in the house of Simon the leper, there came unto him a woman having an alabaster box of very precious ointment, and poured it on his head, as he sat at meat. Matthew 26:6, 7.</p>" +
 "<p>This incident is full of instruction. Jesus, the world's Redeemer, is drawing close to the time when He will give His life for a sinful world. Yet how little did even His disciples realize what they were about to lose. Mary could not reason upon this subject. Her heart was filled with pure, holy love. The sentiment of her heart was 'What shall I render unto the Lord for all His benefits toward me?' This ointment, costly as it was estimated by the disciples, was but a poor expression of her love for her Master. But Christ could appreciate the gift as an expression of her love, and Mary's heart was filled with perfect peace and happiness.</p>" +
 "<p>Christ delights in the earnest desire of Mary to do the will of her Lord. He accepts the wealth of pure affection which His disciples did not, could not, understand.... Mary's ointment was the gift of love, and this gave it its value in the eyes of Christ.... Jesus saw Mary shrink away abashed, expecting to hear reproof from the One she loved and worshiped. But instead of this she hears words of commendation. 'Why trouble ye the woman?' He said, 'for she hath wrought a good work upon me. For ye have the poor always with you; but me ye have not always. For in that she hath poured this ointment on my body, she did it for my burial. Verily I say unto you, Wheresoever this gospel shall be preached in the whole world, there shall also this, that this woman hath done, be told for a memorial of her.' No other anointing would Jesus receive, for the Sabbath was nigh at hand, and they kept the Sabbath according to the commandment.... The desire that Mary had to do this service for her Lord was of more value to Christ than all the spikenard and precious ointment in the world, because it expressed her appreciation of the world's Redeemer. It was the love of Christ that constrained her....</p>" +
@@ -1950,7 +1950,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //3
-"<p><b>Jesus Triumphal Entry Witnessed by Many, September 3</b></p>" +
+"<p><b>Jesus Triumphal Entry Witnessed by Many</b></p>" +
 "<p>Ye shall find an ass tied, and a colt with her: loose them, and bring them unto me. And if any man say aught unto you, ye shall say, The Lord hath need of them. Matthew 21:2, 3.</p>" +
 "<p>The time of Christ's triumphal entry into Jerusalem was the most beautiful season of the year. The Mount of Olives was carpeted with green, and the groves were beautiful with varied foliage. Very many had come to the feast from the regions round about Jerusalem with an earnest desire to see Jesus. The crowning miracle of the Saviour in raising Lazarus from the dead had a wonderful effect upon minds, and a large and enthusiastic multitude was drawn to the place where Jesus was tarrying.</p>" +
 "<p>The afternoon was half spent when Jesus sent His disciples to the village of Bethphage.... This was the first time during His life of ministry that Christ had consented to ride, and the disciples interpreted this move to be an indication that He was about to assert His kingly power and authority, and take His position on David's throne. Joyfully they executed the commission. They found the colt as Jesus had said....</p>" +
@@ -1959,7 +1959,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //4
-"<p><b>The Saviour Has Intense Sorrow When We Reject His Love, September 4</b></p>" +
+"<p><b>The Saviour Has Intense Sorrow When We Reject His Love</b></p>" +
 "<p>He came unto his own, and his own received him not. John 1:11.</p>" +
 "<p>Before them the crowd with Jesus at His triumphal entry lies the city of Jerusalem, with the temple of pure white marble, which is gilded with glory by the rays of the setting sun. It is a picture of unsurpassed loveliness, and well might the people apply to her the words of the prophet, \"A crown of beauty in the hand of the Lord, and a royal diadem in the hand of thy God.\" At the entrancing sight, the throng joins with renewed fervor in their shouts of praise.... They suppose that Christ is now to take the throne of David and reign as a temporal prince. Their eyes turn to Him to see how He is impressed by the scene. But lo, the Son of man is in tears!</p>" +
 "<p>As Christ's eyes rest upon the temple, so soon to be desolated and its veil rent when the final act of the Jews would consummate His death, He wept over the disobedient city.... In a few short hours the world's Redeemer would be taken by wicked hands and crucified. Not the Roman nation, not the Gentiles, but the people for whom He had done so much, and from whom He had hoped for so much, were to be His murderers....</p>" +
@@ -1969,7 +1969,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //5
-"<p><b>“My House Shall Be Called a House of Prayer,” September 5</b></p>" +
+"<p><b>“My House Shall Be Called a House of Prayer,”</b></p>" +
 "<p>And Jesus went into the temple of God, and cast out all them that sold and bought in the temple, and overthrew the tables of the moneychangers, and the seats of them that sold doves. Matthew 21:12.</p>" +
 "<p>The temple courts were filled with cattle, sheep, oxen, and doves. Above the noise of the lowing of cattle, the bleating of the sheep, and the cooing of the doves could be heard the voice of the traffickers as they offered for sale the animals and birds, at the highest rates, to those who had come to the Passover to offer sacrifice. Jesus said, \"It is written, My house shall be called the house of prayer; but ye have made it a den of thieves.\"</p>" +
 "<p>This act on the part of Christ was deeply significant, more significant than any of the beholders realized. When the priests and Pharisees had recovered from the terror that had taken possession of their guilty souls at the words of Christ, they returned to the temple. They were not converted or even humbled. They determined to challenge Christ as to His authority for expelling them from the temple courts. When they reached the temple they found that a wonderful work had been done during their absence. The sick and dying had been restored to health. They were astonished, but they would not yield their stubborn unbelief. They had already determined to put Christ to death, and Lazarus also, who had been raised from the dead. They knew that the people would still believe in Christ as long as there lived among them one who had been raised from the dead by His power.</p>" +
@@ -1978,7 +1978,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //6
-"<p><b>God's People Not to Make a Pretentious Show, September 6</b></p>" +
+"<p><b>God's People Not to Make a Pretentious Show</b></p>" +
 "<p>And when he saw a fig tree in the way, he came to it, and found nothing thereon, but leaves only, and said unto it, Let no fruit grow on thee henceforward for ever. And presently the fig tree withered away. Matthew 21:19.</p>" +
 "<p>It was not a common thing for a fig tree to present full foliage at that early period of the season. The fruit of the fig tree makes its appearance before the leaves; therefore a fig tree in full leaf might be expected to have fruit upon it. Christ approached the tree, expecting to find fruit there, but searching from the lowest bough to the topmost branch, He found nothing but leaves, and His curse fell upon it.</p>" +
 "<p>This instance in the ministry of Christ is a singular one. It was unlike the ways and works of Christ.... Wherever He went He scattered mercy in words of counsel and deeds of goodness. He was the Restorer, the Healer. He came not to condemn the world but that the world through Him might be saved. The disciples could not understand the action of Christ in punishing a tree for its barrenness, and they said unto Him, \"How soon is the fig tree withered away!\"</p>" +
@@ -1988,7 +1988,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //7
-"<p><b>Christ Wants Us to Bear Fruit by Working for Him, September 7</b></p>" +
+"<p><b>Christ Wants Us to Bear Fruit by Working for Him</b></p>" +
 "<p>Every branch in me that beareth not fruit he taketh away: and every branch that beareth fruit, he purgeth it, that it may bring forth more fruit. John 15:2.</p>" +
 "<p>I have been thinking about the lesson that Christ gave to His disciples just prior to His entering the Garden of Gethsemane, knowing it would be His last opportunity to instruct His disciples before His crucifixion. He says to them, as He points to a vine—and the vine is something that the Jews greatly prized and respected and considered very beautiful—\"I am the true vine, and my Father is the husbandman. Every branch in me that beareth not fruit he taketh away.\"</p>" +
 "<p>Now, here is something for us to study.... We have our opportunities now to bear fruit; we can reveal that we are fruit-bearing branches of the vine. And if we go on now in a careless and indifferent manner, then what will be our position? He tells us He will take us away, for we cannot do anything without Christ, and if we are as a dead branch and do not draw sap and nourishment from the living Vine, we shall become withered branches. He says that every branch that beareth fruit, He purgeth it (pruneth it), that it may bring forth more fruit....</p>" +
@@ -1998,7 +1998,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //8
-"<p><b>Believers Should Have Personal Knowledge of Christ, September 8</b></p>" +
+"<p><b>Believers Should Have Personal Knowledge of Christ</b></p>" +
 "<p>Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not. 1 John 3:1.</p>" +
 "<p>How many today see Jesus Christ, the Saviour of the world, as He is! How few know Him! How few know the Father! Everyone that knows Christ has a knowledge of the Father. To see Christ as He is is one of the greatest blessings that can ever come to fallen humanity; the precious Saviour, to see Him as He is! How many have partial views of Jesus Christ. How many acknowledge Him as the world's Redeemer, but they know Him not as a personal Saviour; and this is essential—the knowledge of God in Jesus Christ....</p>" +
 "<p>\"And every man that hath this hope in him purifieth himself.\" What hope? Why, of seeing Jesus as He is, the living faith that lays hold of the arm of the infinite God, the living faith that takes Christ as our personal Saviour. Who knows Him as thus? All your casual views of Christ will not save a single soul. Do you know Him by the living connection of faith? ...</p>" +
@@ -2007,7 +2007,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //9
-"<p><b>By His Death the Saviour Ended Satan's Power Over Us, September 9</b></p>" +
+"<p><b>By His Death the Saviour Ended Satan's Power Over Us</b></p>" +
 "<p>Hereafter I will not talk much with you: for the prince of this world cometh, and hath nothing in me. John 14:30.</p>" +
 "<p>The Commander of heaven was assailed by the tempter. He had no clear, unobstructed passage through the world. He was not left free and without hindrance to win to His kingdom the souls of people by His gracious mercy and loving-kindness.... No human being had come into the world and escaped the power of the deceiver. The whole forces of the confederacy of evil were set upon His track to engage in warfare against Him, and, if possible, to prevail over Him....</p>" +
 "<p>Satan saw the image of God in the character and person of Jesus Christ. He knew that if Christ carried out His plan, his satanic authority would be at an end. Therefore, the life of Christ was a perpetual warfare against satanic agencies.... The conflict increased in fierceness and malignity as again and again the prey was taken out of his hands....</p>" +
@@ -2017,7 +2017,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //10
-"<p><b>Christ Came to Impart Peace to His People, September 10</b></p>" +
+"<p><b>Christ Came to Impart Peace to His People</b></p>" +
 "<p>Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid. John 14:27.</p>" +
 "<p>In the East the customary greeting when visiting the house of a friend was \"Peace be to this house,\" and in leaving it the same words were used. But Christ's farewell is of an altogether different character. John 14:27 quoted. Much is embodied in these words. They are of richest import, and will be reechoed to earth's remotest bounds....</p>" +
 "<p>Christ brought that peace with Him to the world. He came to impart that peace, that all who will believe on Him might have a peace that passeth understanding. He, the world's Redeemer, had carried that peace with Him throughout His earthly life, and now He had come to the time when He must give His life so that the treasure of peace might ever abide in the heart by faith. He left that peace with His disciples, and He is implanting and maintaining it in the hearts of all who will welcome its presence....</p>" +
@@ -2029,7 +2029,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //11
-"<p><b>Jesus, the True Passover Lamb, Was Slain for Our Sins, September 11</b></p>" +
+"<p><b>Jesus, the True Passover Lamb, Was Slain for Our Sins</b></p>" +
 "<p>Then came the day of unleavened bread, when the passover must be killed. And he sent Peter and John, saying, Go and prepare us the passover, that we may eat. Luke 22:7, 8.</p>" +
 "<p>Christ had chosen Peter and John, who were to be closely associated in labor, to prepare for the supper.... \"And he said unto them, Behold, when ye are entered into the city, there shall a man meet you, bearing a pitcher of water; follow him into the house where he entereth in. And ye shall say unto the good man of the house, The Master saith unto thee, Where is the guest chamber, where I shall eat the passover with my disciples?\" ...</p>" +
 "<p>Christ desired to guard against any premature movements that might be made by traitors coming to the supper and reciprocating the action designed by Judas. It was customary for those living in the metropolis to accommodate strangers desirous of celebrating the Passover. The message took the form of a command. It might seem to us to be unbecoming for these two Galileans to speak thus to a stranger. But circumstances happened as Christ foretold. The disciples met a man carrying a pitcher. They followed him and entered the house that he entered and repeated their message, and it met a ready assent on the part of the master of the house....</p>" +
@@ -2040,7 +2040,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //12
-"<p><b>If We Want to Be Great, We Must Give Humble Service, September 12</b></p>" +
+"<p><b>If We Want to Be Great, We Must Give Humble Service</b></p>" +
 "<p>And there was also a strife among them, which of them should be accounted the greatest. Luke 22:24.</p>" +
 "<p>The request of James and John to sit on the right and left of Christ's throne had excited the indignation of the others. That the two brothers should presume to ask for the highest position so stirred the ten that alienation threatened. They felt that they were misjudged, that their fidelity and talents were not appreciated. Judas was the most severe upon James and John.</p>" +
 "<p>When the disciples entered the upper room, their hearts were full of resentful feelings. Judas pressed next to Christ on the left side; John was on the right. If there was a highest place, Judas was determined to have it, and that place was thought to be next to Christ. And Judas was a traitor.</p>" +
@@ -2051,7 +2051,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //13
-"<p><b>We Are to Be Washed in the Great Fountain, September 13</b></p>" +
+"<p><b>We Are to Be Washed in the Great Fountain</b></p>" +
 "<p>Then cometh he to Simon Peter: and Peter saith unto him, Lord, dost thou wash my feet? John 13:6.</p>" +
 "<p>When Peter's turn came, he was unable to restrain himself and exclaimed with astonishment, 'Lord, dost thou wash my feet?' ...</p>" +
 "<p>Calmly Jesus replied, 'What I do thou knowest not now; but thou shalt know hereafter.' Feeling keenly the humiliation of his Lord, and filled with love and reverence for Him, Peter with great emphasis exclaimed, 'Thou shalt never wash my feet.'</p>" +
@@ -2065,7 +2065,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //14
-"<p><b>Covetousness and Greed Will Lead to Ruin if Indulged, September 14</b></p>" +
+"<p><b>Covetousness and Greed Will Lead to Ruin if Indulged</b></p>" +
 "<p>Verily, verily, I say unto you, that one of you shall betray me. John 13:21.</p>" +
 "<p>The disciples had searched one another's faces closely as they asked, 'Lord, is it I?' Until now Judas had sat silent, as if unconcerned. Now his silence drew all eyes to him. To escape the scrutiny of the disciples, he nerved himself to ask, as they had done, 'Master, is it I?' Jesus solemnly replied, 'Thou hast said.' ...</p>" +
 "<p>Even now Judas could have acknowledged his guilt, even now broken the spell upon him. Christ was close beside him, ready to aid him. But his pride and the temptation of the enemy were so strong that he had no power to escape from the snare. Instead of casting himself upon the mercy of a compassionate Saviour, he braced himself in resistance....</p>" +
@@ -2078,7 +2078,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //15
-"<p><b>We Do the Work of Satan Sowing Seeds of Doubt and Unbelief, September 15</b></p>" +
+"<p><b>We Do the Work of Satan Sowing Seeds of Doubt and Unbelief</b></p>" +
 "<p>Have not I chosen you twelve, and one of you is a devil? He spake of Judas Iscariot the son of Simon: for he it was that should betray him. John 6:70, 71.</p>" +
 "<p>Judas was one who exerted a large influence over the disciples. He was of commanding appearance and had excellent qualifications. But these endowments had not been sanctified to God. Judas had opened the chambers of his mind, the door of his heart, to the temptations of Satan. His energies were devoted to self-serving, self-exaltation, and the love of money....</p>" +
 "<p>That poor, independent soul, separate from the spirit and life of Christ, had a hard time. He was ever under condemnation, because the lessons of Christ were always cutting him. Yet he did not become transformed and converted into a living branch through connection with the True Vine. Oh, if Judas had only humbled his heart before God under this divine instruction that pointed so plainly to himself in the principles set forth. Then he would no longer have remained a tempter to his brother disciples, sowing the seed of unbelief in their hearts.</p>" +
@@ -2089,7 +2089,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //16
-"<p><b>In Gethsemane Our Destiny Hung in the Balance, September 16</b></p>" +
+"<p><b>In Gethsemane Our Destiny Hung in the Balance</b></p>" +
 "<p>And they came to a place which was named Gethsemane: and he saith to his disciples, Sit ye here, while I shall pray. Mark 14:32.</p>" +
 "<p>As Christ left the disciples, bidding them pray for themselves and for Him, He selected three—Peter, James, and John—and went still farther into the seclusion of the garden. These three disciples had seen His transfiguration; they had seen the heavenly visitors, Moses and Elias, talking with Jesus, and Christ desired their presence with Him on this occasion also....</p>" +
 "<p>Christ expressed His desire for human sympathy, and then withdrawing Himself from them about a stone's cast, He fell on His face and prayed, saying, 'Father, if thou be willing, remove this cup from me; nevertheless not my will, but thine, be done.'</p>" +
@@ -2102,7 +2102,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //17
-"<p><b>Christ Was Not Forced to Bear the Guilt of the World, September 17</b></p>" +
+"<p><b>Christ Was Not Forced to Bear the Guilt of the World</b></p>" +
 "<p>And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground. Luke 22:44.</p>" +
 "<p>Christ had not been forced to do this bear the guilt of a perishing world. He had volunteered to lay down His life to save the world. The claims of God's government had been misapprehended through the deceptive words and works of Satan, and the necessity of a mediator was seen and felt by the Father and the Son....</p>" +
 "<p>The universe of heaven had watched with intense interest the entire life of Christ—every step from the manger to the present awful scene of momentous interest. The unfallen worlds were watching the result of this controversy. They beheld the Son of God, their loved Commander, in His superhuman agony, apparently dying on the field of battle to save a lost and perishing world....</p>" +
@@ -2113,7 +2113,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //18
-"<p><b>When He Was Betrayed, Christ Felt What We Would Feel, September 18</b></p>" +
+"<p><b>When He Was Betrayed, Christ Felt What We Would Feel</b></p>" +
 "<p>Rise up, let us go; lo, he that betrayeth me is at hand. Mark 14:42.</p>" +
 "<p>And now they hear the heavy tramp of soldiers in the garden.... 'And he that betrayed him had given them a token, saying, Whomsoever I shall kiss, that same is he; take him, and lead him away safely. And as soon as he was come, he goeth straightway to him, and saith, Master; master; and kissed him.' 'But Jesus said unto him, Judas, betrayest thou the Son of man with a kiss?'</p>" +
 "<p>To the multitude Jesus said, 'Are ye come out, as against a thief, with swords and with staves to take me? I was daily with you in the temple teaching, and ye took me not: but the scriptures must be fulfilled.'</p>" +
@@ -2124,7 +2124,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //19
-"<p><b>Our Place in History Will Be Determined by Our Characters, September 19</b></p>" +
+"<p><b>Our Place in History Will Be Determined by Our Characters</b></p>" +
 "<p>Consider that it is expedient for us, that one man should die for the people, and that the whole nation perish not. John 11:50.</p>" +
 "<p>With Caiaphas the Jewish high priesthood ended. This proud, overbearing, wicked man proved his unworthiness ever to have worn the garments of the high priest. He had neither capacity nor authority from heaven for doing the work.... Virtually, Caiaphas was no high priest. He wore the priestly robes, but he had no vital connection with God....</p>" +
 "<p>The mock trial of Christ shows how base the priesthood had become. The priests hired people to testify under oath to falsehood, that Jesus might be condemned. But on this occasion, truth came to the help of Christ.... Thus it was shown that the testimonies borne against Him were false, that the witnesses had been hired by men who cherished in their hearts the basest elements of corruption. It was God's design that the men who delivered Jesus should hear the testimony of His innocence. 'I find no fault in him,' Pilate declared. And Judas, throwing at the feet of the priests the money he had received for betraying Christ, bore testimony, 'I have sinned in that I have betrayed the innocent blood.'</p>" +
@@ -2134,7 +2134,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //20
-"<p><b>Like Pilate, We Condemn Christ by Our Silence, September 20</b></p>" +
+"<p><b>Like Pilate, We Condemn Christ by Our Silence</b></p>" +
 "<p>Knowest thou not that I have power to crucify thee, and have power to release thee? Jesus answered, Thou couldest have no power at all against me, except it were given thee from above. John 19:10, 11.</p>" +
 "<p>Before the judgment seat Christ stands bound as a prisoner. The judge looks upon Him with suspicion and severity. The people are fast gathering, and spectators are on every side as the charges against Him are read: 'He says he is the king of the Jews.' 'He refuses to pay tribute to Caesar.' 'He makes himself equal with God.' ... Pilate was convinced that no evidence of the guilt of Christ could be substantiated, notwithstanding the priests and rulers had declared that He had spoken blasphemy. But the Jews were under the inspiration of Satan as was Cain and other murderers who have determined to destroy life rather than to save it. 'And they were the more fierce, saying, He stirreth up the people, teaching throughout all Jewry, beginning from Galilee to this place.'</p>" +
 "<p>Here Pilate thought he saw a chance how he might rid himself of the whole matter of the trial of Christ. He perceived clearly that the Jews had delivered Christ up from envy.... 'As soon as he knew that he Christ belonged unto Herod's jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time.'</p>" +
@@ -2144,7 +2144,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //21
-"<p><b>History Is Repeated Christ's Followers Persecuted, September 21</b></p>" +
+"<p><b>History Is Repeated Christ's Followers Persecuted</b></p>" +
 "<p>And Herod with his men of war set him at nought, and mocked him, and arrayed him in a gorgeous robe, and sent him again to Pilate. Luke 23:11.</p>" +
 "<p>Past history will be repeated. A determined conflict is to be waged in the Christian world. People who are disloyal to the commandments of the living God will, in their supposed self-importance, be inspired by Satan to war against those who follow the Lamb of God which taketh away the sin of the world.... The result will be that people will become inhuman in their actions toward other people....</p>" +
 "<p>If the professed Christian world would take a lesson from the Jews' treatment of Christ, and resolve in God never themselves to tread over the same ground, they would not make themselves responsible for the death of Christ in the person of His saints.</p>" +
@@ -2156,7 +2156,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //22
-"<p><b>Against Overwhelming Evidence Pilate Still Wavered, September 22</b></p>" +
+"<p><b>Against Overwhelming Evidence Pilate Still Wavered</b></p>" +
 "<p>And from henceforth Pilate sought to release him: but the Jews cried out, saying, If thou let this man go, thou art not Caesar's friend: whosoever maketh himself a king speaketh against Caesar. John 19:12.</p>" +
 "<p>After Herod had done his satanic work, he sent Christ, without having pronounced judgment upon Him, back to Pilate, a man convinced, a man convicted, of the truth but unwilling to yield. Pilate seemed wrought upon by unseen influences to acknowledge his convictions in regard to the Holy One of Israel. His wavering mind was compelled to acknowledge that Christ was no pretender, that not a single trace of deception could be found in His words or deportment.... Before that satanic, maddened throng, he pleaded for the scourge in the place of the cross.</p>" +
 "<p>The determined priests and rulers designed that the scourge should not be left out, but nothing short of the cross would they consent to be His punishment. This is human nature today when under the control of Satan....</p>" +
@@ -2167,7 +2167,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //23
-"<p><b>The World's Redeemer Rejected by His Own People, September 23</b></p>" +
+"<p><b>The World's Redeemer Rejected by His Own People</b></p>" +
 "<p>Pilate said unto them, Whom will ye that I release unto you? Barabbas, or Jesus which is called Christ? Matthew 27:17.</p>" +
 "<p>One other course suggested itself to Pilate whereby he might save Him whom he dared not give up to that maddened power, knowing that for envy they had brought Jesus to the judgment hall. Pagan invention, without one particle of justice in it, had made a custom that at the great national festival there should be set at liberty one prisoner who had been condemned to death. Could the convicted Pilate make use of this subterfuge and bring about that which he desired—save an innocent man, whose power, even while bound and under accusation, he knew to be the power of no common man, but of God? His soul was in terrible conflict. He would present the true and innocent Christ side by side with the notable Barabbas, and he flattered himself that the contrast between innocence and guilt would be so convincing that Jesus of Nazareth would be their choice.</p>" +
 "<p>Barabbas had pretended to be Christ and had done great wickedness. Under satanic delusion he claimed that whatever he could obtain by theft and robbery and murder was his own. A most striking contrast was presented between the two. Barabbas was a notorious character who had done wonderful things through satanic agencies. He claimed to have religious power, a right to establish a different order of things....</p>" +
@@ -2178,7 +2178,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //24
-"<p><b>Will You Choose Jesus? September 24</b></p>" +
+"<p><b>Will You Choose Jesus?</b></p>" +
 "<p>But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews? John 18:39.</p>" +
 "<p>The great controversy between the Prince of light and the prince of darkness has not abated one jot or tittle of its influence as time has gone on....</p>" +
 "<p>In our behalf Christ met the specious temptations of Satan and left to us an example as to how to overcome Satan in the conflict. He exhorts His followers, saying, 'Be of good cheer; I have overcome the world.' Satan has made masterly efforts to perpetuate sin. He arrayed all his evil agencies to war against Jesus Christ in an active, desperate conflict, in order that he might bruise the heart of infinite Love. He seduced the people to bow to idols, and thus gained supremacy over earthly kingdoms. He considered that to be the god of this world was the next best thing to gaining possession of the throne of God in heaven. In a large measure he has been successful in his plans. When Jesus was on earth Satan led the people to reject the Son of God and to choose Barabbas, who in character represented Satan, the god of this world.</p>" +
@@ -2189,7 +2189,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //25
-"<p><b>Each of Us Needs to Know Our Own Weaknesses, September 25</b></p>" +
+"<p><b>Each of Us Needs to Know Our Own Weaknesses</b></p>" +
 "<p>And the Lord said, Simon, Simon, behold, Satan hath desired to have you, that he may sift you as wheat: but I have prayed for thee, that thy faith fail not: and when thou art converted, strengthen thy brethren. Luke 22:31, 32.</p>" +
 "<p>Satan is ever intruding himself between the human soul and God. He is ever seeking to make the human agent voice his suggestions rather than the words of God....</p>" +
 "<p>How little did Peter understand his own weakness. He could not discern but that his spirit was all right, even when he sought to make of none effect the solemn words of Christ that opened to them the disciples a future full of sorrow and of suffering, both to Him and to them. Christ saw that unless Peter was changed in spirit, he would not be able to endure the test and the trial of his Lord's rejection, humiliation, condemnation, and death. To his Master's warning words he responded, 'Lord, I am ready to go with thee, both into prison, and to death. And he said, I tell thee, Peter, the cock shall not crow this day, before that thou shalt thrice deny that thou knowest me.'</p>" +
@@ -2201,7 +2201,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //26
-"<p><b>While We Look to God Satan Has No Power Over Us, September 26</b></p>" +
+"<p><b>While We Look to God Satan Has No Power Over Us</b></p>" +
 "<p>Wherefore let him that thinketh he standeth take heed lest he fall. 1 Corinthians 10:12.</p>" +
 "<p>Just before Peter's fall, Christ said to him, 'Simon, behold, Satan hath desired to have you, that he may sift you as wheat.' How true was the Saviour's friendship for Peter! How compassionate His warning! But the warning was resented. In self-sufficiency Peter declared confidently that he would never do what Christ had warned him against. 'Lord,' he said, 'I am ready to go with thee, both into prison, and to death.' His self-confidence proved his ruin. He tempted Satan to tempt him, and he fell under the arts of the wily foe. When Christ needed him most, he stood on the side of the enemy and openly denied his Lord.</p>" +
 "<p>But even when Peter was denying Him, Christ showed that He still loved him. In the judgment hall, surrounded by those who were clamoring for His life, Jesus thought of His suffering, erring disciple, and turning, He looked at him. In that look Peter read the Saviour's love and compassion, and a tide of memories rushed over him.... He saw that he was doing the very thing that he had declared he would not do.... Once more he looked at his Master and saw a sacrilegious hand raised to smite Him in the face. Unable longer to endure the scene, he rushed heartbroken from the hall.</p>" +
@@ -2213,7 +2213,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //27
-"<p><b>Christ Crucified for Us, September 27</b></p>" +
+"<p><b>Christ Crucified for Us</b></p>" +
 "<p>And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left. Luke 23:33.</p>" +
 "<p>For transgression of the law of God, Adam and Eve were banished from Eden. Christ, our substitute, was to suffer without the boundaries of Jerusalem. He died outside the gate, where felons and murderers were executed. Full of significance are the words 'Christ hath redeemed us from the curse of the law, being made a curse for us.'—The Desire of Ages, 741.</p>" +
 "<p>Upon Christ as our substitute and surety was laid the iniquity of us all. He was counted a transgressor, that He might redeem us from the condemnation of the law. The guilt of every descendant of Adam was pressing upon His heart. The wrath of God against sin, the terrible manifestation of His displeasure because of iniquity, filled the soul of His Son with consternation. All His life Christ had been publishing to a fallen world the good news of the Father's mercy and pardoning love. Salvation for the chief of sinners was His theme. But now with the terrible weight of guilt He bears, He cannot see the Father's reconciling face. The withdrawal of the divine countenance from the Saviour in this hour of supreme anguish pierced His heart with a sorrow that can never be fully understood by us. So great was this agony that His physical pain was hardly felt.</p>" +
@@ -2223,7 +2223,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //28
-"<p><b>Jesus Became Sin for Us and Suffered Alone, September 28</b></p>" +
+"<p><b>Jesus Became Sin for Us and Suffered Alone</b></p>" +
 "<p>Reproach hath broken my heart; and I am full of heaviness: and I looked for some to take pity, but there was none; and for comforters, but I found none. Psalm 69:20.</p>" +
 "<p>The spotless Son of God hung upon the cross, His flesh lacerated with stripes; those hands so often reached out in blessing, nailed to the wooden bars; those feet so tireless on ministries of love, spiked to the tree; that royal head pierced by the crown of thorns; those quivering lips shaped to the cry of woe. And all that He endured—the blood drops that flowed from His head, His hands, His feet, the agony that racked His frame, and the unutterable anguish that filled His soul at the hiding of His Father's face—speaks to each child of humanity, declaring, It is for thee that the Son of God consents to bear this burden of guilt; for thee He spoils the domain of death, and opens the gates of Paradise.—The Desire of Ages, 755.</p>" +
 "<p>In the sufferings of Christ upon the cross prophecy was fulfilled. Centuries before the crucifixion, the Saviour had foretold the treatment He was to receive. He said, 'Dogs have compassed me: the assembly of the wicked have inclosed me: they pierced my hands and my feet. I may tell all my bones: they look and stare upon me. They part my garments among them, and cast lots upon my vesture.' The prophecy concerning His garments was carried out without counsel or interference from the friends or the enemies of the Crucified One. To the soldiers who had placed Him upon the cross, His clothing was given. Christ heard the men's contention as they parted the garments among them. His tunic was woven throughout without seam, and they said, 'Let us not rend it, but cast lots for it, whose it shall be.'</p>" +
@@ -2233,7 +2233,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //29
-"<p><b>“Wounded for Our Transgressions,” September 29</b></p>" +
+"<p><b>“Wounded for Our Transgressions,”</b></p>" +
 "<p>But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed. Isaiah 53:5.</p>" +
 "<p>God has a controversy with the inhabitants of this world. Satan has come to them disguised as an angel of light, and under his direction the majority of Christians bow at idolatrous shrines and worship an unknown god....</p>" +
 "<p>The human family broke the law of God and defied His will. This law reveals to the world the attributes of God's character, and not a jot or tittle of it could be changed to meet humankind in its fallen condition. But God gave men and women unmistakable evidence that He loved them, and that justice is the foundation of His throne and the evidence of His love. He carried out the penalty of transgression, but let it fall upon a Substitute, even His only begotten Son.</p>" +
@@ -2243,7 +2243,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //30
-"<p><b>Christ's Followers Will Be Hated by the World, September 30</b></p>" +
+"<p><b>Christ's Followers Will Be Hated by the World</b></p>" +
 "<p>If the world hate you, ye know that it hated me before it hated you.... because ye are not of the world, but I have chosen you out of the world, therefore the world hateth you. John 15:18, 19.</p>" +
 "<p>The followers of Christ should bear in mind that all the evil speeches made against Christ, all the abuse that He received, they must, as His followers, endure for His name's sake. The piety of the church may professedly be of a high order, but when the truth of the Word of God is brought to bear upon the heart, and when conviction of truth is rejected and despised so that they may keep in friendship with the majority, they place themselves ... as rejecters of truth and light, on the side of the enemy. Satan stirs them up by a power from beneath, with an intensity that reveals his enmity to God and His laws. They enact human laws that are oppressive and galling....</p>" +
 "<p>As Christ was hated without cause, so will His people be hated without cause, merely because they are obedient to the commandments of God and do His works in the place of working directly contrary to them. If He who was pure, holy, and undefiled, who did good and only good in our world, was treated as a base criminal and condemned to death without a vestige of evidence against Him, what can His disciples expect but similar treatment, however faultless may be their life and blameless their character? Human enactments, laws manufactured by satanic agencies under a plea of goodness and restriction of evil, will be exalted while God's holy enactments are despised and trampled underfoot....</p>" +
@@ -2254,7 +2254,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // October
     // 1
-"<p><b>Temple Service Ended at Death of Christ, October 1</b></p>" +
+"<p><b>Temple Service Ended at Death of Christ</b></p>" +
 "<p>And, behold, the veil of the temple was rent in twain from the top to the bottom; and the earth did quake, and the rocks rent. Matthew 27:51.</p>" +
 "<p>The next day the courts of the Temple were filled with worshipers.... But never had the service been performed with such conflicting feelings. The trumpets and musical instruments and the voices of the singers were as loud and clear as usual, but a sense of strangeness pervaded everything. One after another inquired about the strange event that had taken place. Hitherto the Most Holy Place had always been most sacredly guarded from intrusion....</p>" +
 "<p>Only once a year was it entered, and then by the high priest. But now a curious horror was seen on many countenances, for this apartment was open to all eyes. At the very moment that Christ had expired, the heavy veil of tapestry, made of pure linen, and beautifully wrought with scarlet and purple, had been rent from top to bottom. The place where Jehovah had met with the priest, to communicate His glory, the place that had been God's sacred audience chamber, lay open to every eye—a place no longer recognized by the Lord.</p>" +
@@ -2335,7 +2335,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //9
-"<p><b>The Bottom Line: “Sin Is the Transgression of the Law,” October 9</b></p>" +
+"<p><b>The Bottom Line: “Sin Is the Transgression of the Law,”</b></p>" +
 "<p>For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. John 3:16.</p>" +
 "<p>The rebellion against God's law was begun by Satan in heaven. By this rebellion sin was brought into existence.... Satan insisted that God had not dealt with him justly. He criticized God's plan of government. He declared the divine law to be arbitrary, detrimental to the interests of the heavenly universe, and in need of change.</p>" +
 "<p>Vital interests were at stake in the worlds that God had created. Would these supposed defects be made so apparent that the inhabitants of the heavenly universe would be justified in claiming that the law could be improved? Would Satan succeed in undermining their confidence in the law?</p>" +
@@ -2348,7 +2348,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //10
-"<p><b>All Creation Affected by the Great Controversy, October 10</b></p>" +
+"<p><b>All Creation Affected by the Great Controversy</b></p>" +
 "<p>It is finished. John 19:30.</p>" +
 "<p>From the manger to the cross Satan followed the Son of God. Temptations beat upon Him like a tempest. But the more fierce the conflict, the more familiar He became with the temptations wherewith human beings are beset, and the better prepared He was to succor the tempted. The severity of the trial through which Christ passed was proportionate to the value of the object to be gained or lost by His success or failure. Not merely the interests of one world were involved. This world was the battlefield, but all the worlds that God had created were affected by the result of the conflict.</p>" +
 "<p>In order that he might reign as supreme ruler, Satan sought to overthrow Christ. And he planned and carried out the murder of Christ for no other reason than that to the last he entertained the hope that Christ would not endure a death made as horrible as infernal wisdom could make it. He endeavored to prove the correctness of his assertion that Christ was not self-sacrificing.</p>" +
@@ -2360,7 +2360,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //11
-"<p><b>God's Law Finally Vindicated, October 11</b></p>" +
+"<p><b>God's Law Finally Vindicated</b></p>" +
 "<p>Give me understanding, and I shall keep thy law; yea, I shall observe it with my whole heart. Psalm 119:34.</p>" +
 "<p>When Christ ascended and laid open before the heavenly intelligences the scene of the conflict and the fierce attacks that Lucifer made against Him to prevent Him from accomplishing His work on the earth, all the prevarications and accusations of him who had been an exalted angel were seen in their true light. It was seen that his professedly spotless character was deceptive. His deeply laid scheme to exalt himself to supremacy was now fully discerned.... When the issue was finally settled, every unfallen being expressed indignation at the rebellion. With one voice they extolled God as righteous, merciful, self-denying, just. His law had been vindicated.</p>" +
 "<p>In the beginning Satan's purpose was to separate the human family from God. And in every age he has carried out this same purpose. The same method of deception, the same logic that he used to deceive the holy pair in Eden, he has used in all succeeding ages. His plan of work has ever been one of deception. He claims to be religious. He has a synagogue in which there are worshipers.... He sways all classes.</p>" +
@@ -2371,7 +2371,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //12
-"<p><b>The Son of God Was Bruised and Scarred in Our Place, October 12</b></p>" +
+"<p><b>The Son of God Was Bruised and Scarred in Our Place</b></p>" +
 "<p>Who his own self bear our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed. 1 Peter 2:24.</p>" +
 "<p>Well might all heaven be astonished at the reception their loved Commander received in the world! That a nation claiming to believe prophecy should deny Him, that they should go forward in face of warnings and predictions, close their eyes to light and fulfill the prophecies' every specification, and yet be so blind, so deluded by the enemy of souls that they claimed to be doing God service! And how amazing that a world should reject Him, as did one nation! ...</p>" +
 "<p>His hands were pierced with nails, His holy temples were crowned with thorns. He was indeed bruised by Satan, who nerved his agents to do most cruel things.... Our salvation was wrought out by infinite suffering to the Son of God.... The heel of Christ was indeed bruised when His humanity suffered, and grief heavier than that which ever oppressed the human beings He had created weighed down His soul as He was engaged in paying the vast debt that sinners owed to God, which they could never pay to redeem themselves from bondage. On Him was laid the transgression and grief of us all....</p>" +
@@ -2383,7 +2383,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //13
-"<p><b>Heaven's Triumphal Reception of Christ, October 13</b></p>" +
+"<p><b>Heaven's Triumphal Reception of Christ</b></p>" +
 "<p>Lift up your heads, O ye gates; even lift them up, ye everlasting doors; and the King of glory shall come in. Psalm 24:9.</p>" +
 "<p>Christ longed for careworn, oppressed, weary human beings to come to Him, that He might give them the light and life and joy and peace that is to be found nowhere else. The veriest sinners were the objects of His deep, earnest interest, pity, and love. But when in the greatest need of human sympathy, in the hour of His greatest trial and heaviest temptation, the most promising of His disciples left Him. He was indeed compelled to tread the winepress alone, and of the people there was none with Him. An atmosphere of apostasy surrounded Him. On every side could be heard sounds of mockery, taunting, and blasphemy. What then was the outlook for His disciples, left in a world that would not tolerate the Son of the living God? ...</p>" +
 "<p>Christ's work was finished when He expired on the cross, crying with a loud voice, \"It is finished.\" The way was laid open; the veil was rent in twain. Sinners could approach God without sacrificial offerings, without the service of a priest. Christ Himself was a priest forever after the order of Melchizedek. Heaven was His home. He came to this world to reveal the Father. His work on the field of His humiliation and conflict was now done. He ascended up into the heavens, and is forever set down on the right hand of God....</p>" +
@@ -2394,7 +2394,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //14
-"<p><b>The Promise of Divine Power, October 14</b></p>" +
+"<p><b>The Promise of Divine Power</b></p>" +
 "<p>And, behold, I send the promise of my Father upon you: but tarry ye in the city of Jerusalem, until ye be endued with power from on high. Luke 24:49.</p>" +
 "<p>Having magnified the law and made it honorable by accepting its conditions in saving a world from ruin, Christ hastened to heaven to perfect His work, and to accomplish His mission by sending the Holy Spirit to His disciples. Thus He would assure His believing ones that He had not forgotten them, though now in the presence of God where there is fullness of joy forevermore.</p>" +
 "<p>The Holy Spirit was to descend on those in this world who loved Christ. By this they would be qualified, in and through the glorification of their Head, to receive every endowment necessary for the fulfilling of their mission. The Life-giver held in His hands not only the keys of death but a whole heaven of rich blessings. All power in heaven and earth was given to Him, and having taken His place in the heavenly courts, He could dispense these blessings to all who receive Him....</p>" +
@@ -2405,7 +2405,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //15
-"<p><b>Two Disciples Went From Despair to Hope, October 15</b></p>" +
+"<p><b>Two Disciples Went From Despair to Hope</b></p>" +
 "<p>Two of them went that same day to a village called Emmaus, which was from Jerusalem about threescore furlongs. And they talked together of all these things which had happened. Luke 24:13, 14.</p>" +
 "<p>On the first day of the week after Christ's crucifixion, the disciples had everything to fill their hearts with rejoicing. But this day was not a day of joy to all. To some it was a day of uncertainty, confusion, and perplexity.... The women brought tidings that ... positively affirmed that Christ had risen from the dead, and that they themselves had seen Jesus alive in the garden.</p>" +
 "<p>But still the disciples seemed unbelieving. Their hopes had died with Christ. And when the news of His resurrection was brought to them, it was so different from what they had anticipated that they could not believe it.... From eyewitnesses some of the disciples had obtained quite a full account of the events of Friday. Others beheld the scenes of the crucifixion with their own eyes. In the afternoon of the first day of the week, two of the disciples, restless and unhappy, decided to return to their home in Emmaus, a village about eight miles from Jerusalem....</p>" +
@@ -2415,7 +2415,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //16
-"<p><b>The Disciples Enlightened on Christ's Identity, October 16</b></p>" +
+"<p><b>The Disciples Enlightened on Christ's Identity</b></p>" +
 "<p>And beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself. Luke 24:27.</p>" +
 "<p>The disciples wondered what this stranger could know that He should penetrate to their very souls and speak with such earnestness, tenderness, sympathy, and with such hopefulness. For the first time since Christ's betrayal in the garden, they began to feel hopeful. Often they looked earnestly at their Companion, and thought that His words were just the words that Christ would have spoken. They were filled with amazement, and their hearts began to throb with expectation, hope, and joy....</p>" +
 "<p>There are many who discount Old Testament history. They advocate the idea that the New Testament takes the place of the Old, and that therefore the Old Testament is no longer of any use. But Christ's first work with His disciples was to begin at the Alpha of the Old Testament to prove that He was to come to this world and pass through the experiences that had taken place in His incarnation. The rejection of the Son of God was plainly seen by the prophets....</p>" +
@@ -2426,7 +2426,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //17
-"<p><b>Jesus Reveals Himself to the Disciples, October 17</b></p>" +
+"<p><b>Jesus Reveals Himself to the Disciples</b></p>" +
 "<p>And it came to pass, as he sat at meat with them, he took bread, and blessed it, and brake, and gave to them. And their eyes were opened, and they knew him; and he vanished out of their sight. Luke 24:30, 31.</p>" +
 "<p>The simple evening meal of bread is prepared. It is placed before the Guest, and He puts forth His hands to bless the food. Why do the disciples start back in astonishment? Their companion spreads forth His hands in exactly the same way as their Master used to do. They look again, and lo, they see in His hands the print of nails. Both exclaim at once, It is the Lord Jesus. He has risen from the dead.</p>" +
 "<p>They rise to cast themselves at His feet and worship Him. But He has vanished out of their sight. They look at the space that had been occupied by One whose body had lately lain in the grave, and say to each other, \"Did not our heart burn within us, while he talked with us by the way, and which he opened to us the scriptures?\"</p>" +
@@ -2436,7 +2436,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //18
-"<p><b>“The Lord Is Risen Indeed!” October 18</b></p>" +
+"<p><b>“The Lord Is Risen Indeed!”</b></p>" +
 "<p>And they told what things were done in the way, and how he was known of them in breaking of bread. And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you. Luke 24:35, 36.</p>" +
 "<p>The travelers find all in surprised excitement. The voices of those in the room break out into thanksgiving and praise, saying, \"The Lord is risen indeed, and hath appeared unto Simon.\" Then the travelers, panting from the haste with which they have made their journey, tell the wondrous story of how, as they were journeying along full of discouragement and hopelessness, they were joined by a Stranger. With wonder and hope they relate how He opened the Scriptures to them, and how they invited Him to abide with them. They tell how they prepared the evening meal, and when, as their Guest had extended His hands to bless the food, they recognized Him....</p>" +
 "<p>They have just finished their story, and some are saying they could not believe it, for it is too good to be true, when behold, another Person stands before them. Every eye is fastened upon the Stranger. No one has knocked for entrance. No footstep has been heard. The disciples are startled, and wonder what it means. Then they hear a voice that is no other than the familiar voice of their Master. Clear and distinct the words fall from His lips, \"Peace be unto you.\"</p>" +
@@ -2446,7 +2446,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //19
-"<p><b>Jesus Opened the Understanding of His Followers, October 19</b></p>" +
+"<p><b>Jesus Opened the Understanding of His Followers</b></p>" +
 "<p>Then opened he their understanding, that they might understand the scriptures. Luke 24:45.</p>" +
 "<p>The sayings of Christ are to be valued, not merely in accordance with the measure of the understanding of those who hear; they are to be considered in the important bearing that Christ Himself attaches to them. He took the old truths, of which He Himself was the originator, and placed them before His hearers in heaven's own light. How different was their representation. What a flood of meaning and brightness and spirituality was brought in by their explanation.</p>" +
 "<p>After His resurrection Christ opened the understanding of His followers, that they might understand the Scriptures. Everything had been transformed by the working of the arts of Satan. Truth was covered up by the rubbish of error, and hidden from finite sight. When Christ referred to His humiliation, rejection, and crucifixion, the disciples could not take in His meaning. It had been a part of their education to expect Christ to set up a temporal kingdom, and when He spoke of His sufferings they could not understand His words....</p>" +
@@ -2456,7 +2456,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //20
-"<p><b>When the Holy Spirit Comes as the Comforter, October 20</b></p>" +
+"<p><b>When the Holy Spirit Comes as the Comforter</b></p>" +
 "<p>But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me. John 15:26.</p>" +
 "<p>It is not right for us to devote time, brain, bone, and muscle to gathering in the things of earth and drop eternity out of our reckoning, but we should gather sheaves for the Master's garner.... The Lord wants us to expand, to grow like the seed introduced into the soil—first the blade, then the ear, then the full corn in the ear....</p>" +
 "<p>Some have asked, What shall I do to receive the Holy Ghost? Ask God to search your hearts as with a lighted candle. Do nothing for selfish gratification. Suppose that Christ's professed followers were representatives of Christ in our earth; would not worldlings see this and take knowledge of such that they had learned of Jesus? Will not such be a power? We want the religion of Christ. This will bring forth the fruits of love, joy, and peace. The desire of the Master is not for a scanty supply, but to bear it in abundance.</p>" +
@@ -2466,7 +2466,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //21
-"<p><b>The Promise of the Holy Spirit: “Ye Shall Receive Power,” October 21</b></p>" +
+"<p><b>The Promise of the Holy Spirit: “Ye Shall Receive Power,”</b></p>" +
 "<p>But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth. Acts 1:8.</p>" +
 "<p>After His resurrection, Christ ascended to His appointed honor. Before the heavenly universe and the worlds unfallen He was to be enthroned. The Father would impress the minds of the believers with the glorious reception of His Son in the home He had left. For our sake He became poor, that we through His poverty might be made rich....</p>" +
 "<p>As Christ ascended, His hands were outstretched in blessing upon His disciples. While they stood gazing upward to catch the last glimpse of their ascending Lord, He was received by the heavenly throng into the rejoicing ranks of cherubs and seraphs. And as they escorted Him to His heavenly home, they sang in triumph, \"Sing unto God, ye kingdoms of the earth; O sing praises unto the Lord; ... that rideth upon the heavens of heavens.\"</p>" +
@@ -2476,7 +2476,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //22
-"<p><b>The Power That Shook the World, October 22</b></p>" +
+"<p><b>The Power That Shook the World</b></p>" +
 "<p>I will pour out of my Spirit upon all flesh: and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams. Acts 2:17.</p>" +
 "<p>After the outpouring of the Holy Spirit, the disciples, clothed with the divine panoply, went forth as witnesses to tell the wonderful story of the manger and the cross. They were humble men, but they went forth with the truth. After the death of their Lord, they were a helpless, disappointed, discouraged company—as sheep without a shepherd; but now they go forth as witnesses for the truth, with no weapons but the Word and the Spirit of God, to triumph over all opposition.... They were transformed in character and united in the bonds of Christian love.... From their lips came words of divine eloquence and power that shook the world.</p>" +
 "<p>The third, fourth, and fifth chapters of Acts give an account of their witnessing. Those who had rejected and crucified the Saviour expected to find His disciples discouraged, crestfallen, and ready to disown their Lord. With amazement they heard the clear, bold testimony given under the power of the Holy Spirit. The words and works of the disciples represented the words and works of their Teacher, and all who heard them said, They have learned of Jesus; they talk as He talked. \"And with great power gave the apostles witness of the resurrection of the Lord Jesus: and great grace was upon them all.\"</p>" +
@@ -2486,7 +2486,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
     //23
-"<p><b>Opposed by Religious Leaders, October 23</b></p>" +
+"<p><b>Opposed by Religious Leaders</b></p>" +
 "<p>The Sadducees, came upon them, being grieved that they taught the people, and preached through Jesus the resurrection from the dead. And they laid hands on them, and put them in hold unto the next day. Acts 4:1-3.</p>" +
 "<p>The assertions made by the apostles that they had seen Jesus after His resurrection, and that He had ascended to heaven, were overthrowing the fundamental principles of the Sadducean doctrine. This was not to be allowed. The priests and rulers were filled with indignation, and laid their hands on the apostles and put them in the common prison. The disciples were not intimidated or cast down....</p>" +
 "<p>\"The angel of the Lord by night opened the prison doors, and brought them forth, and said, Go, stand and speak in the temple to the people all the words of this life.\" We see here that persons in authority are not always to be obeyed, even though they may profess to be teachers of Bible doctrines. There are many today who feel indignant and aggrieved that any voice should be raised presenting ideas that differ from their own in regard to points of religious belief. Have they not long advocated their ideas as truth? So the priests and rabbis reasoned in apostolic days. What mean these men who are unlearned, some of them mere fishermen, who are presenting ideas contrary to the doctrines that the learned priests and rulers are teaching the people? They have no right to meddle with the fundamental principles of our faith.</p>" +
