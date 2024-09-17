@@ -34,19 +34,19 @@ const formData = [
         marShares: 0,       marLoans: 0,       marReturns: 0,       marPending: 0,
         aprShares: 0,        aprLoans: 0,      aprReturns: 0,       aprPending: 0,      
         mayShares: 0,      mayLoans: 0,        mayReturns: 0,       mayPending: 0,   
-        junShares: 0,        junLoans: 0,         junReturns: 0,        junPending: 0,     circle: 'Circle 6',      relation: 'Brother',     kinPhone: '+260977352215',     kinName: 'Mambwe Benson',      kinEmail: 'mambweben2@gmail.com',      reg: 0,      paidOut: 0,     savings: 0,      pending: 0,       payout: 0,       loan: 0,       janb: false,      febb: false,      marb: false,       mayb: false,       junb: false,      julb: false,     paycheck: false
+        junShares: 0,        junLoans: 0,         junReturns: 0,        junPending: 0,     circle: 'Circle 6',      relation: 'Brother',     kinPhone: '+260977352215',     kinName: 'Mambwe Benson',      kinEmail: 'mambweben2@gmail.com',      reg: 0,      paidOut: 0,     savings: 0,      pending: 0,       payout: 0,       loan: 0,       janb: true,      febb: false,      marb: false,       mayb: false,       junb: false,      julb: false,     paycheck: false
     },
 
 // Barbra Mwape - viceTreasurer
     {
         idInput: 'SI21AP0603',      First_Name: 'Barbra',       Middle_Name: '-',       Last_Name: 'Mwape',      circleBegunOn: '2024-07-05',       circleEndsOn: '2025-01-05',      Status: 'Active',
         Shares: 2,      learnerImageUrl: 'images/circle6/SI21AP0603.jpg',      parentImageUrl: 'images/circle6/SI21AP0603n.jpg',      emailInput: 'barbramwape2@gmail.com',     callInput: '+260979360800',      smsInput: '+260979360800',
-        janShares: 12400,       janLoans: 14700,      janReturns: 0,     janPending: 0,
-        febShares: 1000,                febLoans: 0,      febReturms: 0,      febPending: 0,
+        janShares: 12400,       janLoans: 14700,      janReturns: 1000,     janPending: 0,
+        febShares: 0,                febLoans: 0,      febReturms: 0,      febPending: 0,
         marShares: 0,              marLoans: 0,      marReturns: 0,       marPending: 0,
         aprShares: 0,       aprLoans: 0,        aprReturns: 0,       aprPending: 0,
         mayShares: 0,        mayLoans: 0,       mayReturns: 0,      mayPending: 0,
-        junShares: 0,        junLoans: 0,         junReturns: 0,        junPending: 0,       circle: 'Circle 6',       relation: 'Mother',        kinPhone: '+260977128668',       kinName: 'Agness Bwalya',       kinEmail: '-',        reg: 100,       paidOut: 0,      savings: 0,      pending: 0,      payout: 0,      loan: 0,      janb: false,       febb: false,      marb: false,       mayb: false,       junb: false,       julb: false,      paycheck: false
+        junShares: 0,        junLoans: 0,         junReturns: 0,        junPending: 0,       circle: 'Circle 6',       relation: 'Mother',        kinPhone: '+260977128668',       kinName: 'Agness Bwalya',       kinEmail: '-',        reg: 100,       paidOut: 0,      savings: 0,      pending: 0,      payout: 0,      loan: 0,      janb: true,       febb: false,      marb: false,       mayb: false,       junb: false,       julb: false,      paycheck: false
     },
 
 // Clinton Mbaso - Secretary
@@ -227,7 +227,7 @@ const formData = [
         marShares: 0,             marLoans: 0,         marReturns: 0,        marPending: 0,  
         aprShares: 0,              aprLoans: 0,           aprReturns: 0,            aprPending: 0,   
         mayShares: 0,            mayLoans: 0,          mayReturns: 0,         mayPending: 0,  
-        junShares: 0,              junLoans: 0,         junReturns: 0,         junPending: 0,     circle: 'Circle 6',     relation: 'Enter Record',    kinPhone: 'Enter Record',    kinName: 'Enter Record',   kinEmail: 'Enter Record',     reg: 100,      paidOut: 0,    savings: 0,     pending: 0,     payout: 0,    loan: 0,     janb: true,   bbfebb: false,    marb: false,    mayb: false,     junb: false,    julb: false,    paycheck: false
+        junShares: 0,              junLoans: 0,         junReturns: 0,         junPending: 0,     circle: 'Circle 6',     relation: 'Enter Record',    kinPhone: 'Enter Record',    kinName: 'Enter Record',   kinEmail: 'Enter Record',     reg: 100,      paidOut: 0,    savings: 0,     pending: 0,     payout: 0,    loan: 0,     janb: true,   febb: false,    marb: false,    mayb: false,     junb: false,    julb: false,    paycheck: false
     },
 
 // Hazel Mwiinde - Member
