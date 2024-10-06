@@ -9,7 +9,7 @@ const formData = [
         marShares: 0,       marLoans: 0,       marReturns: 0,       marPending: 0,      
         aprShares: 0,          aprLoans: 0,          aprReturns: 0,         aprPending: 0,     
         mayShares: 0,        mayLoans: 0,        mayReturns: 0,        mayPending: 0,    
-        junShares: 0,        junLoans: 0,        junReturns: 0,        junPending: 0,         circle: 'Circle 6',        relation: 'Subilo',        kinPhone: '+260977326129',        kinName: 'Investment LTD',        kinEmail: 'subiloinvestment@gmail.com',       reg: 0,       paidOut: 0,       savings: 0,        pending: 0,       payout: 0,       loan: 0,       janb: true,       febb: false,      marb: false,      mayb: false,      bjunb: false,        julb: false,        paycheck: false 
+        junShares: 0,        junLoans: 0,        junReturns: 0,        junPending: 0,         circle: 'Circle 6',        relation: 'Subilo',        kinPhone: '+260977326129',        kinName: 'Investment LTD',        kinEmail: 'subiloinvestment@gmail.com',       reg: 0,       paidOut: 0,       savings: 0,        pending: 0,       payout: 0,       loan: 0,       janb: true,       febb: true,      marb: false,      mayb: false,      bjunb: false,        julb: false,        paycheck: false 
     },
 
 // Admin
@@ -235,8 +235,8 @@ const formData = [
         idInput: 'SI21MP0619',     First_Name: 'Hazel',      Middle_Name: '-',      Last_Name: 'Mwiinde',      circleBegunOn: '2024-07-05',     circleEndsOn: '2025-01-05',      Status: 'Active',     
         Shares: 1,     learnerImageUrl: 'images/circle6/SI21MP0619.jpg',     parentImageUrl: 'images/circle6/SI21MP0619n.jpg',      emailInput: 'hazelmwiinde97@gmail.com',       callInput: '+260975114625',      smsInput: '+260975114625',       
         janShares: 1200,      janLoans: 2000,        janReturns: 2400,       janPending: 0,      
-        febShares: 1000,      febLoans: 6000,        febReturms: 0,       febPending: 0,     
-        marShares: 0,       marLoans: 0,       marReturns: 0,      marPending: 0,  
+        febShares: 1000,      febLoans: 6000,        febReturms: 1200,       febPending: 0,     
+        marShares: 1000,       marLoans: 0,       marReturns: 0,      marPending: 0,  
         aprShares: 0,        aprLoans: 0,         aprReturns: 0,      aprPending: 0,   
         mayShares: 0,      mayLoans: 0,      mayReturns: 0,     mayPending: 0,    
         junShares: 0,        junLoans: 0,        junReturns: 0,       junPending: 0,      circle: 'Circle 6',      relation: 'Husband',       kinPhone: '+260972411116',       kinName: 'Barlewa Moonga',       kinEmail: 'barlewamoonga@gmail.com',      reg: 100,       paidOut: 0,      savings: 0,      pending: 0,      payout: 0,       loan: 0,       janb: true,       febb: false,        marb: false,        mayb: false,       junb: false,        julb: false,      paycheck: false
