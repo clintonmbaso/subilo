@@ -18,7 +18,7 @@ const formData = [
         idInput: 'SI21AP0601',      First_Name: 'Bridget',       Middle_Name: '-',       Last_Name: 'Muuka',       circleBegunOn: '2024-07-05',     circleEndsOn: '2025-01-05',     Status: 'Active',
         Shares: 1,   learnerImageUrl: 'images/circle6/SI21AP0601.jpg',    parentImageUrl: 'images/circle6/SI21AP0604.jpg',     emailInput: 'briclintons@gmail.com',     callInput: '+260967703883',     smsInput: '+260967703883',     
         janShares: 6200,         janLoans: 7500,         janReturns: 1000,          janPending: 0,     
-        febShares: 0,   febLoans: 0,     febReturms: 0,   febPending: 0,  
+        febShares: 0,   febLoans: 0,     febReturms: 500,   febPending: 0,  
         marShares: 0,     marLoans: 0,     marReturns: 0,    marPending: 0,        
         aprShares: 0,         aprLoans: 0,          aprReturns: 0,          aprPending: 0,
         mayShares: 0,       mayLoans: 0,       mayReturns: 0,       mayPending: 0,     
@@ -54,7 +54,7 @@ const formData = [
         idInput: 'SI21AP0604',      First_Name: 'Clint',        Middle_Name: '-',        Last_Name: 'Mbaso',      circleBegunOn: '2024-07-05',      circleEndsOn: '2025-01-05',     Status: 'Active',
         Shares: 1,       learnerImageUrl: 'images/circle6/SI21AP0604.jpg',      parentImageUrl: 'images/circle6/SI21AP0601.jpg',      emailInput: 'clintonmbaso@gmail.com',       callInput: '0968084570',      smsInput: '0975273790',   
         janShares: 7200,    janLoans: 7500,     janReturns: 1000,    janPending: 0,   
-        febShares: 0,      febLoans: 0,       febReturms: 0,      febPending: 0,     
+        febShares: 0,      febLoans: 0,       febReturms: 500,      febPending: 0,     
         marShares: 0,     marLoans: 0,      marReturns: 0,      marPending: 0,
         aprShares: 0,        aprLoans: 0,         aprReturns: 0,       aprPending: 0,
         mayShares: 0,       mayLoans: 0,      mayReturns: 0,     mayPending: 0,
@@ -67,8 +67,8 @@ const formData = [
         idInput: 'SI21MP0605',     First_Name: 'Memory',      Middle_Name: '-',      Last_Name: 'Nkhosi',       circleBegunOn: '2024-07-05',      circleEndsOn: '2025-01-05',      Status: 'Active',     
         Shares: 2,      learnerImageUrl: 'images/circle6/SI21MP0605.jpg',      parentImageUrl: 'images/circle6/SI21MP0605n.jpg',      emailInput: 'memorynkosi@gmail.com',       callInput: '+260978818499',        smsInput: '+260978818499',
         janShares: 2400,       janLoans: 0,        janReturns: 0,       janPending: 0,
-        febShares: 2000,       febLoans: 5000,     febReturms: 0,    febPending: 0,
-        marShares: 0,             marLoans: 0,     marReturns: 0,   marPending: 0,
+        febShares: 2000,       febLoans: 5000,     febReturms: 2000,    febPending: 0,
+        marShares: 2000,             marLoans: 0,     marReturns: 0,   marPending: 0,
         aprShares: 0,              aprLoans: 0,     aprReturns: 0,     aprPending: 0,
         mayShares: 0,            mayLoans: 0,      mayReturns: 0,     mayPending: 0,
         junShares: 0,              junLoans: 0,        junReturns: 0,      junPending: 0,     circle: 'Circle 6',     relation: 'Brother',     kinPhone: '+260979272071',     kinName: 'Joe Luwaile',     kinEmail: 'luwailej@gmail.com',     reg: 100,    paidOut: 0,      savings: 0,     pending: 0,      payout: 0,      loan: 0,      janb: true,      febb: false,       marb: false,       mayb: false,       junb: false,        julb: false,       paycheck: false
@@ -79,8 +79,8 @@ const formData = [
         idInput: 'SI21MP0606',         First_Name: 'Angela',       Middle_Name: '-',     Last_Name: 'Imakando',    bbcircleBegunOn: '2024-07-05',      circleEndsOn: '2025-01-05',     Status: 'Active',
         Shares: 2,      learnerImageUrl: 'images/circle6/SI21MP0606.jpg',     parentImageUrl: 'images/circle6/SI21MP0606n.jpg',      emailInput: 'imakandoangela123@gmail.com',     callInput: '+260977574035',     smsInput: '+260977574035',
         janShares: 2400,      janLoans: 5000,     janReturns: 1000,      janPending: 0,
-        febShares: 2000,      febLoans: 1000,     febReturms: 0,      febPending: 0,
-        marShares: 0,            marLoans: 0,     marReturns: 0,     marPending: 0,
+        febShares: 2000,      febLoans: 1000,     febReturms: 1200,      febPending: 0,
+        marShares: 2000,            marLoans: 0,     marReturns: 0,     marPending: 0,
         aprShares: 0,             aprLoans: 0,     aprReturns: 0,     aprPending: 0,
         mayShares: 0,           mayLoans: 0,      mayReturns: 0,     mayPending: 0,
         junShares: 0,             junLoans: 0,     junReturns: 0,     junPending: 0,      circle: 'Circle 6',      relation: 'Niece',       kinPhone: '+260977779771',      kinName: 'Likando Katukula',     kinEmail: 'katukulalikando@gmail.com',     reg: 100,     paidOut: 0,      savings: 0,     pending: 0,      payout: 0,      loan: 0,      janb: true,     febb: false,     marb: false,     mayb: false,     junb: false,    julb: false,     paycheck: false
@@ -91,8 +91,8 @@ const formData = [
         idInput: 'SI21MP0607',       First_Name: 'Kennedy',        Middle_Name: '-',        Last_Name: 'Munalula',       circleBegunOn: '2024-07-05',       circleEndsOn: '2025-01-05',      Status: 'Active',
         Shares: 3,    learnerImageUrl: 'images/circle6/SI21MP0607.jpg',     parentImageUrl: 'images/circle6/SI21MP0607n.jpg',      emailInput: 'munalulakennedy5@gmail.com',       callInput: '+260963683232',        smsInput: '+260963683232',
         janShares: 3600,     janLoans: 0,     janReturns: 0,       janPending: 0,
-        febShares: 3000,     febLoans: 10000,     febReturms: 0,     febPending: 0,
-        marShares: 0,           marLoans: 0,      marReturns: 0,     marPending: 0,
+        febShares: 3000,     febLoans: 10000,     febReturms: 2000,     febPending: 0,
+        marShares: 3000,           marLoans: 0,      marReturns: 0,     marPending: 0,
         aprShares: 0,            aprLoans: 0,       aprReturns: 0,      aprPending: 0,
         mayShares: 0,          mayLoans: 0,      mayReturns: 0,       mayPending: 0,
         junShares: 0,            junLoans: 0,      junReturns: 0,       junPending: 0,      circle: 'Circle 6',     relation: 'Wife',      kinPhone: '260969636573',     kinName: 'Maria Monde',     kinEmail: 'Enter Record',     reg: 100,     paidOut: 0,     savings: 0,     pending: 0,      payout: 0,      loan: 0,      janb: true,      febb: false,       marb: false,      mayb: false,      junb: false,       julb: false,       paycheck: false
@@ -104,7 +104,7 @@ const formData = [
         Shares: 1,       learnerImageUrl: 'images/circle6/SI21MP0608.jpg',      parentImageUrl: 'images/circle6/SI21MP0608n.jpg',     emailInput: 'katukulalikando@gmail.com',     callInput: '260977779771',      smsInput: '260977779771',
         janShares: 1200,     janLoans: 0,            janReturns: 0,     janPending: 0,
         febShares: 1000,     febLoans: 3000,     febReturms: 0,     febPending: 0,
-        marShares: 0,           marLoans: 0,           marReturns: 0,      marPending: 0,
+        marShares: 1000,           marLoans: 0,           marReturns: 0,      marPending: 0,
         aprShares: 0,            aprLoans: 0,            aprReturns: 0,     aprPending: 0,
         mayShares: 0,          mayLoans: 0,          mayReturns: 0,       mayPending: 0,
         junShares: 0,            junLoans: 0,            junReturns: 0,      junPending: 0,       circle: 'Circle 6',      relation: 'Sister',       kinPhone: '+260772502364',       kinName: 'Muyunda Katukula',       kinEmail: 'muyundakatukula5@gmail.com',      reg: 100,       paidOut: 0,       savings: 0,      pending: 0,      payout: 0,     loan: 0,      janb: true,     febb: false,       marb: false,        mayb: false,       junb: false,       julb: false,       paycheck: false
@@ -115,8 +115,8 @@ const formData = [
         idInput: 'SI21MP0609',      First_Name: 'Virginia',        Middle_Name: '-',       Last_Name: 'Salujinga',       circleBegunOn: '2024-07-05',       circleEndsOn: '2025-01-05',       Status: 'Active',
         Shares: 4,       learnerImageUrl: 'images/circle6/SI21MP0609.jpg',       parentImageUrl: 'images/circle6/SI21MP0610.jpg',      emailInput: 'briclintons@gmail.com',       callInput: '0967703883',      smsInput: '0967703883',
         janShares: 4800,     janLoans: 0,     janReturns: 0,     janPending: 0,
-        febShares: 4000,      febLoans: 10000,     febReturms: 0,     febPending: 0,
-        marShares: 0,    marLoans: 0,     marReturns: 0,     marPending: 0,
+        febShares: 4000,      febLoans: 10000,     febReturms: 1000,     febPending: 0,
+        marShares: 4000,    marLoans: 0,     marReturns: 0,     marPending: 0,
         aprShares: 0,      aprLoans: 0,      aprReturns: 0,       aprPending: 0,
         mayShares: 0,       mayLoans: 0,      mayReturns: 0,      mayPending: 0,
         junShares: 0,      junLoans: 0,       junReturns: 0,     junPending: 0,      circle: 'Circle 6',      relation: 'Husband',      kinPhone: '+260977352215',       kinName: 'Benson Mambwe',      kinEmail: 'mambweben2@gmail.com',      reg: 100,      paidOut: 0,      savings: 0,      pending: 0,      payout: 0,      loan: 0,     janb: true,      febb: false,      marb: false,      mayb: false,      junb: false,      julb: false,     paycheck: false
@@ -127,8 +127,8 @@ const formData = [
         idInput: 'SI21MP0610',       First_Name: 'Benson',       Middle_Name: '-',        Last_Name: 'Mambwe',       circleBegunOn: '2024-07-05',        circleEndsOn: '2025-01-05',      Status: 'Active',
         Shares: 3,      learnerImageUrl: 'images/circle6/SI21MP0610.jpg',       parentImageUrl: 'images/circle6/SI21MP0609.jpg',      emailInput: 'mambweben2@gmail.com',       callInput: '+260977352215',       smsInput: '+260977352215',
         janShares: 3600,      janLoans: 4000,      janReturns: 400,     janPending: 0,
-        febShares: 3000,     febLoans: 1620,      febReturms: 0,     febPending: 0,
-        marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,
+        febShares: 3000,     febLoans: 1620,      febReturms: 1000,     febPending: 0,
+        marShares: 3000,      marLoans: 0,      marReturns: 0,      marPending: 0,
         aprShares: 0,      aprLoans: 0,      aprReturns: 0,      aprPending: 0,
         mayShares: 0,      mayLoans: 0,      mayReturns: 0,      mayPending: 0,
         junShares: 0,      junLoans: 0,      junReturns: 0,      junPending: 0,       circle: 'Circle 6',      relation: 'Wife',      kinPhone: '+260973638436',        kinName: 'Virginia Salujinga',        kinEmail: 'virginiasalujinga@gmail.com',      reg: 100,      paidOut: 0,      savings: 0,       pending: 0,      payout: 0,       loan: 0,      janb: true,       febb: false,       marb: false,       mayb: false,       junb: false,       julb: false,      paycheck: false
@@ -140,7 +140,7 @@ const formData = [
         Shares: 6,      learnerImageUrl: 'images/circle6/SI21MP0611.jpg',        parentImageUrl: 'images/circle6/SI21MP0611n.jpg',       emailInput: 'mhamaumbwe@gmail.com',      callInput: '+260977122760',        smsInput: '+260977122760',
         janShares: 7200,         janLoans: 0,      janReturns: 0,      janPending: 0,
         febShares: 6000,         febLoans: 0,            febReturms: 0,            febPending: 0,
-        marShares: 0,         marLoans: 0,         marReturns: 0,        marPending: 0,
+        marShares: 6000,         marLoans: 0,         marReturns: 0,        marPending: 0,
         aprShares: 0,         aprLoans: 0,          aprReturns: 0,         aprPending: 0,
         mayShares: 0,       mayLoans: 0,        mayReturns: 0,        mayPending: 0,
         junShares: 0,       junLoans: 0,        junReturns: 0,        junPending: 0,       circle: 'Circle 6',        relation: 'Brother',        kinPhone: '+260977393633',        kinName: 'Alexander Zaza',       kinEmail: 'alexanderzdevine@gmail.com',       reg: 100,         paidOut: 0,        savings: 0,      pending: 0,        payout: 0,       loan: 0,        janb: true,       febb: false,        marb: false,       mayb: false,       junb: false,       julb: false,      paycheck: false
@@ -187,8 +187,8 @@ const formData = [
         idInput: 'SI21MP0615',      First_Name: 'Jessy',       Middle_Name: '-',       Last_Name: 'Chinyama',      circleBegunOn: '2024-07-05',      circleEndsOn: '2025-01-05',      Status: 'Active',
         Shares: 3,     learnerImageUrl: 'images/circle6/SI21MP0615.jpg',     parentImageUrl: 'images/circle6/SI21MP0615n.jpg',        emailInput: 'abc@gmail.com',      callInput: '+260978855674',       smsInput: '+260978855674',
         janShares: 3600,      janLoans: 0,         janReturns: 0,      janPending: 0,
-        febShares: 3000,      febLoans: 4500,       febReturms: 0,      febPending: 0,
-        marShares: 0,            marLoans: 0,       marReturns: 0,       marPending: 0,
+        febShares: 3000,      febLoans: 4500,       febReturms: 1900,      febPending: 0,
+        marShares: 3000,            marLoans: 0,       marReturns: 0,       marPending: 0,
         aprShares: 0,             aprLoans: 0,        aprReturns: 0,       aprPending: 0,
         mayShares: 0,           mayLoans: 0,        mayReturns: 0,       mayPending: 0,
         junShares: 0,             junLoans: 0,         junReturns: 0,        junPending: 0,      circle: 'Circle 6',       relation: 'Mother',      kinPhone: '+260978300644',     kinName: 'Fanny Nkhoma',      kinEmail: 'Enter Record',      reg: 100,      paidOut: 0,      savings: 0,      pending: 0,      payout: 0,      loan: 0,       janb: true,     febb: false,     marb: false,      mayb: false,      junb: false,       julb: false,      paycheck: false
@@ -212,7 +212,7 @@ const formData = [
         Shares: 1,        learnerImageUrl: 'images/circle6/SI21MP0617.jpg',        parentImageUrl: 'images/circle6/SI21MP0617n.jpg',       emailInput: 'shazitupiza@gmail.com',        callInput: '+260972937841',        smsInput: '+260972937841',  
         janShares: 1200,    janLoans: 4000,    janReturns: 0,        janPending: 0, 
         febShares: 1000,    febLoans: 0,           febReturms: 0,       febPending: 0,    
-        marShares: 0,         marLoans: 0,          marReturns: 0,       marPending: 0,   
+        marShares: 1000,         marLoans: 0,          marReturns: 0,       marPending: 0,   
         aprShares: 0,          aprLoans: 0,            aprReturns: 0,        aprPending: 0,     
         mayShares: 0,        mayLoans: 0,          mayReturns: 0,       mayPending: 0,  
         junShares: 0,          junLoans: 0,            junReturns: 0,         junPending: 0,     circle: 'Circle 6',        relation: 'Sister',        kinPhone: '+260978616885',        kinName: 'Wiza Kamando',        kinEmail: 'kamandowiza5@gmail.com',       reg: 100,        paidOut: 0,      savings: 0,      pending: 0,      payout: 0,      loan: 0,     janb: true,     febb: false,      marb: false,       mayb: false,      junb: false,       julb: false,    bpaycheck: false
@@ -224,7 +224,7 @@ const formData = [
         Shares: 1,      learnerImageUrl: 'images/circle6/SI21MP0618.jpg',   bbparentImageUrl: 'images/circle6/SI21MP0618n.jpg',     emailInput: 'abc@gmail.com',     callInput: '+260977282477',     smsInput: '+260977282477',  
         janShares: 1200,        janLoans: 0,          janReturns: 0,          janPending: 0,  
         febShares: 1000,        febLoans: 0,         febReturms: 0,        febPending: 0,     
-        marShares: 0,             marLoans: 0,         marReturns: 0,        marPending: 0,  
+        marShares: 1000,             marLoans: 0,         marReturns: 0,        marPending: 0,  
         aprShares: 0,              aprLoans: 0,           aprReturns: 0,            aprPending: 0,   
         mayShares: 0,            mayLoans: 0,          mayReturns: 0,         mayPending: 0,  
         junShares: 0,              junLoans: 0,         junReturns: 0,         junPending: 0,     circle: 'Circle 6',     relation: 'Enter Record',    kinPhone: 'Enter Record',    kinName: 'Enter Record',   kinEmail: 'Enter Record',     reg: 100,      paidOut: 0,    savings: 0,     pending: 0,     payout: 0,    loan: 0,     janb: true,   febb: false,    marb: false,    mayb: false,     junb: false,    julb: false,    paycheck: false
@@ -247,8 +247,8 @@ const formData = [
         idInput: 'SI21MP0620',      First_Name: 'Kabukabu',       Middle_Name: '-',        Last_Name: 'Katukula',        circleBegunOn: '2024-07-05',       circleEndsOn: '2025-01-05',       Status: 'Active',
         Shares: 1,       learnerImageUrl: 'images/circle6/SI21MP0620.jpg',      parentImageUrl: 'images/circle6/SI21MP0620n.jpg',       emailInput: 'kabukabukatukula95@gmail.com',       callInput: '+260973113588',       smsInput: '+260973113588',
         janShares: 1200,      janLoans: 0,       janReturns: 0,      janPending: 0,
-        febShares: 1000,      febLoans: 5000,       febReturms: 0,     febPending: 0,
-        marShares: 0,      marLoans: 0,     marReturns: 0,     marPending: 0,
+        febShares: 1000,      febLoans: 5000,       febReturms: 2000,     febPending: 0,
+        marShares: 1000,      marLoans: 0,     marReturns: 0,     marPending: 0,
         aprShares: 0,      aprLoans: 0,      aprReturns: 0,      aprPending: 0,
         mayShares: 0,      mayLoans: 0,     mayReturns: 0,      mayPending: 0,
         junShares: 0,     junLoans: 0,      junReturns: 0,      junPending: 0,      circle: 'Circle 6',      relation: 'Mother',        kinPhone: '+260977148655',        kinName: 'Concepta M Muyunda',       kinEmail: '@gmail.com',       reg: 100,       paidOut: 0,       savings: 0,       pending: 0,        payout: 0,        loan: 0,       janb: true,    febb: false,      marb: false,     mayb: false,     junb: false,     julb: false,     paycheck: false
@@ -272,7 +272,7 @@ const formData = [
         Shares: 1,      learnerImageUrl: 'images/circle6/SI21MP0622.jpg',     parentImageUrl: 'images/circle6/SI21MP0622n.jpg',     emailInput: '@gmail.com',      callInput: '0',     smsInput: '0',
         janShares: 1200,      janLoans: 1300,     janReturns: 1560,      janPending: 0,
         febShares: 1000,      febLoans: 0,      febReturms: 0,     febPending: 0,
-        marShares: 0,            marLoans: 0,    marReturns: 0,      marPending: 0,    
+        marShares: 1000,            marLoans: 0,    marReturns: 0,      marPending: 0,    
         aprShares: 0,            aprLoans: 0,     aprReturns: 0,     aprPending: 0,    
         mayShares: 0,          mayLoans: 0,     mayReturns: 0,    mayPending: 0,      
         junShares: 0,            junLoans: 0,       junReturns: 0,      junPending: 0,     circle: 'Circle 6',      relation: '0',      kinPhone: '0',       kinName: '0',        kinEmail: '@gmail.com',      reg: 100,      paidOut: 0,      savings: 0,       pending: 0,      payout: 0,      loan: 0,       janb: true,       febb: false,       marb: false,       mayb: false,       junb: false,      julb: false,       paycheck: false  
@@ -288,7 +288,7 @@ const totalJanReturns = formData.slice(1).reduce((acc, record) => acc + record.j
 
 const totalFebShares = formData.slice(1).reduce((acc, record) => acc + record.febShares, 0);
 const totalFebLoans = formData.slice(1).reduce((acc, record) => acc + record.febLoans, 0);
-const totalFebReturns = formData.slice(1).reduce((acc, record) => acc + record.febReturns, 0);
+const totalFebReturms = formData.slice(1).reduce((acc, record) => acc + record.febReturms, 0);
 
 const totalMarShares = formData.slice(1).reduce((acc, record) => acc + record.marShares, 0);
 const totalMarLoans = formData.slice(1).reduce((acc, record) => acc + record.marLoans, 0);
@@ -316,7 +316,7 @@ formData[0].janReturns = totalJanReturns;
 
 formData[0].febShares = totalFebShares;
 formData[0].febLoans = totalFebLoans;
-formData[0].febReturns = totalFebReturns;
+formData[0].febReturms = totalFebReturms;
 
 formData[0].marShares = totalMarShares;
 formData[0].marLoans = totalMarLoans;
