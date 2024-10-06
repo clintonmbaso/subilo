@@ -151,8 +151,8 @@ const formData = [
         idInput: 'SI21MP0612',        First_Name: 'Indra',        Middle_Name: '-',       Last_Name: 'Nyemba',         circleBegunOn: '2024-07-05',        circleEndsOn: '2025-01-05',       Status: 'Active',       
         Shares: 2,      learnerImageUrl: 'images/circle6/SI21MP0612.jpg',      parentImageUrl: 'images/circle6/SI21MP0613.jpg',      emailInput: 'indranyemba@gmail.com',      callInput: '+260979928614',     smsInput: '+260979928614',
         janShares: 2400,      janLoans: 5000,     janReturns: 2000,    janPending: 0,
-        febShares: 2000,      febLoans: 1000,      febReturms: 0,     febPending: 0,
-        marShares: 0,     marLoans: 0,     marReturns: 0,     marPending: 0,
+        febShares: 2000,      febLoans: 1000,      febReturms: 1000,     febPending: 0,
+        marShares: 2000,     marLoans: 0,     marReturns: 0,     marPending: 0,
         aprShares: 0,      aprLoans: 0,      aprReturns: 0,     aprPending: 0,
         mayShares: 0,       mayLoans: 0,       mayReturns: 0,      mayPending: 0,
         junShares: 0,       junLoans: 0,       junReturns: 0,       junPending: 0,     circle: 'Circle 6',      relation: 'Husband',      kinPhone: '+260978291199',      kinName: 'Bornface Mukwita',    kinEmail: 'bornfacemukwita1@gmail.com',      reg: 100,      paidOut: 0,      savings: 0,      pending: 0,      payout: 0,       loan: 0,     janb: true,      febb: false,       marb: false,       mayb: false,     junb: false,      julb: false,       paycheck: false
@@ -163,8 +163,8 @@ const formData = [
         idInput: 'SI21MP0613',      First_Name: 'Bornface',       Middle_Name: '-',      Last_Name: 'Mukwita',       circleBegunOn: '2024-07-05',       circleEndsOn: '2025-01-05',      Status: 'Active',
         Shares: 3,      learnerImageUrl: 'images/circle6/SI21MP0613.jpg',         parentImageUrl: 'images/circle6/SI21MP0612.jpg',      emailInput: 'bornfacemukwita1@gmail.com',      callInput: '+260978291199',      smsInput: '+260978291199',
         janShares: 3600,      janLoans: 10000,      janReturns: 3000,      janPending: 0,
-        febShares: 3000,      febLoans: 1000,       febReturms: 0,      febPending: 0,
-        marShares: 0,             marLoans: 0,         marReturns: 0,        marPending: 0,
+        febShares: 3000,      febLoans: 1000,       febReturms: 1000,      febPending: 0,
+        marShares: 3000,             marLoans: 0,         marReturns: 0,        marPending: 0,
         aprShares: 0,              aprLoans: 0,           aprReturns: 0,         aprPending: 0,
         mayShares: 0,            mayLoans: 0,         mayReturns: 0,        mayPending: 0,
         junShares: 0,              junLoans: 0,        junReturns: 0,       junPending: 0,       circle: 'Circle 6',       relation: 'Wife',      kinPhone: '+260979928614',       kinName: 'Indra Nyemba',       kinEmail: 'indranyemba@gmail.com',      reg: 100,       paidOut: 0,       savings: 0,       pending: 0,         payout: 0,        loan: 0,       janb: true,       febb: false,      marb: false,       mayb: false,       junb: false,       julb: false,         paycheck: false
@@ -175,8 +175,8 @@ const formData = [
         idInput: 'SI21MP0614',       First_Name: 'Mercy',       Middle_Name: '-',       Last_Name: 'Mwila',       circleBegunOn: '2024-07-05',       circleEndsOn: '2025-01-05',      Status: 'Active',
         Shares: 2,      learnerImageUrl: 'images/circle6/SI21MP0614.jpg',      parentImageUrl: 'images/circle6/SI21MP0614n.jpg',     emailInput: 'mercymwila13@gmail.com',      callInput: '+260977452258',      smsInput: '+260977452258',
         janShares: 2400,      janLoans: 5000,       janReturns: 1400,       janPending: 0,
-        febShares: 2000,     febLoans: 0,      febReturms: 0,       febPending: 0,
-        marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
+        febShares: 2000,     febLoans: 0,      febReturms: 1000,       febPending: 0,
+        marShares: 2000,     marLoans: 0,      marReturns: 0,       marPending: 0,
         aprShares: 0,     aprLoans: 0,      aprReturns: 0,      aprPending: 0,
         mayShares: 0,     mayLoans: 0,      mayReturns: 0,     mayPending: 0,
         junShares: 0,    junLoans: 0,      junReturns: 0,     junPending: 0,       circle: 'Circle 6',      relation: 'Husband',      kinPhone: '+260977705003',       kinName: 'Martin Siwakwi',      kinEmail: 'kamandowiza5@gmail.com',      reg: 100,       paidOut: 0,        savings: 0,      pending: 0,      payout: 0,       loan: 0,       janb: true,     febb: false,      marb: false,     mayb: false,      junb: false,     julb: false,     paycheck: false
@@ -259,8 +259,8 @@ const formData = [
         idInput: 'SI21MP0621',     First_Name: 'Chilambe',      Middle_Name: '-',       Last_Name: 'Mutelo',       circleBegunOn: '2024-07-05',       circleEndsOn: '2025-01-05',      Status: 'Active',
         Shares: 1,      learnerImageUrl: 'images/circle6/SI21MP0621.jpg',      parentImageUrl: 'images/circle6/SI21MP0621n.jpg',      emailInput: '@gmail.com',      callInput: '0',      smsInput: '0',
         janShares: 1200,      janLoans: 1300,       janReturns: 1560,      janPending: 0,
-        febShares: 1000,      febLoans: 5000,        febReturms: 0,       febPending: 0,
-        marShares: 0,           marLoans: 0,         marReturns: 0,         marPending: 0,
+        febShares: 1000,      febLoans: 5000,        febReturms: 2000,       febPending: 0,
+        marShares: 1000,           marLoans: 0,         marReturns: 0,         marPending: 0,
         aprShares: 0,            aprLoans: 0,        aprReturns: 0,       aprPending: 0,
         mayShares: 0,          mayLoans: 0,      mayReturns: 0,       mayPending: 0,
         junShares: 0,           junLoans: 0,      junReturns: 0,      junPending: 0,     circle: 'Circle 6',      relation: '0',       kinPhone: '0',       kinName: '0',      kinEmail: '@gmail.com',      reg: 100,      paidOut: 0,      savings: 0,     pending: 0,       payout: 0,      loan: 0,      janb: true,      febb: false,      marb: false,      mayb: false,      junb: false,      julb: false,    paycheck: false
