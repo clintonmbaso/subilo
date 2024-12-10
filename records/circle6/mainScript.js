@@ -94,7 +94,7 @@ function populateForm(data) {
     document.getElementById('savings').value = totalSavings;
     
     // Calculate and set pending
-    const totalPending = febPending;
+    const totalPending = mayPending;
     document.getElementById('pending').value = totalPending;
     
     // Calculate and set loan
