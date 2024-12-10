@@ -50,7 +50,7 @@
 
      // Month 6
              { name: "Month 6 begins", 
-               date: new Date("Jan 5, 2024 08:00:00").getTime(), 
+               date: new Date("Jan 5, 2025 08:00:00").getTime(), 
                reminderDays: 2, reminderHours: 12,
                caption: "This is the beginning of the sixth month", 
                details: "All savings, loans and returns should all be brought in.", 
@@ -58,11 +58,11 @@
              },
 
      // Month 7
-             { name: "Month 6 ends", 
-               date: new Date("Feb 5, 2024 08:00:00").getTime(), 
+             { name: "Share Out", 
+               date: new Date("Feb 5, 2025 08:00:00").getTime(), 
                reminderDays: 2, reminderHours: 12,
                caption: "This is the end of the circle", 
-               details: "All savings, loans and returns should all be brought in. This is the day for sharing our the funds.", 
+               details: "All savings, loans and returns should all be brought in. This is the day for sharing out the funds.", 
                imageUrl: "images/Logoghr.png" 
              }
 
