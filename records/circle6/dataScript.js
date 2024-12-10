@@ -190,7 +190,7 @@ const formData = [
         febShares: 3000,      febLoans: 4500,       febReturms: 1900,      febPending: 0,
         marShares: 3000,            marLoans: 0,       marReturns: 1700,       marPending: 0,
         aprShares: 3000,             aprLoans: 0,        aprReturns: 0,       aprPending: 0,
-        mayShares: 0,           mayLoans: 0,        mayReturns: 0,       mayPending: 0,
+        mayShares: 0,           mayLoans: 650,        mayReturns: 0,       mayPending: 0,
         junShares: 0,             junLoans: 0,         junReturns: 0,        junPending: 0,      circle: 'Circle 6',       relation: 'Mother',      kinPhone: '+260978300644',     kinName: 'Fanny Nkhoma',      kinEmail: 'Enter Record',      reg: 100,      paidOut: 0,      savings: 0,      pending: 0,      payout: 0,      loan: 0,       janb: true,     febb: true,     marb: true,      mayb: true,      junb: false,       julb: false,      paycheck: false
     },
 
@@ -213,8 +213,8 @@ const formData = [
         janShares: 1200,    janLoans: 4000,    janReturns: 0,        janPending: 0, 
         febShares: 1000,    febLoans: 0,           febReturms: 0,       febPending: 0,    
         marShares: 1000,         marLoans: 0,          marReturns: 0,       marPending: 0,   
-        aprShares: 0,          aprLoans: 0,            aprReturns: 0,        aprPending: 0,     
-        mayShares: 1000,        mayLoans: 0,          mayReturns: 0,       mayPending: 0,  
+        aprShares: 1000,          aprLoans: 1000,            aprReturns: 7960,        aprPending: 0,     
+        mayShares: 1000,        mayLoans: 2500,          mayReturns: 0,       mayPending: 0,  
         junShares: 0,          junLoans: 0,            junReturns: 0,         junPending: 0,     circle: 'Circle 6',        relation: 'Sister',        kinPhone: '+260978616885',        kinName: 'Wiza Kamando',        kinEmail: 'kamandowiza5@gmail.com',       reg: 100,        paidOut: 0,      savings: 0,      pending: 0,      payout: 0,      loan: 0,     janb: true,     febb: true,      marb: true,       mayb: true,      junb: false,       julb: false,    bpaycheck: false
     },
 
@@ -226,7 +226,7 @@ const formData = [
         febShares: 1000,        febLoans: 0,         febReturms: 0,        febPending: 0,     
         marShares: 1000,             marLoans: 0,         marReturns: 0,        marPending: 0,  
         aprShares: 1000,              aprLoans: 0,           aprReturns: 0,            aprPending: 0,   
-        mayShares: 1000,            mayLoans: 0,          mayReturns: 0,         mayPending: 0,  
+        mayShares: 1000,            mayLoans: 3000,          mayReturns: 0,         mayPending: 0,  
         junShares: 0,              junLoans: 0,         junReturns: 0,         junPending: 0,     circle: 'Circle 6',     relation: 'Enter Record',    kinPhone: 'Enter Record',    kinName: 'Enter Record',   kinEmail: 'Enter Record',     reg: 100,      paidOut: 0,    savings: 0,     pending: 0,     payout: 0,    loan: 0,     janb: true,   febb: true,    marb: true,    mayb: true,     junb: false,    julb: false,    paycheck: false
     },
 
@@ -261,7 +261,7 @@ const formData = [
         janShares: 1200,      janLoans: 1300,       janReturns: 1560,      janPending: 0,
         febShares: 1000,      febLoans: 5000,        febReturms: 2000,       febPending: 0,
         marShares: 1000,           marLoans: 1000,         marReturns: 5000,         marPending: 0,
-        aprShares: 1000,            aprLoans: 2000,        aprReturns: 0,       aprPending: 0,
+        aprShares: 1000,            aprLoans: 4000,        aprReturns: 0,       aprPending: 0,
         mayShares: 0,          mayLoans: 0,      mayReturns: 0,       mayPending: 0,
         junShares: 0,           junLoans: 0,      junReturns: 0,      junPending: 0,     circle: 'Circle 6',      relation: '0',       kinPhone: '0',       kinName: '0',      kinEmail: '@gmail.com',      reg: 100,      paidOut: 0,      savings: 0,     pending: 0,       payout: 0,      loan: 0,      janb: true,      febb: true,      marb: true,      mayb: true,      junb: false,      julb: false,    paycheck: false
     },
