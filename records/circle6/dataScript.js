@@ -214,8 +214,8 @@ const formData = [
         febShares: 1000,    febLoans: 0,           febReturms: 0,       febPending: 0,    
         marShares: 1000,         marLoans: 0,          marReturns: 0,       marPending: 0,   
         aprShares: 1000,          aprLoans: 1000,            aprReturns: 7960,        aprPending: 0,     
-        mayShares: 1000,        mayLoans: 2500,          mayReturns: 0,       mayPending: 0,  
-        junShares: 0,          junLoans: 0,            junReturns: 0,         junPending: 0,     circle: 'Circle 6',        relation: 'Sister',        kinPhone: '+260978616885',        kinName: 'Wiza Kamando',        kinEmail: 'kamandowiza5@gmail.com',       reg: 1100,        paidOut: 1962,      savings: 0,      pending: 0,      payout: 0,      loan: 0,     janb: true,     febb: true,      marb: true,       mayb: true,      junb: true,       julb: false,    bpaycheck: false
+        mayShares: 1000,        mayLoans: 2500,          mayReturns: 1200,       mayPending: 0,  
+        junShares: 1000,          junLoans: 0,            junReturns: 0,         junPending: 0,     circle: 'Circle 6',        relation: 'Sister',        kinPhone: '+260978616885',        kinName: 'Wiza Kamando',        kinEmail: 'kamandowiza5@gmail.com',       reg: 1100,        paidOut: 1962,      savings: 0,      pending: 0,      payout: 0,      loan: 0,     janb: true,     febb: true,      marb: true,       mayb: true,      junb: true,       julb: false,    bpaycheck: false
     },
 
 // Rachel Nkoma - Member
