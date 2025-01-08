@@ -70,8 +70,8 @@ const formData = [
         febShares: 2000,       febLoans: 5000,     febReturms: 2000,    febPending: 0,
         marShares: 2000,             marLoans: 3500,     marReturns: 3000,   marPending: 0,
         aprShares: 2000,              aprLoans: 0,     aprReturns: 3500,     aprPending: 0,
-        mayShares: 2000,            mayLoans: 0,      mayReturns: 0,     mayPending: 0,
-        junShares: 1000,              junLoans: 0,        junReturns: 0,      junPending: 0,     circle: 'Circle 6',     relation: 'Brother',     kinPhone: '+260979272071',     kinName: 'Joe Luwaile',     kinEmail: 'luwailej@gmail.com',     reg: 100,    paidOut: 962,      savings: 0,     pending: 0,      payout: 0,      loan: 0,      janb: true,      febb: true,       marb: true,       mayb: true,       junb: true,        julb: false,       paycheck: false
+        mayShares: 2000,            mayLoans: 0,      mayReturns: 2000,     mayPending: 0,
+        junShares: 2000,              junLoans: 0,        junReturns: 0,      junPending: 0,     circle: 'Circle 6',     relation: 'Brother',     kinPhone: '+260979272071',     kinName: 'Joe Luwaile',     kinEmail: 'luwailej@gmail.com',     reg: 100,    paidOut: 962,      savings: 0,     pending: 0,      payout: 0,      loan: 0,      janb: true,      febb: true,       marb: true,       mayb: true,       junb: true,        julb: false,       paycheck: false
     },
 
 // Angela Imakando - Member
@@ -95,7 +95,7 @@ const formData = [
         marShares: 3000,           marLoans: 0,      marReturns: 0,     marPending: 0,
         aprShares: 3000,            aprLoans: 0,       aprReturns: 0,      aprPending: 0,
         mayShares: 3000,          mayLoans: 0,      mayReturns: 0,       mayPending: 0,
-        junShares: 0,            junLoans: 0,      junReturns: 0,       junPending: 0,      circle: 'Circle 6',     relation: 'Wife',      kinPhone: '260969636573',     kinName: 'Maria Monde',     kinEmail: 'Enter Record',     reg: 100,     paidOut: 1962,     savings: 0,     pending: 0,      payout: 0,      loan: 0,      janb: true,      febb: true,       marb: true,      mayb: true,      junb: true,       julb: false,       paycheck: false
+        junShares: 3000,            junLoans: 0,      junReturns: 0,       junPending: 0,      circle: 'Circle 6',     relation: 'Wife',      kinPhone: '260969636573',     kinName: 'Maria Monde',     kinEmail: 'Enter Record',     reg: 100,     paidOut: 562,     savings: 0,     pending: 0,      payout: 0,      loan: 0,      janb: true,      febb: true,       marb: true,      mayb: true,      junb: true,       julb: false,       paycheck: false
     },
 
 // Likando Katukula - Member
@@ -154,8 +154,8 @@ const formData = [
         febShares: 2000,      febLoans: 1000,      febReturms: 1000,     febPending: 0,
         marShares: 2000,     marLoans: 0,     marReturns: 200,     marPending: 0,
         aprShares: 2000,      aprLoans: 0,      aprReturns: 200,     aprPending: 0,
-        mayShares: 2000,       mayLoans: 0,       mayReturns: 0,      mayPending: 0,
-        junShares: 0,       junLoans: 0,       junReturns: 0,       junPending: 0,     circle: 'Circle 6',      relation: 'Husband',      kinPhone: '+260978291199',      kinName: 'Bornface Mukwita',    kinEmail: 'bornfacemukwita1@gmail.com',      reg: 100,      paidOut: 1962,      savings: 0,      pending: 0,      payout: 0,       loan: 0,     janb: true,      febb: true,       marb: true,       mayb: true,     junb: true,      julb: false,       paycheck: false
+        mayShares: 2000,       mayLoans: 0,       mayReturns: 1000,      mayPending: 0,
+        junShares: 2000,       junLoans: 0,       junReturns: 0,       junPending: 0,     circle: 'Circle 6',      relation: 'Husband',      kinPhone: '+260978291199',      kinName: 'Bornface Mukwita',    kinEmail: 'bornfacemukwita1@gmail.com',      reg: 100,      paidOut: 1962,      savings: 0,      pending: 0,      payout: 0,       loan: 0,     janb: true,      febb: true,       marb: true,       mayb: true,     junb: true,      julb: false,       paycheck: false
     },
 
 // Bornface Mukwita - Member
@@ -166,8 +166,8 @@ const formData = [
         febShares: 3000,      febLoans: 1000,       febReturms: 1000,      febPending: 0,
         marShares: 3000,             marLoans: 0,         marReturns: 800,        marPending: 0,
         aprShares: 3000,              aprLoans: 0,           aprReturns: 800,         aprPending: 0,
-        mayShares: 3000,            mayLoans: 0,         mayReturns: 0,        mayPending: 0,
-        junShares: 0,              junLoans: 0,        junReturns: 0,       junPending: 0,       circle: 'Circle 6',       relation: 'Wife',      kinPhone: '+260979928614',       kinName: 'Indra Nyemba',       kinEmail: 'indranyemba@gmail.com',      reg: 100,       paidOut: 1962,       savings: 0,       pending: 0,         payout: 0,        loan: 0,       janb: true,       febb: true,      marb: true,       mayb: true,       junb: true,       julb: false,         paycheck: false
+        mayShares: 3000,            mayLoans: 0,         mayReturns: 3000,        mayPending: 0,
+        junShares: 3000,              junLoans: 0,        junReturns: 0,       junPending: 0,       circle: 'Circle 6',       relation: 'Wife',      kinPhone: '+260979928614',       kinName: 'Indra Nyemba',       kinEmail: 'indranyemba@gmail.com',      reg: 100,       paidOut: 1962,       savings: 0,       pending: 0,         payout: 0,        loan: 0,       janb: true,       febb: true,      marb: true,       mayb: true,       junb: true,       julb: false,         paycheck: false
     },
 
 // Mercy Mwila - Member
@@ -178,8 +178,8 @@ const formData = [
         febShares: 2000,     febLoans: 0,      febReturms: 1400,       febPending: 0,
         marShares: 2000,     marLoans: 0,      marReturns: 1000,       marPending: 0,
         aprShares: 2000,     aprLoans: 0,      aprReturns: 1000,      aprPending: 0,
-        mayShares: 2000,     mayLoans: 0,      mayReturns: 0,     mayPending: 0,
-        junShares: 0,    junLoans: 0,      junReturns: 0,     junPending: 0,       circle: 'Circle 6',      relation: 'Husband',      kinPhone: '+260977705003',       kinName: 'Martin Siwakwi',      kinEmail: 'kamandowiza5@gmail.com',      reg: 100,       paidOut: 1962,        savings: 0,      pending: 0,      payout: 0,       loan: 0,       janb: true,     febb: true,      marb: true,     mayb: true,      junb: true,     julb: false,     paycheck: false
+        mayShares: 2000,     mayLoans: 0,      mayReturns: 1000,     mayPending: 0,
+        junShares: 2000,    junLoans: 0,      junReturns: 0,     junPending: 0,       circle: 'Circle 6',      relation: 'Husband',      kinPhone: '+260977705003',       kinName: 'Martin Siwakwi',      kinEmail: 'kamandowiza5@gmail.com',      reg: 100,       paidOut: 1962,        savings: 0,      pending: 0,      payout: 0,       loan: 0,       janb: true,     febb: true,      marb: true,     mayb: true,      junb: true,     julb: false,     paycheck: false
     },
 
 // Jessy Chinyama - Member
@@ -263,7 +263,7 @@ const formData = [
         marShares: 1000,           marLoans: 1000,         marReturns: 5000,         marPending: 0,
         aprShares: 1000,            aprLoans: 4000,        aprReturns: 4000,       aprPending: 0,
         mayShares: 1000,          mayLoans: 0,      mayReturns: 2160,       mayPending: 0,
-        junShares: 1000,           junLoans: 0,      junReturns: 0,      junPending: 0,     circle: 'Circle 6',      relation: '0',       kinPhone: '0',       kinName: '0',      kinEmail: '@gmail.com',      reg: 100,      paidOut: 1962,      savings: 0,     pending: 0,       payout: 0,      loan: 0,      janb: true,      febb: true,      marb: true,      mayb: true,      junb: true,      julb: false,    paycheck: false
+        junShares: 1000,           junLoans: 0,      junReturns: 288,      junPending: 0,     circle: 'Circle 6',      relation: '0',       kinPhone: '0',       kinName: '0',      kinEmail: '@gmail.com',      reg: 100,      paidOut: 1962,      savings: 0,     pending: 0,       payout: 0,      loan: 0,      janb: true,      febb: true,      marb: true,      mayb: true,      junb: true,      julb: false,    paycheck: false
     },
 
 // Julia Salujinga - Member
@@ -274,8 +274,8 @@ const formData = [
         febShares: 1000,      febLoans: 0,      febReturms: 0,     febPending: 0,
         marShares: 1000,            marLoans: 2000,    marReturns: 0,      marPending: 0,    
         aprShares: 1000,            aprLoans: 0,     aprReturns: 200,     aprPending: 0,    
-        mayShares: 1000,          mayLoans: 0,     mayReturns: 0,    mayPending: 0,      
-        junShares: 0,            junLoans: 0,       junReturns: 0,      junPending: 0,     circle: 'Circle 6',      relation: '0',      kinPhone: '0',       kinName: '0',        kinEmail: '@gmail.com',      reg: 100,      paidOut: 1962,      savings: 0,       pending: 0,      payout: 0,      loan: 0,       janb: true,       febb: true,       marb: true,       mayb: true,       junb: true,      julb: false,       paycheck: false  
+        mayShares: 1000,          mayLoans: 0,     mayReturns: 200,    mayPending: 0,      
+        junShares: 1000,            junLoans: 0,       junReturns: 0,      junPending: 0,     circle: 'Circle 6',      relation: '0',      kinPhone: '0',       kinName: '0',        kinEmail: '@gmail.com',      reg: 100,      paidOut: 1962,      savings: 0,       pending: 0,      payout: 0,      loan: 0,       janb: true,       febb: true,       marb: true,       mayb: true,       junb: true,      julb: false,       paycheck: false  
     },
 
 ];
