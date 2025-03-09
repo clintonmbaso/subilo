@@ -101,7 +101,7 @@ function populateForm(data) {
     const totalLoan = calculateLoan(data);
     document.getElementById('loan').value = totalLoan;
     
-    const payOut = (data.Shares * /*10428*/0) /*- totalPending*/;
+    const payOut = (data.Shares * 10428) - totalPending;
     document.getElementById('payOut').value = payOut;
     
     document.getElementById('paidOut').value = data.paidOut;
