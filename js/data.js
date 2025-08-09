@@ -277,7 +277,7 @@ const formData = [
 // Giveson Mukuka - Member
     { 
         idInput: 'SI21MP0719',     First_Name: 'Giveson',       Middle_Name: '',       Last_Name: 'Mukuka',       circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0719.jpg',      parentImageUrl: 'images/circle7/SI21MP0719n.jpg',      emailInput: '@gmail.com',      callInput: '0',      smsInput: '0',
+        Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0719.jpg',      parentImageUrl: 'images/circle7/SI21MP0719n.jpg',      emailInput: 'givesonmukuka@gmail.com',      callInput: '+260974740483',      smsInput: '+260974740483',
         janShares: 1200,     janLoans: 1400,      janReturns: 1400,       janPending: 0,
         febShares: 1000,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,

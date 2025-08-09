@@ -465,39 +465,53 @@ function viewMemberDetails(memberId) {
     
     $('#contentArea').html(`
         <div class="col-12">
-            <div class="card shadow-sm">
+            <div class="card shadow-sm mainCard">
                 <div class="card-header bg-primary text-white">
                     <h5 class="mb-0">Member Details - ${memberData.First_Name} ${memberData.Last_Name}</h5>
                 </div>
                 <div class="card-body">
                     <div class="row">
+    
+                    <div class="merge">
                         <div class="col-md-4 mb-4">
                             <div class="card h-100">
                                 <div class="card-header bg-info text-white">
                                     <h6 class="mb-0">Profile Information</h6>
                                 </div>
                                 <div class="card-body">
+    
+                    <div class="merge">    
                                     <div class="text-center mb-3">
                                         <img src="${memberData.learnerImageUrl || 'images/avatar_bw.jpg'}" 
                                              class="rounded-circle" width="120" height="120" alt="Member Photo">
                                     </div>
-                                    <p><strong>ID:</strong> ${memberData.idInput}</p>
-                                    <p><strong>Name:</strong> ${memberData.First_Name} ${memberData.Middle_Name ? memberData.Middle_Name + ' ' : ''}${memberData.Last_Name}</p>
-                                    <p><strong>Status:</strong> <span class="badge ${memberData.Status === 'Active' ? 'bg-success' : 'bg-danger'}">${memberData.Status}</span></p>
-                                    <p><strong>Circle:</strong> ${memberData.circle}</p>
+    
+                                    <div>
+                                    <p class="merge">${memberData.circle}
+                                    <span class="badge ${memberData.Status === 'Active' ? 'bg-success' : 'bg-danger'}">${memberData.Status}</span></p>
+                                    </div>
+    
+                                    </div>
+    
+                                    <p style="display: flex; justify-content: space-between;">Voice Call: <a href="tel:${memberData.callInput}">📱</a>SMS Text: <a href="sms:${memberData.callInput}">📩</a> </p>
+    
+                                    <p><strong>ID Number: </strong> ${memberData.idInput} </p>
+                                    <p>Email: <a href="email:${memberData.emailInput}">${memberData.emailInput}</a> </p>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="col-md-8 mb-4">
+                        <div class="col-md-8 mb-4 merge">
                             <div class="card h-100">
                                 <div class="card-header bg-info text-white">
                                     <h6 class="mb-0">Financial Summary</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
+    
+                                        <div class="merge">
                                         <div class="col-md-6 mb-3">
-                                            <div class="card bg-light">
+                                            <div class="card bg-light carding">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Total Savings</h6>
                                                     <p class="card-text fs-4">K ${formatNumber(financials.totalSavings)}</p>
@@ -505,15 +519,18 @@ function viewMemberDetails(memberId) {
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-3">
-                                            <div class="card bg-light">
+                                            <div class="card bg-light carding">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Total Loans</h6>
                                                     <p class="card-text fs-4">K ${formatNumber(financials.totalLoan)}</p>
                                                 </div>
                                             </div>
                                         </div>
+                                </div>    
+    
+                                <div class="merge">    
                                         <div class="col-md-6 mb-3">
-                                            <div class="card bg-light">
+                                            <div class="card bg-light carding">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Pending Returns</h6>
                                                     <p class="card-text fs-4">K ${formatNumber(financials.totalPending)}</p>
@@ -521,19 +538,24 @@ function viewMemberDetails(memberId) {
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-3">
-                                            <div class="card bg-light">
+                                            <div class="card bg-light carding">
                                                 <div class="card-body">
                                                     <h6 class="card-title">Projected Payout</h6>
                                                     <p class="card-text fs-4">K ${formatNumber(financials.payOut)}</p>
                                                 </div>
                                             </div>
                                         </div>
+                                </div>  
+    
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+    
+                    </div>
+    
+    
                     <div class="row mt-3">
                         <div class="col-12">
                             <div class="card">
@@ -618,6 +640,9 @@ function viewMemberDetails(memberId) {
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
+    
+                                    <div class="merge">    
+                                    <div>    
                                         <div class="col-md-6">
                                             <p><strong>Name:</strong> ${memberData.kinName || 'N/A'}</p>
                                             <p><strong>Relationship:</strong> ${memberData.relation || 'N/A'}</p>
@@ -627,6 +652,16 @@ function viewMemberDetails(memberId) {
                                             <p><strong>Email:</strong> ${memberData.kinEmail || 'N/A'}</p>
                                         </div>
                                     </div>
+    
+                                    <div class="text-center mb-3">
+                                        <img src="${memberData.parentImageUrl || 'images/avatar_bw.jpg'}" 
+                                             class="rounded-circle" width="120" height="120" alt="Member Photo">
+                                    </div>
+    
+    
+                                        </div>
+    
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -635,6 +670,11 @@ function viewMemberDetails(memberId) {
                     <button class="btn btn-secondary mt-3" onclick="viewAllMembers()">
                         <i class="fas fa-arrow-left me-1"></i> Back to Members List
                     </button>
+    
+                    <button class="printContent" title="Print the Test" onclick="window.print()">📠</button>
+
+    
+    
                 </div>
             </div>
         </div>
