@@ -17,7 +17,7 @@ const formData = [
 
 // Admin
 // Bertha Betty Mambwe - Treasurer
-/*
+
     {
         idInput: 'SI21AP0701',       First_Name: 'Bertha',       Middle_Name: 'Betty',       Last_Name: 'Mambwe',      circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',
         Shares: 0,         learnerImageUrl: 'images/circle7/SI21AP0701.jpg',      parentImageUrl: 'images/circle7/SI21AP0701n.jpg',      emailInput: 'bettybetharm@gmail.com',       callInput: '+260977326129',     smsInput: '+260977326129',
@@ -60,11 +60,11 @@ const formData = [
         reg: 0,          paidOut: 0,       savings: 0,         pending: 0,          payout: 0,                loan: 0,        
         janb: false,       febb: false,      marb: false,        mayb: false,       junb: false,              julb: false,            paycheck: false
     },
-*/
+
 
 // Members
 // Barbra Mwape
-/*
+
     {
         idInput: 'SI21MP0704',      First_Name: 'Barbra',        Middle_Name: '-',       Last_Name: 'Mwape',      circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',      Status: 'Active',
         Shares: 0,         learnerImageUrl: 'images/circle7/SI21MP0704.jpg',      parentImageUrl: 'images/circle7/SI21MP0704n.jpg',      emailInput: 'barbramwape2@gmail.com',     callInput: '+260979360800',      smsInput: '+260979360800',
@@ -77,7 +77,7 @@ const formData = [
         reg: 0,            paidOut: 0,       savings: 0,         pending: 0,        payout: 0,                loan: 0,      
         janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,               paycheck: false
     },
-*/
+
 // Memory Nkhosi - Member
     {
         idInput: 'SI21MP0705',     First_Name: 'Memory',         Middle_Name: '',      Last_Name: 'Nkhosi',       circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',     
