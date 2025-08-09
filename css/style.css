@@ -18,6 +18,8 @@ body {
     border-radius: 10px 10px 0 0 !important;
 }
 
+
+
 .navbar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -31,11 +33,52 @@ body {
     font-weight: 600;
 }
 
+/* Prevent wrapping in all tables */
+td, th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    width: 300px;
+}
+
+/* Ensure tables don't break layout */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Optional: Add horizontal scroll for small screens */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .btn {
     font-weight: 500;
     padding: 0.5rem 1rem;
     border-radius: 8px;
 }
+
+a {
+    text-decoration: none;
+}
+
+    .printContent {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        font-size: 26px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999999;
+    }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -45,5 +88,52 @@ body {
     
     .table-responsive {
         overflow-x: auto;
+    }
+}
+
+@media print {
+    body {
+        margin: 0; /* Remove default margins */
+        padding: 0;
+    }
+    
+    .carding {
+    width: 180px;
+}
+    
+    .merge {
+        display: flex; 
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+.rounded-circle {
+    border-radius: 10px;
+    
+}
+    
+    .mainCard {
+        width: 760px;
+        left: -120px;
+        padding: 0;
+        margin: auto 0;
+    }
+    
+        * {
+        -webkit-print-color-adjust: exact; /* For WebKit browsers */
+        print-color-adjust: exact; /* For modern browsers */
+    }
+    
+    .printContent, .btn, .navbar, footer {
+        display: none;
+    }
+
+    .page-break {
+        page-break-after: always; /* Force page break after this element */
+        break-after: always; /* For other browsers */
+    }
+        @page {
+        size: A4;
+        margin: 0;
     }
 }
