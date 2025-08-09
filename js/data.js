@@ -4,7 +4,7 @@ const formData = [
 // Subilo Investment
     {    
         idInput: 'SI21AP0000',       First_Name: 'Subilo',       Middle_Name: 'Investment',         Last_Name: 'Limited',       circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',         Status: 'Active',
-        Shares: 0,         learnerImageUrl: '../images/circle7/SI21AP0000.png',     parentImageUrl: '../images/circle7/SI21AP0000.png',   emailInput: 'subiloinvestment@gmail.com',    callInput: '+260977326129',   smsInput: '+260977326129',    
+        Shares: 0,         learnerImageUrl: 'images/circle7/SI21AP0000.png',     parentImageUrl: 'images/circle7/SI21AP0000.png',   emailInput: 'subiloinvestment@gmail.com',    callInput: '+260977326129',   smsInput: '+260977326129',    
         janShares: 0,      janLoans: 0,      janReturns: 0,      janPending: 0,    
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,    
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,      
@@ -20,7 +20,7 @@ const formData = [
 /*
     {
         idInput: 'SI21AP0701',       First_Name: 'Bertha',       Middle_Name: 'Betty',       Last_Name: 'Mambwe',      circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 0,         learnerImageUrl: '../images/circle7/SI21AP0701.jpg',      parentImageUrl: '../images/circle7/SI21AP0701n.jpg',      emailInput: 'bettybetharm@gmail.com',       callInput: '+260977326129',     smsInput: '+260977326129',
+        Shares: 0,         learnerImageUrl: 'images/circle7/SI21AP0701.jpg',      parentImageUrl: 'images/circle7/SI21AP0701n.jpg',      emailInput: 'bettybetharm@gmail.com',       callInput: '+260977326129',     smsInput: '+260977326129',
         janShares: 0,      janLoans: 0,      janReturns: 0,      janPending: 0,
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,
@@ -35,7 +35,7 @@ const formData = [
 // Bridget Muuka - Chairperson
     {
         idInput: 'SI21AP0702',      First_Name: 'Bridget',       Middle_Name: '-',       Last_Name: 'Muuka',       circleBegunOn: '2025-07-05',     circleEndsOn: '2026-01-05',     Status: 'Active',
-        Shares: 0,         learnerImageUrl: '../images/circle7/SI21AP0702.jpg',    parentImageUrl: '../images/circle7/SI21AP0702n.jpg',     emailInput: 'briclintons@gmail.com',     callInput: '+260967703883',     smsInput: '+260971686350',     
+        Shares: 0,         learnerImageUrl: 'images/circle7/SI21AP0702.jpg',    parentImageUrl: 'images/circle7/SI21AP0702n.jpg',     emailInput: 'briclintons@gmail.com',     callInput: '+260967703883',     smsInput: '+260971686350',     
         janShares: 0,      janLoans: 0,      janReturns: 0,      janPending: 0,     
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,  
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,        
@@ -50,7 +50,7 @@ const formData = [
 // Clinton Mbaso - Secretary
     {
         idInput: 'SI21AP0703',      First_Name: 'Clint',         Middle_Name: '-',        Last_Name: 'Mbaso',      circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',     Status: 'Active',
-        Shares: 0,         learnerImageUrl: '../images/circle7/SI21AP0703.jpg',      parentImageUrl: '../images/circle7/SI21AP0703n.jpg',      emailInput: 'clintonmbaso@gmail.com',       callInput: '+260968084570',      smsInput: '+260975273790',   
+        Shares: 0,         learnerImageUrl: 'images/circle7/SI21AP0703.jpg',      parentImageUrl: 'images/circle7/SI21AP0703n.jpg',      emailInput: 'clintonmbaso@gmail.com',       callInput: '+260968084570',      smsInput: '+260975273790',   
         janShares: 0,      janLoans: 0,      janReturns: 0,      janPending: 0,   
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,     
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,
@@ -67,7 +67,7 @@ const formData = [
 /*
     {
         idInput: 'SI21MP0704',      First_Name: 'Barbra',        Middle_Name: '-',       Last_Name: 'Mwape',      circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 0,         learnerImageUrl: '../images/circle7/SI21MP0704.jpg',      parentImageUrl: '../images/circle7/SI21MP0704n.jpg',      emailInput: 'barbramwape2@gmail.com',     callInput: '+260979360800',      smsInput: '+260979360800',
+        Shares: 0,         learnerImageUrl: 'images/circle7/SI21MP0704.jpg',      parentImageUrl: 'images/circle7/SI21MP0704n.jpg',      emailInput: 'barbramwape2@gmail.com',     callInput: '+260979360800',      smsInput: '+260979360800',
         janShares: 0,      janLoans: 0,      janReturns: 0,      janPending: 0,
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,
@@ -81,7 +81,7 @@ const formData = [
 // Memory Nkhosi - Member
     {
         idInput: 'SI21MP0705',     First_Name: 'Memory',         Middle_Name: '',      Last_Name: 'Nkhosi',       circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',     
-        Shares: 1,         learnerImageUrl: '../images/circle7/SI21MP0705.jpg',      parentImageUrl: '../images/circle7/SI21MP0705n.jpg',      emailInput: 'memorynkosi@gmail.com',       callInput: '+260978818499',        smsInput: '+260978818499',
+        Shares: 1,         learnerImageUrl: 'images/circle7/SI21MP0705.jpg',      parentImageUrl: 'images/circle7/SI21MP0705n.jpg',      emailInput: 'memorynkosi@gmail.com',       callInput: '+260978818499',        smsInput: '+260978818499',
         janShares: 1200,      janLoans: 6000,      janReturns: 0,      janPending: 0,
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,
@@ -89,13 +89,13 @@ const formData = [
         mayShares: 0,      mayLoans: 0,      mayReturns: 0,      mayPending: 0,
         junShares: 0,      junLoans: 0,      junReturns: 0,      junPending: 0,     circle: 'Circle 7',     relation: 'Brother',     kinPhone: '+260979272071',     kinName: 'Joe Luwaile',     kinEmail: 'luwailej@gmail.com',     
         reg: 200,          paidOut: 0,       savings: 0,         pending: 0,        payout: 0,              loan: 0,      
-        janb: true,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,              paycheck: false
+        janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,              paycheck: false
     },
 
 // Angela Imakando - Member
     {
         idInput: 'SI21MP0706',         First_Name: 'Angela',     Middle_Name: '',     Last_Name: 'Imakando',    bbcircleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',     Status: 'Active',
-        Shares: 1,         learnerImageUrl: '../images/circle7/SI21MP0706.jpg',     parentImageUrl: '../images/circle7/SI21MP0706n.jpg',      emailInput: 'imakandoangela123@gmail.com',     callInput: '+260977574035',     smsInput: '+260977574035',
+        Shares: 1,         learnerImageUrl: 'images/circle7/SI21MP0706.jpg',     parentImageUrl: 'images/circle7/SI21MP0706n.jpg',      emailInput: 'imakandoangela123@gmail.com',     callInput: '+260977574035',     smsInput: '+260977574035',
         janShares: 1200,      janLoans: 0,      janReturns: 0,      janPending: 0,
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,
@@ -109,7 +109,7 @@ const formData = [
 // Likando Katukula - Member
     {
         idInput: 'SI21MP0707',       First_Name: 'Likando',      Middle_Name: '',        Last_Name: 'Katukula',       circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 1,         learnerImageUrl: '../images/circle7/SI21MP0707.jpg',     parentImageUrl: '../images/circle7/SI21MP0707n.jpg',      emailInput: 'munalulakennedy5@gmail.com',       callInput: '+260977779771',        smsInput: '+260977779771',
+        Shares: 1,         learnerImageUrl: 'images/circle7/SI21MP0707.jpg',     parentImageUrl: 'images/circle7/SI21MP0707n.jpg',      emailInput: 'munalulakennedy5@gmail.com',       callInput: '+260977779771',        smsInput: '+260977779771',
         janShares: 1200,      janLoans: 0,      janReturns: 0,      janPending: 0,
         febShares: 0,      febLoans: 0,      febReturms: 0,      febPending: 0,
         marShares: 0,      marLoans: 0,      marReturns: 0,      marPending: 0,
@@ -123,7 +123,7 @@ const formData = [
 // Virginia Salujinga - Member
     {
         idInput: 'SI21MP0708',      First_Name: 'Virginia',       Middle_Name: '',     Last_Name: 'Salujinga',      circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 4,        learnerImageUrl: '../images/circle7/SI21MP0708.jpg',      parentImageUrl: '../images/circle7/SI21MP0708n.jpg',     emailInput: 'katukulalikando@gmail.com',     callInput: '0000',      smsInput: '0000',
+        Shares: 4,        learnerImageUrl: 'images/circle7/SI21MP0708.jpg',      parentImageUrl: 'images/circle7/SI21MP0708n.jpg',     emailInput: 'katukulalikando@gmail.com',     callInput: '0000',      smsInput: '0000',
         janShares: 4800,     janLoans: 4600,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -137,7 +137,7 @@ const formData = [
 // Mukamwanze Hamaumbwe - Member
     {
         idInput: 'SI21MP0709',      First_Name: 'Mukamwanze',      Middle_Name: '',       Last_Name: 'Hamaumbwe',       circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',       Status: 'Active',
-        Shares: 3,        learnerImageUrl: '../images/circle7/SI21MP0709.jpg',       parentImageUrl: '../images/circle7/SI21MP0709n.jpg',      emailInput: 'briclintons@gmail.com',       callInput: '+260977122760',      smsInput: '+260977122760',
+        Shares: 3,        learnerImageUrl: 'images/circle7/SI21MP0709.jpg',       parentImageUrl: 'images/circle7/SI21MP0709n.jpg',      emailInput: 'briclintons@gmail.com',       callInput: '+260977122760',      smsInput: '+260977122760',
         janShares: 3600,     janLoans: 0,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -151,7 +151,7 @@ const formData = [
 // Jessy Chinyama - Member
     {
         idInput: 'SI21MP0710',       First_Name: 'Jessy',       Middle_Name: '',        Last_Name: 'Chinyama',       circleBegunOn: '2025-07-05',        circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 5,        learnerImageUrl: '../images/circle7/SI21MP0710.jpg',       parentImageUrl: '../images/circle7/SI21MP0710n.jpg',      emailInput: 'mambweben2@gmail.com',       callInput: '+260978855674',       smsInput: '+260978855674',
+        Shares: 5,        learnerImageUrl: 'images/circle7/SI21MP0710.jpg',       parentImageUrl: 'images/circle7/SI21MP0710n.jpg',      emailInput: 'mambweben2@gmail.com',       callInput: '+260978855674',       smsInput: '+260978855674',
         janShares: 6000,     janLoans: 0,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -165,7 +165,7 @@ const formData = [
 // Rachel Nkhoma - Member
     {
         idInput: 'SI21MP0711',        First_Name: 'Rachel',       Middle_Name: '',       Last_Name: 'Nkhoma',         circleBegunOn: '2025-07-05',        circleEndsOn: '2026-01-05',       Status: 'Active',       
-        Shares: 1,        learnerImageUrl: '../images/circle7/SI21MP0711.jpg',      parentImageUrl: '../images/circle7/SI21MP0711n.jpg',      emailInput: 'indranyemba@gmail.com',      callInput: '+260979928614',     smsInput: '+260979928614',
+        Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0711.jpg',      parentImageUrl: 'images/circle7/SI21MP0711n.jpg',      emailInput: 'indranyemba@gmail.com',      callInput: '+260979928614',     smsInput: '+260979928614',
         janShares: 1200,     janLoans: 6000,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -179,7 +179,7 @@ const formData = [
 // Hazel Mwiinde - Member
     {
         idInput: 'SI21MP0712',      First_Name: 'Hazel',      Middle_Name: '',      Last_Name: 'Mwiinde',       circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 1,        learnerImageUrl: '../images/circle7/SI21MP0712.jpg',         parentImageUrl: '../images/circle7/SI21MP0712n.jpg',      emailInput: 'bornfacemukwita1@gmail.com',      callInput: '+260972114625',      smsInput: '+260972114625',
+        Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0712.jpg',         parentImageUrl: 'images/circle7/SI21MP0712n.jpg',      emailInput: 'bornfacemukwita1@gmail.com',      callInput: '+260972114625',      smsInput: '+260972114625',
         janShares: 1200,     janLoans: 1000,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -193,7 +193,7 @@ const formData = [
 // Chilambe Mutelo - Member
     {
         idInput: 'SI21MP0713',       First_Name: 'Chilambe',        Middle_Name: '',       Last_Name: 'Mutelo',       circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 1,        learnerImageUrl: '../images/circle7/SI21MP0713.jpg',      parentImageUrl: '../images/circle7/SI21MP0713n.jpg',     emailInput: 'mercymwila13@gmail.com',      callInput: '+0000',      smsInput: '+0000',
+        Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0713.jpg',      parentImageUrl: 'images/circle7/SI21MP0713n.jpg',     emailInput: 'mercymwila13@gmail.com',      callInput: '+0000',      smsInput: '+0000',
         janShares: 1200,     janLoans: 0,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -207,7 +207,7 @@ const formData = [
 // Mercy Kasela - Member
     {
         idInput: 'SI21MP0714',      First_Name: 'Mercy',         Middle_Name: '',       Last_Name: 'Kasela',      circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',
-        Shares: 1,        learnerImageUrl: '../images/circle7/SI21MP0714.jpg',     parentImageUrl: '../images/circle7/SI21MP0714n.jpg',        emailInput: 'mkashela198@gmail.com',      callInput: '+260979475225',       smsInput: '+260979475225',
+        Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0714.jpg',     parentImageUrl: 'images/circle7/SI21MP0714n.jpg',        emailInput: 'mkashela198@gmail.com',      callInput: '+260979475225',       smsInput: '+260979475225',
         janShares: 1200,     janLoans: 800,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -221,7 +221,7 @@ const formData = [
 // Mercy Mwila - Member
     {
         idInput: 'SI21MP0715',       First_Name: 'Mercy',      Middle_Name: '',         Last_Name: 'Mwila',        circleBegunOn: '2025-07-05',        circleEndsOn: '2026-01-05',       Status: 'Active',
-        Shares: 2,        learnerImageUrl: '../images/circle7/SI21MP0715.jpg',         parentImageUrl: '../images/circle7/SI21MP0715n.jpg',        emailInput: 'mirandakundolah@gmail.com',        callInput: '+260977452258',       smsInput: '+260977452258',
+        Shares: 2,        learnerImageUrl: 'images/circle7/SI21MP0715.jpg',         parentImageUrl: 'images/circle7/SI21MP0715n.jpg',        emailInput: 'mirandakundolah@gmail.com',        callInput: '+260977452258',       smsInput: '+260977452258',
         janShares: 2400,     janLoans: 0,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
@@ -235,7 +235,7 @@ const formData = [
 // Getrude Mwape - Member
     {
         idInput: 'SI21MP0716',      First_Name: 'Getrude',        Middle_Name: '',     Last_Name: 'Mwape',     circleBegunOn: '2025-07-05',     circleEndsOn: '2026-01-05',      Status: 'Active',  
-        Shares: 4,        learnerImageUrl: '../images/circle7/SI21MP0716.jpg',   bbparentImageUrl: '../images/circle7/SI21MP0716n.jpg',     emailInput: 'abc@gmail.com',     callInput: '+260977431295',     smsInput: '+260977431295',  
+        Shares: 4,        learnerImageUrl: 'images/circle7/SI21MP0716.jpg',   bbparentImageUrl: 'images/circle7/SI21MP0716n.jpg',     emailInput: 'abc@gmail.com',     callInput: '+260977431295',     smsInput: '+260977431295',  
         janShares: 4800,     janLoans: 10000,      janReturns: 0,       janPending: 0,  
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,     
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,  
@@ -249,7 +249,7 @@ const formData = [
 // Febby Banda - Member
     {  
         idInput: 'SI21MP0717',     First_Name: 'Febby',          Middle_Name: '',      Last_Name: 'Banda',      circleBegunOn: '2025-07-05',     circleEndsOn: '2026-01-05',      Status: 'Active',     
-        Shares: 5,        learnerImageUrl: '../images/circle7/SI21MP0717.jpg',     parentImageUrl: '../images/circle7/SI21MP0717n.jpg',      emailInput: 'hazelmwiinde97@gmail.com',       callInput: '+260975114625',      smsInput: '+260975114625',       
+        Shares: 5,        learnerImageUrl: 'images/circle7/SI21MP0717.jpg',     parentImageUrl: 'images/circle7/SI21MP0717n.jpg',      emailInput: 'hazelmwiinde97@gmail.com',       callInput: '+260975114625',      smsInput: '+260975114625',       
         janShares: 6000,     janLoans: 10000,      janReturns: 0,       janPending: 0,      
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,     
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,  
@@ -263,7 +263,7 @@ const formData = [
 // Mercy Phiri - Member
     {
         idInput: 'SI21MP0718',      First_Name: 'Mercy',      Middle_Name: '',        Last_Name: 'Phiri',        circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',       Status: 'Active',
-        Shares: 0,        learnerImageUrl: '../images/circle7/SI21MP0718.jpg',      parentImageUrl: '../images/circle7/SI21MP0718n.jpg',       emailInput: 'email@gmail.com',       callInput: '+260973463660',       smsInput: '+260973463660',
+        Shares: 0,        learnerImageUrl: 'images/circle7/SI21MP0718.jpg',      parentImageUrl: 'images/circle7/SI21MP0718n.jpg',       emailInput: 'email@gmail.com',       callInput: '+260973463660',       smsInput: '+260973463660',
         janShares: 0,     janLoans: 0,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
