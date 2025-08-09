@@ -273,21 +273,21 @@ const formData = [
         reg: 0,         paidOut: 0,       savings: 0,          pending: 0,         payout: 0,               loan: 0,       
         janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,                paycheck: false
     },
-/*
-// Chilambe Mutelo - Member
+
+// Giveson Mukuka - Member
     { 
-        idInput: 'SI21MP0721',     First_Name: 'Chilambe',       Middle_Name: '-',       Last_Name: 'Mutelo',       circleBegunOn: '2025-07-05',       circleEndsOn: '2025-01-05',      Status: 'Active',
-        Shares: 0,        learnerImageUrl: 'images/circle7/SI21MP0621.jpg',      parentImageUrl: 'images/circle7/SI21MP0621n.jpg',      emailInput: '@gmail.com',      callInput: '0',      smsInput: '0',
-        janShares: 0,     janLoans: 0,      janReturns: 0,       janPending: 0,
-        febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
+        idInput: 'SI21MP0719',     First_Name: 'Giveson',       Middle_Name: '',       Last_Name: 'Mukuka',       circleBegunOn: '2025-07-05',       circleEndsOn: '2026-01-05',      Status: 'Active',
+        Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0719.jpg',      parentImageUrl: 'images/circle7/SI21MP0719n.jpg',      emailInput: '@gmail.com',      callInput: '0',      smsInput: '0',
+        janShares: 1200,     janLoans: 1400,      janReturns: 1400,       janPending: 0,
+        febShares: 1000,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
         aprShares: 0,     aprLoans: 0,      aprReturns: 0,       aprPending: 0,
         mayShares: 0,     mayLoans: 0,      mayReturns: 0,       mayPending: 0,
-        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,     circle: 'Circle 7',      relation: '0',       kinPhone: '0',       kinName: '0',      kinEmail: '@gmail.com',      
-        reg: 0,         paidOut: 0,       savings: 0,          pending: 0,        payout: 0,               loan: 0,      
+        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,     circle: 'Circle 7',      relation: 'Wife',       kinPhone: '+260963237199',       kinName: 'Mulenga Chisha',      kinEmail: '@gmail.com',      
+        reg: 200,         paidOut: 0,       savings: 0,          pending: 0,        payout: 0,               loan: 0,      
         janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,          paycheck: false
     },
-
+/*
 // Julia Salujinga - Member
     {
         idInput: 'SI21MP0722',      First_Name: 'Julia',         Middle_Name: '-',      Last_Name: 'Salujinga',      circleBegunOn: '2025-07-05',      circleEndsOn: '2025-01-05',      Status: 'Active',
