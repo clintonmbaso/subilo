@@ -167,6 +167,8 @@ function loadMemberDashboard(container, memberId) {
                                     <h6 class="mb-0">Monthly Contributions</h6>
                                 </div>
                                 <div class="card-body">
+                                
+                                <div class="table-container">
                                     <div class="table-responsive">
                                         <table class="table table-striped">
                                             <thead>
@@ -231,6 +233,7 @@ function loadMemberDashboard(container, memberId) {
                                             </tbody>
                                         </table>
                                     </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -325,6 +328,8 @@ function viewSummary() {
                     <h5 class="mb-0">Circle Summary</h5>
                 </div>
                 <div class="card-body">
+                
+                <div class="table-container">
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
@@ -382,6 +387,7 @@ function viewSummary() {
                             </tbody>
                         </table>
                     </div>
+                    </div>
                     <button class="btn btn-secondary mt-3" onclick="loadAdminDashboard($('#contentArea'))">
                         <i class="fas fa-arrow-left me-1"></i> Back to Dashboard
                     </button>
@@ -401,6 +407,8 @@ function viewAllMembers() {
                     <h5 class="mb-0">All Members</h5>
                 </div>
                 <div class="card-body">
+                
+                <div class="table-container">
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
@@ -438,6 +446,8 @@ function viewAllMembers() {
                             </tbody>
                         </table>
                     </div>
+                    </div>
+                    
                     <button class="btn btn-secondary mt-3" onclick="loadAdminDashboard($('#contentArea'))">
                         <i class="fas fa-arrow-left me-1"></i> Back to Dashboard
                     </button>
