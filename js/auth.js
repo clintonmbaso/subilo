@@ -22,7 +22,7 @@ const users = {
         "SI21MP0711": { password: "Rachel-MP", name: "Rachel Nkhoma" },
         "SI21MP0712": { password: "Hazel-MP", name: "Hazel Mwiinde" },
         "SI21MP0713": { password: "Chilambe-MP22", name: "Chilambe Mutelo" },
-        "SI21MP0714": { password: "Mercy-MP51", name: "Mercy Kasela" },
+        "SI21MP0714": { password: "Mercy-MP51", name: "Mercy Kashela" },
         "SI21MP0715": { password: "Mercy-MP34", name: "Mercy Mwila" },
         "SI21MP0716": { password: "Getrude-MP32", name: "Getrude Mwape" },
         "SI21MP0717": { password: "Febby-MP30", name: "Febby Selina Banda" },

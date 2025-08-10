@@ -204,9 +204,9 @@ const formData = [
         janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,               paycheck: false
     },
 
-// Mercy Kasela - Member
+// Mercy Kashela - Member
     {
-        idInput: 'SI21MP0714',      First_Name: 'Mercy',         Middle_Name: '',       Last_Name: 'Kasela',      circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',
+        idInput: 'SI21MP0714',      First_Name: 'Mercy',         Middle_Name: '',       Last_Name: 'Kashela',      circleBegunOn: '2025-07-05',      circleEndsOn: '2026-01-05',      Status: 'Active',
         Shares: 1,        learnerImageUrl: 'images/circle7/SI21MP0714.jpg',     parentImageUrl: 'images/circle7/SI21MP0714n.jpg',        emailInput: 'mkashela198@gmail.com',      callInput: '+260979475225',       smsInput: '+260979475225',
         janShares: 1200,     janLoans: 800,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
@@ -221,7 +221,7 @@ const formData = [
 // Mercy Mwila - Member
     {
         idInput: 'SI21MP0715',       First_Name: 'Mercy',      Middle_Name: '',         Last_Name: 'Mwila',        circleBegunOn: '2025-07-05',        circleEndsOn: '2026-01-05',       Status: 'Active',
-        Shares: 2,        learnerImageUrl: 'images/circle7/SI21MP0715.jpg',         parentImageUrl: 'images/circle7/SI21MP0715n.jpg',        emailInput: 'mirandakundolah@gmail.com',        callInput: '+260977452258',       smsInput: '+260977452258',
+        Shares: 2,        learnerImageUrl: 'images/circle7/SI21MP0715.jpg',         parentImageUrl: 'images/circle7/SI21MP0715n.jpg',        emailInput: '@gmail.com',        callInput: '+260977452258',       smsInput: '+260977452258',
         janShares: 2400,     janLoans: 0,      janReturns: 0,       janPending: 0,
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,

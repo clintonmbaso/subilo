@@ -467,7 +467,7 @@ function viewMemberDetails(memberId) {
         <div class="col-12">
             <div class="card shadow-sm mainCard">
                 <div class="card-header bg-primary text-white">
-                    <h5 class="mb-0">Member Details - ${memberData.First_Name} ${memberData.Last_Name}</h5>
+                    <h5 class="mb-0">Member Details - ${memberData.First_Name} ${memberData.Middle_Name} ${memberData.Last_Name}</h5>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -493,7 +493,7 @@ function viewMemberDetails(memberId) {
     
                                     </div>
     
-                                    <p style="display: flex; justify-content: space-between;">Voice Call: <a href="tel:${memberData.callInput}">📱</a>SMS Text: <a href="sms:${memberData.callInput}">📩</a> </p>
+                                    <p style="display: flex; justify-content: space-between;">Voice Call: <a href="tel:${memberData.callInput}">${memberData.callInput} </a>SMS Text: <a href="sms:${memberData.callInput}">📩</a> </p>
     
                                     <p><strong>ID Number: </strong> ${memberData.idInput} </p>
                                     <p>Email: <a href="email:${memberData.emailInput}">${memberData.emailInput}</a> </p>
