@@ -199,7 +199,7 @@ const formData = [
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
         aprShares: 0,     aprLoans: 0,      aprReturns: 0,       aprPending: 0,
         mayShares: 0,     mayLoans: 0,      mayReturns: 0,       mayPending: 0,
-        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,       circle: 'Circle 7',      relation: 'Husband',      kinPhone: '+260977705003',       kinName: 'Martin Siwakwi',      kinEmail: 'kamandowiza5@gmail.com',      
+        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,       circle: 'Circle 7',      relation: '0',      kinPhone: '+260971864360',       kinName: '0',      kinEmail: '@gmail.com',      
         reg: 200,         paidOut: 0,       savings: 0,          pending: 0,          payout: 0,               loan: 0,       
         janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,               paycheck: false
     },
@@ -246,16 +246,16 @@ const formData = [
         janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,                  paycheck: false
     },
 
-// Febby Banda - Member
+// Febby Selina Banda - Member
     {  
-        idInput: 'SI21MP0717',     First_Name: 'Febby',          Middle_Name: '',      Last_Name: 'Banda',      circleBegunOn: '2025-07-05',     circleEndsOn: '2026-01-05',      Status: 'Active',     
-        Shares: 5,        learnerImageUrl: 'images/circle7/SI21MP0717.jpg',     parentImageUrl: 'images/circle7/SI21MP0717n.jpg',      emailInput: 'hazelmwiinde97@gmail.com',       callInput: '+260975114625',      smsInput: '+260975114625',       
+        idInput: 'SI21MP0717',     First_Name: 'Febby',          Middle_Name: 'Selina',      Last_Name: 'Banda',      circleBegunOn: '2025-07-05',     circleEndsOn: '2026-01-05',      Status: 'Active',     
+        Shares: 5,        learnerImageUrl: 'images/circle7/SI21MP0717.jpg',     parentImageUrl: 'images/circle7/SI21MP0717n.jpg',      emailInput: '@gmail.com',       callInput: '+260978903143',      smsInput: '+260978903143',       
         janShares: 6000,     janLoans: 10000,      janReturns: 0,       janPending: 0,      
         febShares: 0,     febLoans: 0,      febReturms: 0,       febPending: 0,     
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,  
         aprShares: 0,     aprLoans: 0,      aprReturns: 0,       aprPending: 0,   
         mayShares: 0,     mayLoans: 0,      mayReturns: 0,       mayPending: 0,    
-        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,      circle: 'Circle 7',      relation: 'Husband',       kinPhone: '+260972411116',       kinName: 'Barlewa Moonga',       kinEmail: 'barlewamoonga@gmail.com',      
+        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,      circle: 'Circle 7',      relation: 'Daughter',       kinPhone: '+260973463660',       kinName: 'Mercy Phiri',       kinEmail: '@gmail.com',      
         reg: 200,         paidOut: 0,       savings: 0,          pending: 0,         payout: 0,               loan: 0,       
         janb: false,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,                paycheck: false
     },  
