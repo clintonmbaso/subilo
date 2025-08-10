@@ -1,7 +1,7 @@
 // Authentication system
 const users = {
     admin: {
-        password: "s", // In production, use proper hashing
+        password: "Subilo-AP00", // In production, use proper hashing
         name: "Administrator",
         type: "admin"
     },
@@ -36,7 +36,7 @@ let currentUser = null;
 
 function authenticate(username, password, userType) {
     if (userType === "admin") {
-        if (username === "A" && password === users.admin.password) {
+        if (username === "SI21AP0000" && password === users.admin.password) {
             currentUser = users.admin;
             return true;
         }
