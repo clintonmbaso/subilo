@@ -1,119 +1,275 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subilo Investment | Village Banking System</title>
-    <meta name="description" content="Subilo Village Banking System">
-    <meta name="author" content="Subilo Investment">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SGB13276C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4SGB13276C');
+</script>
+  
+<meta charset="utf-8">
+<title>Subilo Investment | Home Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="SI%20icon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Subilo.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script src="js/events.js"></script>
+<script src="js/devotional.js"></script>
+<script src="js/devotionals.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+      $("a[href*='#aboutusLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_aboutusLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+      });
+   });
+</script>
+    <style>
+        table {
+            width: 95%;
+            border-collapse: collapse;
+            align: center;
+            margin-bottom: 5px;
+            margin-left: 8px;
+            background-color: white;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            color: blue;
+        }
+        #headerz {
+             background-color: rgba(255,255,255,0.6);
+             padding: 3px 80px 3px 80px;
+             margin-bottom: 10px;
+             border-radius: 10px;
+        }
+    </style>
 </head>
-<body class="bg-light">
-    <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header bg-primary text-white">
-                    <h5 class="modal-title">Login to Subilo Banking</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="loginForm">
-                        <div class="mb-3">
-                            <label for="loginType" class="form-label">Login As</label>
-                            <select class="form-select" id="loginType">
-                                <option value="admin">Admin</option>
-                                <option value="member">Member</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="username" class="form-label">Username/ID</label>
-                            <input type="text" class="form-control" id="username" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Login</button>
-                    </form>
-                </div>
+<body>
+   <div id="wb_EmbeddedPage4">
+      <div id="Html1">
+  
+         <div id="countdown" onclick="showPopup('<b>Closing January - Feb 5, 2024</b>', '<p>Please let us make sure that we have the savings and returns ready as we are closing this month. And if you desire to borrow some money, make it known to the treasurers before this month is closed.</p> <p>Thank You All.</p>', 'images/SI Logoghr.png')"></div>
+    <!-- Popups container and blurred background -->
+         <div class="popups-container" id="popupsContainer">
+            <div id="popups" class="popups">
+               <img id="popupsImage" src="" alt="Current Event">
+               <p id="popupsCaption">
+               <p id="popupsDetails">
+               <button onclick="closePopup()">Close</button>
             </div>
-        </div>
-    </div>
-
-    <!-- Main Container -->
-    <div class="container-fluid p-0">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/SI%20Logoghr.png" alt="Subilo Logo" height="40" class="me-2">
-                    Subilo Investment
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="logoutBtn"><i class="fas fa-sign-out-alt me-1"></i> Logout</a>
-                        </li>
-                    </ul>
-                </div>
+         </div>
+         <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
+</div>
+   </div>
+   <div id="wb_HeaderLayoutGrid">
+      <div id="HeaderLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_home_logo">
+                  <a href="./index.html"><img src="images/SI%20Logoghr.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="176"></a>
+               </div>
             </div>
-        </nav>
-
-        <!-- Main Content -->
-        <div class="container mt-4" id="mainContent">
-            <!-- Dashboard will be loaded here dynamically -->
-            <div id="contentArea" class="row">
-                <!-- Content will be loaded here based on user type -->
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_Text2">
+                     <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:17px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:17px;"><strong>ACADEMY</strong></span><span style="background-color:#FFFFFF;color:#FFFFFF;font-family:'Alan Den';font-size:13px;"><strong><br></strong></span><span style="color:#6A5ACD;font-family:'Comic Sans MS';font-size:13px;"><strong><em>The way to Success</em></strong></span>
+                  </div>
+                  <div id="wb_Header">
+                     <span style="color:#000000;font-family:'Bookman Old Style';font-size:15px;"><strong>SUBILO </strong></span><span style="color:#FF0000;font-family:'Bookman Old Style';font-size:15px;"><strong>INVESTMENT</strong></span>
+                  </div>
+                  <div id="wb_Text3">
+                     <span style="color:#006400;font-family:Arial;font-size:9.3px;">Grow Wealth, Share Prosperity</span>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
+            <div class="col-3">
+               <div id="wb_EmbeddedPage3">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+                  <div id="PanelLayer">
+                     <div id="wb_IconFont2">
+                        <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+                     </div>
+                     <div id="wb_Image1">
+                        <img src="images/SI%20Logoghr.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="222">
+                     </div>
+                     <div id="wb_Heading20">
+                        <h2 id="Heading20">Subilo Investment</h2>
+                     </div>
+                     <div id="wb_OverlayMenu2">
+                        <div class="OverlayMenu2">
+                           <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                              <li><a role="menuitem" href="./records.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Check&nbsp;Your&nbsp;Record</a></li>
+                              <li><a role="menuitem" href="./Constitution.html" class="OverlayMenu2-effect"><i class="fa fa-archive overlay-icon"></i>Constitution</a></li>
+                              <li><a role="menuitem" href="./By_Laws.html" class="OverlayMenu2-effect"><i class="fa fa-clone overlay-icon"></i>By&nbsp;Laws</a></li>
+                              <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-database overlay-icon"></i>Executive&nbsp;Board</a></li>
+                              <li><a role="menuitem" href="./calendar.html" class="OverlayMenu2-effect"><i class="fa fa-calendar overlay-icon"></i>Calendar</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="wb_Text40">
+                        <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Subilo Investment.&nbsp; All Rights Reserved</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_LayoutGrid5">
+      <div id="LayoutGrid5">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text17">
+                  <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;"><br><br><br><br></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_aboutusLayoutGrid">
+      <div id="aboutusLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_shaelynMbaso1">
+                     <div id="shaelynMbaso1">
+                        <marque style="color:#000000;">This circle will come to an end on February 5, 2025</marque>
+                     </div></div>
+                  <div id="wb_LayoutGrid2">
+                     <div id="LayoutGrid2">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Image2">
+                                 <img src="images/SI%20Logoghr.png" id="Image2" alt="home_logo" title="Flying_Wings_Home" width="910" height="662">
+                              </div>
+                              <div id="wb_introText">
+                                 <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;">Welcome to our Village Banking Circle! Here, we embark on a financial journey, pooling our resources by investing in shares ranging from 1 to 50 at K1000 per share. Watch your money grow through strategic borrowing at 20%! Our circle operates for 6 months, fostering a community committed to mutual prosperity. Let's cultivate wealth together!</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                                   
 
-    <!-- Footer -->
-    </footer>
+                                   
+
+                                   
+                                   
+                                   
+                                   
+                  <div id="wb_team_grid">
+                     <div id="team_grid">
+                        <div class="row">
+                                   
+                                   
+                           <div class="col-1">
+                              <div id="wb_Heading2">
+                                 <h3 id="Heading2">Quote of the Day</h3>
+                              </div>
+                              <div id="wb_dailyText">
+                                 <h6 id="dailyText">Text</h6>
+                              </div>
+                              <div id="wb_currentDate">
+                                 <h6 id="currentDate">Date</h6>
+                              </div>
+                           </div>
+                           <div class="col-2">
+                           </div>
+                           <div class="col-3">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text4">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
+               </div>
+               <div id="wb_Icon5">
+                  <a href="mailto:clintonmbaso@gmail.com"><div id="Icon5"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_Icon1">
+                  <a href="https://www.facebook.com/bridgetmuuka"><div id="Icon1"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_Icon3">
+                  <a href="tel:+260977326129"><div id="Icon3"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_Icon4">
+                  <a href="https://api.whatsapp.com/send?phone=260977326129&text=Hi, I need more information about Subilo Investment. Please contact me."><div id="Icon4"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_Icon2">
+                  <a href="sms:+260977326129"><div id="Icon2"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-3">
+               <div id="wb_informationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
+               </div>
+               <div id="wb_inforText">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+         
         <footer class="bg-dark text-white py-3 mt-4">
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_Text16">           
         <div class="container text-center">
             <p>Copyright © <span id="current-year"></span> Subilo Investment. All Rights Reserved</p>
         </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+           
         </footer>    
     <script>
         // Set current year in footer
         document.getElementById('current-year').textContent = new Date().getFullYear();
-    </script>
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- Custom Scripts -->
-    <script src="js/auth.js"></script>
-    <script src="js/data.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/calculations.js"></script>
-    
-    <!-- Initialize the app -->
-    <script>
-        $(document).ready(function() {
-            // Show login modal on page load
-            const loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
-            loginModal.show();
-            
-            // Initialize the application
-            initApp();
-        });
-    </script>
+    </script>         
+         
 </body>
 </html>

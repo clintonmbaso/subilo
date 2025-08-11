@@ -1,0 +1,144 @@
+  /* Font Awesome icons (assuming you are using Font Awesome for icons) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Base styles for header */
+.bridget-shaelyn {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* Replace background color with background image */
+    background-image: url('images/header.png'); /* Replace 'path_to_your_image.png' with the path to your background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-color: transparent; /* Set a transparent background color */
+    color: #fff;
+    z-index: 999;
+}
+
+
+
+.log img {
+    width: 65px; /* Adjust size as needed */
+    margin-right: 30px;
+    
+}
+
+.bri {
+    /* To ensure the title aligns with the logo */
+    display: flex;
+    align-items: end;
+    margin-top: -10px;
+}
+
+.bri h2 {
+    font-size: 24px;
+    
+}
+
+/* Media query for smaller screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .bridget-shaelyn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .log {
+        margin-bottom: 5px;
+    }
+}
+
+
+  
+.log-clinton {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center align vertically within .logo-container */
+    
+}
+
+.logos {
+    width: auto; /* Allow logos to maintain aspect ratio */
+    height: 25px; /* Set a fixed height for logos */
+    margin-right: -7px; /* Adjust spacing between logos */
+    align-self: flex-start; /* Prevent logos from stretching vertically */
+}
+  
+  #menuPanel {
+    right: 65px;
+    
+  }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+
+        #linkbar {
+            position: fixed;
+            right: 0;
+            color: white;
+            transition: transform 0.9s, opacity 0.1s;
+            opacity: 1;
+            top: 250px;
+            z-index: 9999;
+        }
+
+        #linkbar.inactive {
+            transform: translateX(35px);
+            opacity: 0.4;
+            
+        }
+
+        #linkbar.active {
+            transform: translateX(0);
+        }
+
+        #logoset {
+            width: 70px;
+            height: auto;
+            background-color: rgba(55,55,55,0.2);
+            border-radius: 10px 0px 0px 10px;
+            padding: 2px 3px; /* Add padding around the text */
+        }
+
+.logo-link {
+    display: none; /* Initially hide logo links */
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: opacity 0.9s;
+    font-size: 14px; /* Adjust the font size */
+    padding: 4px 6px; /* Add padding around the text */
+    border-radius: 10px 0 0 10px; /* Rounded corners for the right side */
+    background-color: rgba(23,45,134,0.3);
+    
+}
+
+  .logo-link img {
+  width: 20px;
+  height: auto;
+    vertical-align: middle;
+  }
+    .logo-link a {
+  
+  }
+  
+  
+  
+.logo-link.active {
+    display: block; /* Show logo links when active */
+    opacity: 1; /* Ensure full opacity when active */
+}
+
+        .logo-link.inactive {
+            opacity: 0; /* Hide logo links with fade out effect */
+            
+        }
