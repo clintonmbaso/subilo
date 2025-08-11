@@ -272,6 +272,7 @@ function loadSummaryData() {
     
     $('#summaryStats').html(`
         <div class="row">
+    
             <div class="col-md-6 mb-3">
                 <div class="card bg-light">
                     <div class="card-body">
@@ -280,6 +281,7 @@ function loadSummaryData() {
                     </div>
                 </div>
             </div>
+    
             <div class="col-md-6 mb-3">
                 <div class="card bg-light">
                     <div class="card-body">
@@ -288,6 +290,26 @@ function loadSummaryData() {
                     </div>
                 </div>
             </div>
+    
+            <div class="col-md-6 mb-3">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <h6 class="card-title">Total Registration</h6>
+                        <p class="card-text fs-4">${formatNumber(summaryData.reg)}</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6 mb-3">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <h6 class="card-title">Total Savings</h6>
+                        <p class="card-text fs-4">K ${formatNumber(summaryData.janShares + summaryData.febShares + summaryData.marShares + 
+                            summaryData.aprShares + summaryData.mayShares + summaryData.junShares)}</p>
+                    </div>
+                </div>
+            </div>    
+    
             <div class="col-md-6 mb-3">
                 <div class="card bg-light">
                     <div class="card-body">
@@ -296,6 +318,7 @@ function loadSummaryData() {
                     </div>
                 </div>
             </div>
+    
             <div class="col-md-6 mb-3">
                 <div class="card bg-light">
                     <div class="card-body">
