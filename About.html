@@ -71,10 +71,11 @@
                      <div id="wb_OverlayMenu2">
                         <div class="OverlayMenu2">
                            <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-                              <li><a role="menuitem" href="./Member_Search.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Check&nbsp;Your&nbsp;Record</a></li>
+                              <li><a role="menuitem" href="./records.html" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Check&nbsp;Your&nbsp;Record</a></li>
                               <li><a role="menuitem" href="./Constitution.html" class="OverlayMenu2-effect"><i class="fa fa-archive overlay-icon"></i>Constitution</a></li>
                               <li><a role="menuitem" href="./By_Laws.html" class="OverlayMenu2-effect"><i class="fa fa-clone overlay-icon"></i>By&nbsp;Laws</a></li>
                               <li><a role="menuitem" href="./About.html" class="OverlayMenu2-effect"><i class="fa fa-database overlay-icon"></i>Executive&nbsp;Board</a></li>
+                              <li><a role="menuitem" href="./calendar.html" class="OverlayMenu2-effect"><i class="fa fa-calendar overlay-icon"></i>Calendar</a></li>
                            </ul>
                         </div>
                      </div>
@@ -92,10 +93,7 @@
          <div class="row">
             <div class="col-1">
                <div class="col-1-padding">
-                  <div id="wb_shaelynMbaso1">
-                     <div id="shaelynMbaso1">
-                        <span style="color:#000000;">This circle will come to an end on July 5, 2024</span>
-                     </div></div>
+
                   <div id="wb_LayoutGrid2">
                      <div id="LayoutGrid2">
                         <div class="row">
@@ -133,15 +131,14 @@
          // Add data rows
          data.addRows([
            // Chairperson
-   		[{v:'Chairperson', f:'<div class="node" onclick="showDetails(\'Bridget Muuka\', \'Kapiri\', \'images/bridget muuka.jpg\', \'+260971636850\')"><img src="images/bridget muuka.jpg" class="node-image"><div class="node-label">Chairperson</div></div>'}, '', 'Chairperson', 'images/bridget muuka.jpg'],
-   		[{v:'Associate Chairperson', f:'<div class="node" onclick="showDetails(\'Nachilima Beauty\', \'Lusaka\', \'images/beauty nachilima.jpg\', \'+260971983849\')"><img src="images/beauty nachilima.jpg" class="node-image"><div class="node-label">Associate Chairperson</div></div>'}, 'Chairperson', 'Associate Chairperson', 'images/beauty nachilima.jpg'],
+          [{v:'Chairperson', f:'<div class="node" onclick="showDetails(\'Bridget Muuka\', \'Kapiri\', \'./images/circle7/SI21AP0702.jpg\', \'+260971636850\')"><img src="./images/circle7/SI21AP0702.jpg" class="node-image"><div class="node-label">Chairperson</div></div>'}, '', 'Chairperson', './images/circle7/SI21AP0702.jpg'],
    		
    		// Treasurer
-   		[{v:'Treasurer', f:'<div class="node" onclick="showDetails(\'Bertha Betty Mambwe\', \'Lusaka\', \'images/bartha betty mambwe.jpg\', \'+260977326129\')"><img src="images/bartha betty mambwe.jpg" class="node-image"><div class="node-label">Treasurer</div></div>'}, 'Associate Chairperson', 'Treasurer', 'images/bartha betty mambwe.jpg'],
-   		[{v:'Associate Treasurer', f:'<div class="node" onclick="showDetails(\'Mwape Barbra\', \'Lusaka\', \'images/barbra mwape.jpg\', \'+260979360800\')"><img src="images/barbra mwape.jpg" class="node-image"><div class="node-label">Associate Treasurer</div></div>'}, 'Associate Chairperson', 'Associate Treasurer', 'images/barbra mwape.jpg'],
+          [{v:'Treasurer', f:'<div class="node" onclick="showDetails(\'Bertha Betty Mambwe\', \'Lusaka\', \'./images/circle7/SI21AP0701.jpg\', \'+260977326129\')"><img src="./images/circle7/SI21AP0701.jpg" class="node-image"><div class="node-label">Treasurer</div></div>'}, 'Chairperson', 'Treasurer', './images/circle7/SI21AP0701.jpg'],
+          [{v:'Associate Treasurer', f:'<div class="node" onclick="showDetails(\'Mwape Barbra\', \'Lusaka\', \'./images/circle7/SI21MP0704.jpg\', \'+260979360800\')"><img src="./images/circle7/SI21MP0704.jpg" class="node-image"><div class="node-label">Associate Treasurer</div></div>'}, 'Treasurer', 'Associate Treasurer', './images/circle7/SI21MP0704.jpg'],
    		
    		// Secretary
-   		[{v:'Secretary', f:'<div class="node" onclick="showDetails(\'Mbaso Clint\', \'Kabwe\', \'images/clint mbaso.jpg\', \'+260968084570\')"><img src="images/clint mbaso.jpg" class="node-image"><div class="node-label">Secretary</div></div>'}, 'Treasurer', 'Secretary', 'images/clint mbaso.jpg'],
+          [{v:'Secretary', f:'<div class="node" onclick="showDetails(\'Mbaso Clint\', \'Kabwe\', \'./images/circle7/SI21AP0703.jpg\', \'+260968084570\')"><img src="./images/circle7/SI21AP0703.jpg" class="node-image"><div class="node-label">Secretary</div></div>'}, 'Treasurer', 'Secretary', './images/circle7/SI21AP0703.jpg'],
      
    
            // ... (similar lines for other positions)
