@@ -227,7 +227,7 @@ const formData = [
         marShares: 0,     marLoans: 0,      marReturns: 0,       marPending: 0,
         aprShares: 0,     aprLoans: 0,      aprReturns: 0,       aprPending: 0,
         mayShares: 0,     mayLoans: 0,      mayReturns: 0,       mayPending: 0,
-        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,      circle: 'Circle 7',      relation: 'Husband',      kinPhone: '+260977542946',      kinName: 'Brian Amupuela',      kinEmail: 'brianamps@gmail.com',       
+        junShares: 0,     junLoans: 0,      junReturns: 0,       junPending: 0,      circle: 'Circle 7',      relation: 'Husband',      kinPhone: '+260977705003',      kinName: 'Martin Siwakwi',      kinEmail: '@gmail.com',       
         reg: 200,         paidOut: 0,       savings: 0,          pending: 0,         payout: 0,               loan: 0,      
         janb: true,       febb: false,      marb: false,       mayb: false,        junb: false,              julb: false,               paycheck: false
     },
