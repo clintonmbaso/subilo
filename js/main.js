@@ -107,10 +107,12 @@ function loadMemberDashboard(container, memberId) {
                                 <div class="card-body text-center">
                                     <img src="${memberData.learnerImageUrl || 'images/avatar_bw.jpg'}" 
                                          class="rounded-circle mb-3" width="120" height="120" alt="Member Photo">
+                                    <p class="sharez"><strong>${memberData.Shares}</strong></p>
+
                                     <h5>${memberData.First_Name} ${memberData.Last_Name}</h5>
                                     <p class="text-muted">ID: ${memberData.idInput}</p>
                                     <p><strong>Status:</strong> <span class="badge ${memberData.Status === 'Active' ? 'bg-success' : 'bg-danger'}">${memberData.Status}</span></p>
-                                    <p><strong>Circle:</strong> ${memberData.circle}</p>
+                                    <p><strong>SI:</strong> ${memberData.circle}</p>
                                 </div>
                             </div>
                         </div>

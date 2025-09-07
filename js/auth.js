@@ -28,6 +28,7 @@ const users = {
         "SI21MP0717": { password: "Febby-MP30", name: "Febby Selina Banda" },
         "SI21MP0718": { password: "Mercy-MP49", name: "Mercy Phiri" },
         "SI21MP0719": { password: "Giveson-MP86", name: "Giveson Mukuka" },
+        "SI21MP0720": { password: "Mary-MP45", name: "Mary Tembo" },
         
     }
 };
